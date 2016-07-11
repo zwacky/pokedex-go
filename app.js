@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 
-const PORT = process.env.POKEDEX_PORT || 5555;
+const PORT = process.env.PORT || 5555;
 const VALIDATION_TOKEN = process.env.POKEDEX_VALIDATION_TOKEN || '';
 
 // body parser middleware
