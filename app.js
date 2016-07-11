@@ -29,7 +29,7 @@ app.get('/page-subscription', (req, res) => {
 	}
 });
 
-app.post('/webhook', (req, res) => {
+app.post('/page-subscription', (req, res) => {
 	const data = req.body;
 
 	if (data.object === 'page') {
