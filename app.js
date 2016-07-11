@@ -9,9 +9,9 @@ const PORT = process.env.PORT || 5555;
 const VALIDATION_TOKEN = process.env.POKEDEX_VALIDATION_TOKEN || '';
 
 // body parser middleware
-app.use(bodyParser.urlencoded({
-	extended: true
-}));
+// app.use(bodyParser.urlencoded({
+// 	extended: true
+// }));
 
 // base route
 app.get('/', (req, res) => {
