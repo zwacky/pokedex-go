@@ -1,8 +1,9 @@
-"use strict";
+'use strict';
 
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
+const messagingManager = require('./src/messaging-manager');
 
 const PORT = process.env.PORT || 5555;
 const VALIDATION_TOKEN = process.env.POKEDEX_VALIDATION_TOKEN || '';
@@ -25,6 +26,38 @@ app.get('/page-subscription', (req, res) => {
 	} else {
 		console.log('failed validation.');
 		res.sendStatus(403);
+	}
+});
+
+app.post('/webhook', (req, res) => {
+	const data = req.body;
+
+	if (data.object === 'page') {
+		data.entry.forEach(function(pageEntry) {
+			var pageID = pageEntry.id;
+			var timeOfEvent = pageEntry.time;
+
+			// Iterate over each messaging event
+			pageEntry.messaging.forEach((messagingEvent) => {
+				if (messagingEvent.optin) {
+					// receivedAuthentication(messagingEvent);
+					console.log('receivedAuthentication');
+				} else if (messagingEvent.message) {
+					messagingManager.receivedMessage(messagingEvent);
+				} else if (messagingEvent.delivery) {
+					// receivedDeliveryConfirmation(messagingEvent);
+					console.log('receivedDeliveryConfirmation');
+				} else if (messagingEvent.postback) {
+					// receivedPostback(messagingEvent);
+					console.log('receivedPostback');
+				} else {
+					console.log(`Webhook received unknown messagingEvent: ${messagingEvent}`);
+				}
+			});
+		});
+
+		// Assume all went well.
+		res.sendStatus(200);
 	}
 });
 
