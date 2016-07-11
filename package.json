@@ -1,0 +1,27 @@
+{
+  "name": "pokedex-go",
+  "version": "0.1.0",
+  "description": "PokéDex Go Messenger Bot",
+  "main": "app.js",
+  "scripts": {
+    "run": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwacky/pokedex-go.git"
+  },
+  "author": "Simon Wicki <sim.wicki@gmail.com> (https://twitter.com/zwacky)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zwacky/pokedex-go/issues"
+  },
+  "homepage": "https://github.com/zwacky/pokedex-go#readme",
+  "devDependencies": {
+    "jshint": "^2.9.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
