@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 	res.status(200).send('works! 💪👌💯🙌');
 });
 
-app.get('/incoming-request', (req, res) => {
+app.post('/incoming-request', (req, res) => {
 	res.status(200).send('💩');
 });
 
