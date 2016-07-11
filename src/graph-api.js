@@ -4,7 +4,7 @@ const request = require('request');
 
 const PAGE_ACCESS_TOKEN = process.env.POKEDEX_PAGE_ACCESS_TOKEN || '';
 
-function callSendApi(messageData) {
+function callSendAPI(messageData) {
 	request({
 		uri: 'https://graph.facebook.com/v2.6/me/messages',
 		qs: {
@@ -26,5 +26,5 @@ function callSendApi(messageData) {
 }
 
 module.exports = {
-	callSendApi
+	callSendAPI
 };
