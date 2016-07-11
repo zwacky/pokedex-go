@@ -18,7 +18,6 @@ app.get('/', (req, res) => {
 });
 
 app.get('/incoming-request', (req, res) => {
-	res.status(200).send('💩');
 	if (req.query['hub.mode'] === 'subscribe' &&
 			req.query['hub.verify_token'] === VALIDATION_TOKEN) {
 		console.log('validating webhook');
