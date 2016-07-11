@@ -32,6 +32,8 @@ app.get('/page-subscription', (req, res) => {
 app.post('/page-subscription', (req, res) => {
 	const data = req.body;
 
+	console.log(req.body);
+
 	if (data.object === 'page') {
 		data.entry.forEach(function(pageEntry) {
 			var pageID = pageEntry.id;
@@ -58,6 +60,8 @@ app.post('/page-subscription', (req, res) => {
 
 		// Assume all went well.
 		res.sendStatus(200);
+	} else {
+		res.sendStatus(400);
 	}
 });
 
