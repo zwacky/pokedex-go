@@ -48,7 +48,7 @@ function receivedMessage(event) {
 }
 
 function sendTextMessage(recipientId, messageText) {
-	var messageData = {
+	const messageData = {
 		recipient: {
 			id: recipientId
 		},
@@ -56,6 +56,8 @@ function sendTextMessage(recipientId, messageText) {
 			text: messageText
 		},
 	};
+
+	console.log('messageData', messageData);
 
 	graphApi.callSendAPI(messageData);
 }
