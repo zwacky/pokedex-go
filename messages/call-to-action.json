@@ -1,0 +1,20 @@
+{
+	"text": "Ask me about a Pokémon. You can try one of my suggestions here right away!",
+	"quick_replies": [
+		{
+			"content_type": "text",
+			"title": "Bulbasaur",
+			"payload": "a"
+		},
+		{
+			"content_type": "text",
+			"title": "Charmander",
+			"payload": "b"
+		},
+		{
+			"content_type": "text",
+			"title": "Squirtle",
+			"payload": "c"
+		}
+	]
+}

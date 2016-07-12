@@ -44,17 +44,10 @@ app.post('/webhook', (req, res) => {
 
 			// Iterate over each messaging event
 			pageEntry.messaging.forEach((messagingEvent) => {
-				if (messagingEvent.optin) {
-					// receivedAuthentication(messagingEvent);
-					console.log('receivedAuthentication');
-				} else if (messagingEvent.message) {
+				if (messagingEvent.message) {
 					messagingManager.receivedMessage(messagingEvent);
-				} else if (messagingEvent.delivery) {
-					// receivedDeliveryConfirmation(messagingEvent);
-					console.log('receivedDeliveryConfirmation');
 				} else if (messagingEvent.postback) {
-					// receivedPostback(messagingEvent);
-					console.log('receivedPostback');
+					messagingManager.sendIntroductionMessage(messagingEvent.recipient.id);
 				} else {
 					console.log(`Webhook received unknown messagingEvent: ${messagingEvent}`);
 				}
