@@ -47,6 +47,7 @@ app.post('/webhook', (req, res) => {
 				if (messagingEvent.message) {
 					messagingManager.receivedMessage(messagingEvent);
 				} else if (messagingEvent.postback) {
+					console.log('==', messagingEvent);
 					messagingManager.sendIntroductionMessage(messagingEvent.recipient.id);
 				} else {
 					console.log(`Webhook received unknown messagingEvent: ${messagingEvent}`);
