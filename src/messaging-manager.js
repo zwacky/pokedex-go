@@ -103,7 +103,7 @@ function sendIntroductionMessage(recipientId) {
 		message: require('../messages/introduction.json')
 	};
 
-	graphApi.callSendApi(introduction)
+	graphApi.callSendAPI(introduction)
 		.then(() => graphApi.callSendAPI(callToAction));
 }
 
