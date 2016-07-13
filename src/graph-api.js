@@ -27,7 +27,7 @@ function callSendAPI(messageData) {
 				resolve();
 			} else {
 				console.error("Unable to send message.");
-				console.error(response);
+				console.error(body);
 				console.error(error);
 				reject();
 			}
