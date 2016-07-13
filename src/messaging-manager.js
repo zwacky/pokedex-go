@@ -52,11 +52,14 @@ function sendTextMessage(recipientId, messageText) {
 	return graphApi.callSendAPI(messageData);
 }
 
+/**
+ * sends infos about a pokemon.
+ *
+ * @param string recipientId
+ * @param string pokemonName
+ */
 function sendPokemonDetail(recipientId, pokemonName) {
-
-
 	const pokemon = POKEMON[pokemonName.toUpperCase()];
-
 	const message = {
 		recipient: {
 			id: recipientId
@@ -80,6 +83,8 @@ Weight: ${pokemon.weight}`
 			}
 		}
 	};
+
+	graphApi.callSendAPI(message);
 
 }
 
