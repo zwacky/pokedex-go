@@ -1,0 +1,17 @@
+{
+	"COMMON": {
+		"name": "Common"
+	},
+	"UNCOMMON": {
+		"name": "Uncommon"
+	},
+	"RARE": {
+		"name": "Rare"
+	},
+	"VERYRARE": {
+		"name": "Very Rare"
+	},
+	"EPIC": {
+		"name": "Epic"
+	}
+}

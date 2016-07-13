@@ -1,0 +1,164 @@
+{
+	"BUG": {
+		"name": "Bug",
+		"200_to": ["PSYCHIC", "GRASS", "DARK"],
+		"50_to": ["FIGHT", "FIRE", "FLYING", "GHOST", "POISON", "STEEL", "FAIRY"],
+		"0_to": [],
+		"200_from": ["FIRE", "FLYING", "ROCK"],
+		"50_from": ["FIGHT", "GRASS", "GROUND"],
+		"0_from": []
+	},
+	"ELECTRIC": {
+		"name": "Electric",
+		"200_to": ["FLYING", "WATER"],
+		"50_to": ["DRAGON", "ELECTRIC", "GRASS"],
+		"0_to": ["GROUND"],
+		"200_from": ["GROUND"],
+		"50_from": ["ELECTRA", "FLYING", "STEEL"],
+		"0_from": []
+	},
+	"FIRE": {
+		"name": "Fire",
+		"200_to": ["BUG", "GRASS", "ICE", "STEEL"],
+		"50_to": ["DRAGON", "FIRE", "ROCK", "WATER"],
+		"0_to": [],
+		"200_from": ["GROUND", "ROCK", "WATER"],
+		"50_from": ["BUG", "FAIRY", "FIRE", "GRASS", "ICE", "STEEL"],
+		"0_from": []
+	},
+	"GRASS": {
+		"name": "Grass",
+		"200_to": ["GROUND", "ROCK", "WATER"],
+		"50_to": ["BUG", "DRAGON", "FIRE", "FLYING", "GRASS", "POISON", "STEEL"],
+		"0_to": [],
+		"200_from": ["BUG", "FIRE", "FLYING", "ICE", "POISON"],
+		"50_from": ["ELECTRIC", "GRASS", "GROUND", "WATER"],
+		"0_from": []
+	},
+	"NORMAL": {
+		"name": "Normal",
+		"200_to": [],
+		"50_to": ["ROCK", "STEEL"],
+		"0_to": ["GHOST"],
+		"200_from": ["FIGHT"],
+		"50_from": [],
+		"0_from": ["GHOST"]
+	},
+	"ROCK": {
+		"name": "Rock",
+		"200_to": ["BUG", "FIRE", "FLYING", "ICE"],
+		"50_to": ["FIGHT", "GROUND", "STEEL"],
+		"0_to": [],
+		"200_from": ["FIGHT", "GRASS", "GROUND", "STEEL", "WATER"],
+		"50_from": ["FIRE", "FLYING", "NORMAL", "POISON"],
+		"0_from": []
+	},
+	"DARK": {
+		"name": "Dark",
+		"200_to": ["GHOST", "PSYCHIC"],
+		"50_to": ["DARK", "FIGHT", "FAIRY"],
+		"0_to": [],
+		"200_from": ["BUG", "FIGHT", "FAIRY"],
+		"50_from": ["DARK", "GHOST"],
+		"0_from": ["PSYCHO"]
+	},
+	"FAIRY": {
+		"name": "Fairy",
+		"200_to": ["DARK", "DRAGON", "FIGHT"],
+		"50_to": ["FIRE", "POISON", "STEEL"],
+		"0_to": [],
+		"200_from": ["POISON", "STEEL"],
+		"50_from": ["BUG", "DARK", "FIGHT"],
+		"0_from": ["DRAGON"]
+	},
+	"FLYING": {
+		"name": "Flying",
+		"200_to": ["BUG", "FIGHT", "GRASS"],
+		"50_to": ["ELECTRIC", "ROCK", "STEEL"],
+		"0_to": [],
+		"200_from": ["ELECTRIC", "ICE", "ROCK"],
+		"50_from": ["BUG", "FIGHT", "GRASS"],
+		"0_from": ["GROUND"]
+	},
+	"GROUND": {
+		"name": "Ground",
+		"200_to": ["ELECTRIC", "FIRE", "POISON", "ROCK", "STEEL"],
+		"50_to": ["BUG", "GRASS"],
+		"0_to": ["FLYING"],
+		"200_from": ["GRASS", "ICE", "WATER"],
+		"50_from": ["POISON", "ROCK"],
+		"0_from": ["ELECTRIC"]
+	},
+	"POISON": {
+		"name": "Poison",
+		"200_to": ["GRASS", "FAIRY"],
+		"50_to": ["GHOST", "GROUND", "POISON", "ROCK"],
+		"0_to": ["STEEL"],
+		"200_from": ["GROUND", "PSYCHIC"],
+		"50_from": ["BUG", "FAIRY", "FIGHT", "GRASS", "POISON"],
+		"0_from": []
+	},
+	"STEEL": {
+		"name": "Steel",
+		"200_to": ["FAIRY", "ICE", "ROCK"],
+		"50_to": ["ELECTRIC", "FIRE", "STEEL", "WATER"],
+		"0_to": [],
+		"200_from": ["FIGHT", "FIRE", "GROUND"],
+		"50_from": ["BUG", "DRAGON", "FAIRY", "FLYING", "GRASS", "ICE", "NORMAL", "PSYCHIC", "ROCK", "STEEL"],
+		"0_from": ["POISON"]
+	},
+	"DRAGON": {
+		"name": "Dragon",
+		"200_to": ["DRAGON"],
+		"50_to": ["STEEL"],
+		"0_to": ["FAIRY"],
+		"200_from": ["DRAGON", "ICE", "FAIRY"],
+		"50_from": ["ELECTRIC", "FIRE", "GRASS", "WATER"],
+		"0_from": []
+	},
+	"FIGHTING": {
+		"name": "Fighting",
+		"200_to": ["DARK", "ICE", "NORMAL", "ROCK", "STEEL"],
+		"50_to": ["BUG", "FAIRY", "FLYING", "POISON", "PSYCHIC"],
+		"0_to": ["GHOST"],
+		"200_from": ["FAIRY", "FLYING", "PSYCHO"],
+		"50_from": ["BUG", "DARK", "ROCK"],
+		"0_from": []
+	},
+	"GHOST": {
+		"name": "Ghost",
+		"200_to": ["GHOST", "PSYCHIC"],
+		"50_to": ["DARK"],
+		"0_to": ["NORMAL"],
+		"200_from": ["GHOST", "DARK"],
+		"50_from": ["BUG", "POISON"],
+		"0_from": ["NORMAL", "FIGHT"]
+	},
+	"ICE": {
+		"name": "Ice",
+		"200_to": ["DRAGON", "FLYING", "GRASS", "GROUND"],
+		"50_to": ["FIRE", "ICE", "STEEL", "WATER"],
+		"0_to": [],
+		"200_from": ["FIGHT", "FIRE", "ROCK", "STEEL"],
+		"50_from": ["ICE"],
+		"0_from": []
+	},
+	"PSYCHIC": {
+		"name": "Psychic",
+		"200_to": ["FIGHT", "POISON"],
+		"50_to": ["PSYCHIC", "STEEL"],
+		"0_to": ["DARK"],
+		"200_from": ["BUG", "DARK", "GHOST"],
+		"50_from": ["FIGHT", "PSYCHIC"],
+		"0_from": []
+	},
+	"WATER": {
+		"name": "Water",
+		"200_to": ["FIRE", "GROUND", "ROCK"],
+		"50_to": ["DRAGON", "GRASS", "WATER"],
+		"0_to": [],
+		"200_from": ["ELECTRIC", "GRASS"],
+		"50_from": ["FIRE", "ICE", "STEEL", "WATER"],
+		"0_from": []
+	}
+}
