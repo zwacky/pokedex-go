@@ -3,6 +3,8 @@
 const graphApi = require('./graph-api');
 const POKEMON = require('../db/pokemon');
 
+const BASE_URL = 'https://pokedex-go.herokuapp.com/pokemon';
+
 function receivedMessage(event) {
 	const senderId = event.sender.id;
 	const recipientId = event.recipient.id;
@@ -72,11 +74,12 @@ function sendPokemonDetail(recipientId, pokemonName) {
 					elements: [
 						{
 							title: `${pokemon.name} (#00${pokemon['#']})`,
-							image_url: 'https://lh3.googleusercontent.com/-Ygm1wuBzWL4/Vy1Qcix3LDI/AAAAAAAAGP0/uTg0CfxsGI4Y1okeCL7ZPLaZgZbvN5zpwCCo/s300/Screen%2Bshot%2B2016-05-06%2Bat%2B10.14.42%2BPM.png?refresh=900&resize_h=NaN&resize_w=NaN',
-							subtitle: `Types: ${pokemon.types.join(', ')}
-
-Height: ${pokemon.height}
-Weight: ${pokemon.weight}`
+							image_url: `${BASE_URL}/${pokemonName.toLowerCase()}.png`,
+							subtitle: [`Types: ${pokemon.types.join(', ')}`,
+								`Rarity: ${pokemon.rarity}`,
+								// `Height: ${pokemon.height}`,
+								// `Weight: ${pokemon.weight}`,
+							].join(' · ')
 						}
 					]
 				}

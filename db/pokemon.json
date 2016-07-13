@@ -1,8 +1,9 @@
 {
 
-	"BALBASUR": {
+	"BULBASAUR": {
 		"#": 1,
-		"name": "Balbasur",
+		"name": "Bulbasur",
+		"rarity": "Uncommon",
 		"types": ["Grass", "Poison"],
 		"moves": {
 			"primary": ["Tackle", "Razor Leaf", "Vine Whip"],
@@ -15,6 +16,7 @@
 	"CHARMANDER": {
 		"#": 4,
 		"name": "Charmander",
+		"rarity": "Uncommon",
 		"types": ["Fire"],
 		"moves": {
 			"primary": ["Ember", "Fire Fang", "Scratch"],
@@ -27,6 +29,7 @@
 	"SQUIRTLE": {
 		"#": 7,
 		"name": "Squirtle",
+		"rarity": "Uncommon",
 		"types": ["Water"],
 		"moves": {
 			"primary": ["Tackle", "Water Gun"],
