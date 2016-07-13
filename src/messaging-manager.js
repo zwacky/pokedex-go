@@ -22,9 +22,9 @@ function receivedMessage(event) {
 		// check if messageText matches any pokemon
 		if (Object.keys(POKEMON).indexOf(messageText.toUpperCase()) !== -1) {
 			// TODO check for length
-			sendPokemonInfo(senderId, messageText.toUpperCase());
+			sendPokemonDetail(senderId, messageText.toUpperCase());
 		} else if (messageText.toUpperCase() === 'HI') {
-			sendIntroductionMessage(recipientId);
+			sendIntroductionMessage(senderId);
 		} else {
 			sendTextMessage(senderId, `Didn't find anything about ${messageText}. 😞`);
 		}
@@ -52,7 +52,7 @@ function sendTextMessage(recipientId, messageText) {
 	return graphApi.callSendAPI(messageData);
 }
 
-function sendPokemonInfo(recipientId, pokemonName) {
+function sendPokemonDetail(recipientId, pokemonName) {
 
 
 	const pokemon = POKEMON[pokemonName.toUpperCase()];
