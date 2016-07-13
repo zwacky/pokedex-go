@@ -100,7 +100,7 @@ function sendIntroductionMessage(recipientId) {
 		recipient: {
 			id: recipientId
 		},
-		message: require('../messages/introduction.json')
+		message: require('../messages/call-to-action.json')
 	};
 
 	graphApi.callSendAPI(introduction)
