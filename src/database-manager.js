@@ -22,7 +22,7 @@ function findPokemon(pokemonName) {
 
 		if (pokemon) {
 			const types = pokemon.types;
-			const modifiers = ['200_from', '0_from', '200_to'];
+			const MODIFIERS = ['200_from', '0_from', '200_to'];
 
 			const a = pokemon.types
 				.map(type => DB.TYPES[type]);
@@ -31,21 +31,25 @@ function findPokemon(pokemonName) {
 			result.rarity = DB.RARITIES[pokemon.rarity].name;
 			result.types = pokemon.types
 				.map(type => DB.TYPES[type].name);
-			result.modifiers = pokemon.types
-				.map(type => DB.TYPES[type])
-				.reduce((obj, item) => {
-					modifiers
-						.forEach(modifier => {
-							obj[modifier] = item[modifier].map(key => DB.TYPES[key].name);
-						});
-					return obj;
-				}, {});
+			result.modifiers = MODIFIERS.reduce((obj, item) => {
+				obj[item] = getModifierTypes(pokemon, item);
+				return obj;
+			}, {});
 
 			resolve(result);
 		} else {
 			reject();
 		}
 	});
+}
+
+function getModifierTypes(pokemon, modifier) {
+	return _(pokemon.types)
+		.map(type => DB.TYPES[type][modifier])
+		.flatten()
+		.uniq()
+		.value()
+		.map(mod => DB.TYPES[mod].name);
 }
 
 module.exports = {
