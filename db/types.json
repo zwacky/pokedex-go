@@ -1,6 +1,7 @@
 {
 	"BUG": {
 		"name": "Bug",
+		"emoji": "🐛",
 		"200_to": ["PSYCHIC", "GRASS", "DARK"],
 		"50_to": ["FIGHT", "FIRE", "FLYING", "GHOST", "POISON", "STEEL", "FAIRY"],
 		"0_to": [],
@@ -10,6 +11,7 @@
 	},
 	"ELECTRIC": {
 		"name": "Electric",
+		"emoji": "⚡",
 		"200_to": ["FLYING", "WATER"],
 		"50_to": ["DRAGON", "ELECTRIC", "GRASS"],
 		"0_to": ["GROUND"],
@@ -19,6 +21,7 @@
 	},
 	"FIRE": {
 		"name": "Fire",
+		"emoji": "🔥",
 		"200_to": ["BUG", "GRASS", "ICE", "STEEL"],
 		"50_to": ["DRAGON", "FIRE", "ROCK", "WATER"],
 		"0_to": [],
@@ -28,6 +31,7 @@
 	},
 	"GRASS": {
 		"name": "Grass",
+		"emoji": "🌱",
 		"200_to": ["GROUND", "ROCK", "WATER"],
 		"50_to": ["BUG", "DRAGON", "FIRE", "FLYING", "GRASS", "POISON", "STEEL"],
 		"0_to": [],
@@ -37,6 +41,7 @@
 	},
 	"NORMAL": {
 		"name": "Normal",
+		"emoji": "",
 		"200_to": [],
 		"50_to": ["ROCK", "STEEL"],
 		"0_to": ["GHOST"],
@@ -46,6 +51,7 @@
 	},
 	"ROCK": {
 		"name": "Rock",
+		"emoji": "🗿",
 		"200_to": ["BUG", "FIRE", "FLYING", "ICE"],
 		"50_to": ["FIGHT", "GROUND", "STEEL"],
 		"0_to": [],
@@ -55,6 +61,7 @@
 	},
 	"DARK": {
 		"name": "Dark",
+		"emoji": "🌑",
 		"200_to": ["GHOST", "PSYCHIC"],
 		"50_to": ["DARK", "FIGHT", "FAIRY"],
 		"0_to": [],
@@ -64,6 +71,7 @@
 	},
 	"FAIRY": {
 		"name": "Fairy",
+		"emoji": "👼",
 		"200_to": ["DARK", "DRAGON", "FIGHT"],
 		"50_to": ["FIRE", "POISON", "STEEL"],
 		"0_to": [],
@@ -73,6 +81,7 @@
 	},
 	"FLYING": {
 		"name": "Flying",
+		"emoji": "",
 		"200_to": ["BUG", "FIGHT", "GRASS"],
 		"50_to": ["ELECTRIC", "ROCK", "STEEL"],
 		"0_to": [],
@@ -82,6 +91,7 @@
 	},
 	"GROUND": {
 		"name": "Ground",
+		"emoji": "",
 		"200_to": ["ELECTRIC", "FIRE", "POISON", "ROCK", "STEEL"],
 		"50_to": ["BUG", "GRASS"],
 		"0_to": ["FLYING"],
@@ -91,6 +101,7 @@
 	},
 	"POISON": {
 		"name": "Poison",
+		"emoji": "💉",
 		"200_to": ["GRASS", "FAIRY"],
 		"50_to": ["GHOST", "GROUND", "POISON", "ROCK"],
 		"0_to": ["STEEL"],
@@ -100,6 +111,7 @@
 	},
 	"STEEL": {
 		"name": "Steel",
+		"emoji": "🔩",
 		"200_to": ["FAIRY", "ICE", "ROCK"],
 		"50_to": ["ELECTRIC", "FIRE", "STEEL", "WATER"],
 		"0_to": [],
@@ -109,6 +121,7 @@
 	},
 	"DRAGON": {
 		"name": "Dragon",
+		"emoji": "🐲",
 		"200_to": ["DRAGON"],
 		"50_to": ["STEEL"],
 		"0_to": ["FAIRY"],
@@ -118,6 +131,7 @@
 	},
 	"FIGHTING": {
 		"name": "Fighting",
+		"emoji": "👊 ",
 		"200_to": ["DARK", "ICE", "NORMAL", "ROCK", "STEEL"],
 		"50_to": ["BUG", "FAIRY", "FLYING", "POISON", "PSYCHIC"],
 		"0_to": ["GHOST"],
@@ -127,6 +141,7 @@
 	},
 	"GHOST": {
 		"name": "Ghost",
+		"emoji": "👻",
 		"200_to": ["GHOST", "PSYCHIC"],
 		"50_to": ["DARK"],
 		"0_to": ["NORMAL"],
@@ -136,6 +151,7 @@
 	},
 	"ICE": {
 		"name": "Ice",
+		"emoji": "🍦",
 		"200_to": ["DRAGON", "FLYING", "GRASS", "GROUND"],
 		"50_to": ["FIRE", "ICE", "STEEL", "WATER"],
 		"0_to": [],
@@ -145,6 +161,7 @@
 	},
 	"PSYCHIC": {
 		"name": "Psychic",
+		"emoji": "🔮",
 		"200_to": ["FIGHT", "POISON"],
 		"50_to": ["PSYCHIC", "STEEL"],
 		"0_to": ["DARK"],
@@ -154,6 +171,7 @@
 	},
 	"WATER": {
 		"name": "Water",
+		"emoji": "💧",
 		"200_to": ["FIRE", "GROUND", "ROCK"],
 		"50_to": ["DRAGON", "GRASS", "WATER"],
 		"0_to": [],

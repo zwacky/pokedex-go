@@ -1,9 +1,10 @@
 'use strict';
 
 const graphApi = require('./graph-api');
-const POKEMON = require('../db/pokemon');
+const databaseManager = require('./database-manager');
 
-const BASE_URL = 'https://pokedex-go.herokuapp.com/pokemon';
+const BASE_URL = 'https://pokedex-go.herokuapp.com';
+
 
 function receivedMessage(event) {
 	const senderId = event.sender.id;
@@ -20,17 +21,18 @@ function receivedMessage(event) {
 	const messageAttachments = message.attachments;
 
 	if (messageText) {
-
-		// check if messageText matches any pokemon
-		if (Object.keys(POKEMON).indexOf(messageText.toUpperCase()) !== -1) {
-			// TODO check for length
-			sendPokemonDetail(senderId, messageText.toUpperCase());
-		} else if (messageText.toUpperCase() === 'HI') {
+		if (messageText.toUpperCase() === 'HI') {
 			sendIntroductionMessage(senderId);
+		} else if (messageText.toUpperCase() === 'HELP') {
+			sendTextMessage(senderId, `Help is not implemented yet.`);
 		} else {
-			sendTextMessage(senderId, `Didn't find anything about ${messageText}. 😞`);
+			databaseManager.findPokemon(messageText.toUpperCase())
+				.then((pokemon) => sendPokemonDetail(senderId, pokemon))
+				.catch(err => {
+					// no pokemon found with that name
+					sendTextMessage(senderId, `Didn't find anything about ${messageText}. 😞`);
+				});
 		}
-
 	}
 }
 
@@ -58,10 +60,9 @@ function sendTextMessage(recipientId, messageText) {
  * sends infos about a pokemon.
  *
  * @param string recipientId
- * @param string pokemonName
+ * @param object pokemonName
  */
-function sendPokemonDetail(recipientId, pokemonName) {
-	const pokemon = POKEMON[pokemonName.toUpperCase()];
+function sendPokemonDetail(recipientId, pokemon) {
 	const message = {
 		recipient: {
 			id: recipientId
@@ -73,14 +74,17 @@ function sendPokemonDetail(recipientId, pokemonName) {
 					template_type: 'generic',
 					elements: [
 						{
-							title: `${pokemon.name} (#00${pokemon['#']})`,
-							image_url: `${BASE_URL}/${pokemonName.toLowerCase()}.png`,
-							subtitle: [`Types: ${pokemon.types.join(', ')}`,
-								`Rarity: ${pokemon.rarity}`,
-								// `Height: ${pokemon.height}`,
-								// `Weight: ${pokemon.weight}`,
-							].join(' · ')
-						}
+							title: `${pokemon.name} (${pokemon.rarity})`,
+							image_url: `${BASE_URL}/pokemon/${pokemon.name.toLowerCase()}.png`,
+							subtitle: [
+								`Types: ${pokemon.types.join(', ')}`,
+							].join(' · '),
+						},
+						{
+							title: `Receives 200% damage from`,
+							subtitle: pokemon.modifiers['200_from'].join(' · '),
+							image_url: `${BASE_URL}/cards/very-effective.png`,
+						},
 					]
 				}
 			}

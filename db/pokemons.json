@@ -1,0 +1,42 @@
+{
+
+	"BULBASAUR": {
+		"#": 1,
+		"name": "Bulbasaur",
+		"rarity": "UNCOMMON",
+		"types": ["GRASS", "POISON"],
+		"moves": {
+			"primary": ["TACKLE", "RAZOR LEAF", "VINE WHIP"],
+			"secondary": ["TACKLE", "TAKE DOWN", "RAZOR LEAF", "SEED BOMB", "VINE WHIP"]
+		},
+		"height": "2'4\" (0.71m)",
+		"weight": "15.2 lbs (6.9kg)"
+	},
+
+	"CHARMANDER": {
+		"#": 4,
+		"name": "Charmander",
+		"rarity": "UNCOMMON",
+		"types": ["FIRE"],
+		"moves": {
+			"primary": ["EMBER", "FIRE FANG", "SCRATCH"],
+			"secondary": ["DRAGON CLAW", "DRAGON PULSE", "EMBER", "FLAME BURST", "FLAMETHROWER", "SCRATCH", "SLASH"]
+		},
+		"height": "2'0\" (0.61m)",
+		"weight": "18.7 lbs (8.5kg)"
+	},
+
+	"SQUIRTLE": {
+		"#": 7,
+		"name": "Squirtle",
+		"rarity": "UNCOMMON",
+		"types": ["WATER"],
+		"moves": {
+			"primary": ["TACKLE", "WATER GUN"],
+			"secondary": ["AQUA TAIL", "HYDRO PUMP", "SCALD", "TACKLE", "WATER GUN", "TWISTER"]
+		},
+		"height": "1'8\" (0.51m)",
+		"weight": "19.8 lbs (9.0kg)"
+	}
+
+}
