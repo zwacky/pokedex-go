@@ -18,3 +18,11 @@ All the infos a Pokémon trainer needs to take over the gyms in the wild.
 # Contribution
 
 Ideas and Pull Requests welcome!
+
+# Privacy Policy
+
+This Bot will:
+
+- not collect any data
+- not share informations with third parties
+- have a completely transparent code base
