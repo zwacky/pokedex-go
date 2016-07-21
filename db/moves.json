@@ -1,0 +1,1060 @@
+{
+	"AIR CUTTER": {
+		"name": "Air Cutter",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 4,
+		"TYPE": "FLYING",
+		"ATK": 25,
+		"COOLDOWN": "3.30",
+		"DPS": "7.58"
+	},
+	"ANCIENT POWER": {
+		"name": "Ancient Power",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 4,
+		"TYPE": "ROCK",
+		"ATK": 30,
+		"COOLDOWN": "3.60",
+		"DPS": "8.33"
+	},
+	"AQUA JET": {
+		"name": "Aqua Jet",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 5,
+		"TYPE": "WATER",
+		"ATK": 15,
+		"COOLDOWN": "2.35",
+		"DPS": "6.38"
+	},
+	"AQUA TAIL": {
+		"name": "Aqua Tail",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 2,
+		"TYPE": "WATER",
+		"ATK": 50,
+		"COOLDOWN": "2.35",
+		"DPS": "21.28"
+	},
+	"BITE": {
+		"name": "Bite",
+		"type": "QUICK_MOVE",
+		"TYPE": "DARK",
+		"ATK": 6,
+		"COOLDOWN": "0.50",
+		"DPS": "12.00"
+	},
+	"BLIZZARD": {
+		"name": "Blizzard",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 1,
+		"TYPE": "ICE",
+		"ATK": 60,
+		"COOLDOWN": "3.90",
+		"DPS": "15.38"
+	},
+	"BODY SLAM": {
+		"name": "Body Slam",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 2,
+		"TYPE": "NORMAL",
+		"ATK": 50,
+		"COOLDOWN": "1.56",
+		"DPS": "32.05"
+	},
+	"BONE CLUB": {
+		"name": "Bone Club",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 4,
+		"TYPE": "GROUND",
+		"ATK": 20,
+		"COOLDOWN": "1.60",
+		"DPS": "12.50"
+	},
+	"BRICK BREAK": {
+		"name": "Brick Break",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 3,
+		"TYPE": "FIGHTING",
+		"ATK": 30,
+		"COOLDOWN": "1.60",
+		"DPS": "18.75"
+	},
+	"BRINE": {
+		"name": "Brine",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 4,
+		"TYPE": "WATER",
+		"ATK": 20,
+		"COOLDOWN": "2.40",
+		"DPS": "8.33"
+	},
+	"BUBBLE": {
+		"name": "Bubble",
+		"type": "QUICK_MOVE",
+		"TYPE": "WATER",
+		"ATK": 15,
+		"COOLDOWN": "2.30",
+		"DPS": "6.52"
+	},
+	"BUBBLE BEAM": {
+		"name": "Bubble Beam",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 4,
+		"TYPE": "WATER",
+		"ATK": 25,
+		"COOLDOWN": "2.90",
+		"DPS": "8.62"
+	},
+	"BUG BITE": {
+		"name": "Bug Bite",
+		"type": "QUICK_MOVE",
+		"TYPE": "BUG",
+		"ATK": 6,
+		"COOLDOWN": "0.45",
+		"DPS": "13.33"
+	},
+	"BUG BUZZ": {
+		"name": "Bug Buzz",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 2,
+		"TYPE": "BUG",
+		"ATK": 50,
+		"COOLDOWN": "4.25",
+		"DPS": "11.76"
+	},
+	"BULLDOZE": {
+		"name": "Bulldoze",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 4,
+		"TYPE": "GROUND",
+		"ATK": 30,
+		"COOLDOWN": "3.40",
+		"DPS": "8.82"
+	},
+	"BULLET PUNCH": {
+		"name": "Bullet Punch",
+		"type": "QUICK_MOVE",
+		"TYPE": "STEEL",
+		"ATK": 10,
+		"COOLDOWN": "1.20",
+		"DPS": "8.33"
+	},
+	"CONFUSION": {
+		"name": "Confusion",
+		"type": "QUICK_MOVE",
+		"TYPE": "PSYCHIC",
+		"ATK": 12,
+		"COOLDOWN": "1.51",
+		"DPS": "7.95"
+	},
+	"CROSS CHOP": {
+		"name": "Cross Chop",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 1,
+		"TYPE": "FIGHTING",
+		"ATK": 55,
+		"COOLDOWN": "2.00",
+		"DPS": "27.50"
+	},
+	"CROSS POISON": {
+		"name": "Cross Poison",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 4,
+		"TYPE": "POISON",
+		"ATK": 20,
+		"COOLDOWN": "1.50",
+		"DPS": "13.33"
+	},
+	"CUT": {
+		"name": "Cut",
+		"type": "QUICK_MOVE",
+		"TYPE": "NORMAL",
+		"ATK": 12,
+		"COOLDOWN": "1.13",
+		"DPS": "10.62"
+	},
+	"DARK PULSE": {
+		"name": "Dark Pulse",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 3,
+		"TYPE": "DARK",
+		"ATK": 45,
+		"COOLDOWN": "3.50",
+		"DPS": "12.86"
+	},
+	"DAZZLING GLEAM": {
+		"name": "Dazzling Gleam",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 3,
+		"TYPE": "FAIRY",
+		"ATK": 45,
+		"COOLDOWN": "4.20",
+		"DPS": "10.71"
+	},
+	"DIG": {
+		"name": "Dig",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 3,
+		"TYPE": "GROUND",
+		"ATK": 45,
+		"COOLDOWN": "5.80",
+		"DPS": "7.76"
+	},
+	"DISARMING VOICE": {
+		"name": "Disarming Voice",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 5,
+		"TYPE": "FAIRY",
+		"ATK": 20,
+		"COOLDOWN": "3.90",
+		"DPS": "5.13"
+	},
+	"DISCHARGE": {
+		"name": "Discharge",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 3,
+		"TYPE": "ELECTRIC",
+		"ATK": 40,
+		"COOLDOWN": "2.50",
+		"DPS": "16.00"
+	},
+	"DRAGON BREATH": {
+		"name": "Dragon Breath",
+		"type": "QUICK_MOVE",
+		"TYPE": "DRAGON",
+		"ATK": 6,
+		"COOLDOWN": "0.50",
+		"DPS": "12.00"
+	},
+	"DRAGON CLAW": {
+		"name": "Dragon Claw",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 2,
+		"TYPE": "DRAGON",
+		"ATK": 40,
+		"COOLDOWN": "1.60",
+		"DPS": "25.00"
+	},
+	"DRAGON PULSE": {
+		"name": "Dragon Pulse",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 2,
+		"TYPE": "DRAGON",
+		"ATK": 50,
+		"COOLDOWN": "3.60",
+		"DPS": "13.89"
+	},
+	"DRAINING KISS": {
+		"name": "Draining Kiss",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 5,
+		"TYPE": "FAIRY",
+		"ATK": 15,
+		"COOLDOWN": "2.80",
+		"DPS": "5.36"
+	},
+	"DRILL PECK": {
+		"name": "Drill Peck",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 3,
+		"TYPE": "FLYING",
+		"ATK": 30,
+		"COOLDOWN": "2.70",
+		"DPS": "11.11"
+	},
+	"DRILL RUN": {
+		"name": "Drill Run",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 3,
+		"TYPE": "GROUND",
+		"ATK": 40,
+		"COOLDOWN": "3.40",
+		"DPS": "11.76"
+	},
+	"EARTHQUAKE": {
+		"name": "Earthquake",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 1,
+		"TYPE": "GROUND",
+		"ATK": 60,
+		"COOLDOWN": "4.20",
+		"DPS": "14.29"
+	},
+	"EMBER": {
+		"name": "Ember",
+		"type": "QUICK_MOVE",
+		"TYPE": "FIRE",
+		"ATK": 10,
+		"COOLDOWN": "1.05",
+		"DPS": "9.52"
+	},
+	"FEINT ATTACK": {
+		"name": "Feint Attack",
+		"type": "QUICK_MOVE",
+		"TYPE": "DARK",
+		"ATK": 12,
+		"COOLDOWN": "1.04",
+		"DPS": "11.54"
+	},
+	"FIRE BLAST": {
+		"name": "Fire Blast",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 1,
+		"TYPE": "FIRE",
+		"ATK": 60,
+		"COOLDOWN": "4.10",
+		"DPS": "14.63"
+	},
+	"FIRE FANG": {
+		"name": "Fire Fang",
+		"type": "QUICK_MOVE",
+		"TYPE": "FIRE",
+		"ATK": 7,
+		"COOLDOWN": "0.84",
+		"DPS": "8.33"
+	},
+	"FIRE PUNCH": {
+		"name": "Fire Punch",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 3,
+		"TYPE": "FIRE",
+		"ATK": 35,
+		"COOLDOWN": "2.80",
+		"DPS": "12.50"
+	},
+	"FLAME BURST": {
+		"name": "Flame Burst",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 4,
+		"TYPE": "FIRE",
+		"ATK": 25,
+		"COOLDOWN": "2.10",
+		"DPS": "11.90"
+	},
+	"FLAME CHARGE": {
+		"name": "Flame Charge",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 5,
+		"TYPE": "FIRE",
+		"ATK": 25,
+		"COOLDOWN": "3.10",
+		"DPS": "8.06"
+	},
+	"FLAME WHEEL": {
+		"name": "Flame Wheel",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 4,
+		"TYPE": "FIRE",
+		"ATK": 35,
+		"COOLDOWN": "4.60",
+		"DPS": "7.61"
+	},
+	"FLAMETHROWER": {
+		"name": "Flamethrower",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 2,
+		"TYPE": "FIRE",
+		"ATK": 50,
+		"COOLDOWN": "2.90",
+		"DPS": "17.24"
+	},
+	"FLASH CANNON": {
+		"name": "Flash Cannon",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 3,
+		"TYPE": "STEEL",
+		"ATK": 55,
+		"COOLDOWN": "3.90",
+		"DPS": "14.10"
+	},
+	"FROST BREATH": {
+		"name": "Frost Breath",
+		"type": "QUICK_MOVE",
+		"TYPE": "ICE",
+		"ATK": 12,
+		"COOLDOWN": "0.81",
+		"DPS": "14.81"
+	},
+	"FURY CUTTER": {
+		"name": "Fury Cutter",
+		"type": "QUICK_MOVE",
+		"TYPE": "BUG",
+		"ATK": 3,
+		"COOLDOWN": "0.40",
+		"DPS": "7.50"
+	},
+	"GUNK SHOT": {
+		"name": "Gunk Shot",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 1,
+		"TYPE": "POISON",
+		"ATK": 60,
+		"COOLDOWN": "3.00",
+		"DPS": "20.00"
+	},
+	"HEAT WAVE": {
+		"name": "Heat Wave",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 1,
+		"TYPE": "FIRE",
+		"ATK": 60,
+		"COOLDOWN": "3.80",
+		"DPS": "15.79"
+	},
+	"HORN ATTACK": {
+		"name": "Horn Attack",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 4,
+		"TYPE": "NORMAL",
+		"ATK": 20,
+		"COOLDOWN": "2.20",
+		"DPS": "9.09"
+	},
+	"HURRICANE": {
+		"name": "Hurricane",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 1,
+		"TYPE": "FLYING",
+		"ATK": 60,
+		"COOLDOWN": "3.20",
+		"DPS": "18.75"
+	},
+	"HYDRO PUMP": {
+		"name": "Hydro Pump",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 1,
+		"TYPE": "WATER",
+		"ATK": 60,
+		"COOLDOWN": "3.80",
+		"DPS": "15.79"
+	},
+	"HYPER BEAM": {
+		"name": "Hyper Beam",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 1,
+		"TYPE": "NORMAL",
+		"ATK": 70,
+		"COOLDOWN": "5.00",
+		"DPS": "14.00"
+	},
+	"HYPER FANG": {
+		"name": "Hyper Fang",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 3,
+		"TYPE": "NORMAL",
+		"ATK": 35,
+		"COOLDOWN": "2.10",
+		"DPS": "16.67"
+	},
+	"ICE BEAM": {
+		"name": "Ice Beam",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 2,
+		"TYPE": "ICE",
+		"ATK": 50,
+		"COOLDOWN": "3.65",
+		"DPS": "13.70"
+	},
+	"ICE PUNCH": {
+		"name": "Ice Punch",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 3,
+		"TYPE": "ICE",
+		"ATK": 45,
+		"COOLDOWN": "3.50",
+		"DPS": "12.86"
+	},
+	"ICE SHARD": {
+		"name": "Ice Shard",
+		"type": "QUICK_MOVE",
+		"TYPE": "ICE",
+		"ATK": 10,
+		"COOLDOWN": "1.40",
+		"DPS": "7.14"
+	},
+	"ICY WIND": {
+		"name": "Icy Wind",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 5,
+		"TYPE": "ICE",
+		"ATK": 15,
+		"COOLDOWN": "3.80",
+		"DPS": "3.95"
+	},
+	"IRON HEAD": {
+		"name": "Iron Head",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 3,
+		"TYPE": "STEEL",
+		"ATK": 40,
+		"COOLDOWN": "2.00",
+		"DPS": "20.00"
+	},
+	"KARATE CHOP": {
+		"name": "Karate Chop",
+		"type": "QUICK_MOVE",
+		"TYPE": "FIGHTING",
+		"ATK": 6,
+		"COOLDOWN": "0.80",
+		"DPS": "7.50"
+	},
+	"LEAF BLADE": {
+		"name": "Leaf Blade",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 2,
+		"TYPE": "GRASS",
+		"ATK": 45,
+		"COOLDOWN": "2.80",
+		"DPS": "16.07"
+	},
+	"LICK": {
+		"name": "Lick",
+		"type": "QUICK_MOVE",
+		"TYPE": "GHOST",
+		"ATK": 10,
+		"COOLDOWN": "0.50",
+		"DPS": "20.00"
+	},
+	"LOW KICK": {
+		"name": "Low Kick",
+		"type": "QUICK_MOVE",
+		"TYPE": "FIGHTING",
+		"ATK": 5,
+		"COOLDOWN": "0.60",
+		"DPS": "8.33"
+	},
+	"LOW SWEEP": {
+		"name": "Low Sweep",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 4,
+		"TYPE": "FIGHTING",
+		"ATK": 25,
+		"COOLDOWN": "2.25",
+		"DPS": "11.11"
+	},
+	"MAGNET BOMB": {
+		"name": "Magnet Bomb",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 4,
+		"TYPE": "STEEL",
+		"ATK": 25,
+		"COOLDOWN": "2.80",
+		"DPS": "8.93"
+	},
+	"MEGAHORN": {
+		"name": "Megahorn",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 1,
+		"TYPE": "BUG",
+		"ATK": 55,
+		"COOLDOWN": "3.20",
+		"DPS": "17.19"
+	},
+	"METAL CLAW": {
+		"name": "Metal Claw",
+		"type": "QUICK_MOVE",
+		"TYPE": "STEEL",
+		"ATK": 12,
+		"COOLDOWN": "0.63",
+		"DPS": "19.05"
+	},
+	"MOONBLAST": {
+		"name": "Moonblast",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 1,
+		"TYPE": "FAIRY",
+		"ATK": 60,
+		"COOLDOWN": "4.10",
+		"DPS": "14.63"
+	},
+	"MUD BOMB": {
+		"name": "Mud Bomb",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 4,
+		"TYPE": "GROUND",
+		"ATK": 25,
+		"COOLDOWN": "2.60",
+		"DPS": "9.62"
+	},
+	"MUD SHOT": {
+		"name": "Mud Shot",
+		"type": "QUICK_MOVE",
+		"TYPE": "GROUND",
+		"ATK": 12,
+		"COOLDOWN": "0.55",
+		"DPS": "21.82"
+	},
+	"MUD SLAP": {
+		"name": "Mud Slap",
+		"type": "QUICK_MOVE",
+		"TYPE": "GROUND",
+		"ATK": 6,
+		"COOLDOWN": "1.35",
+		"DPS": "4.44"
+	},
+	"NIGHT SLASH": {
+		"name": "Night Slash",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 4,
+		"TYPE": "DARK",
+		"ATK": 25,
+		"COOLDOWN": "2.70",
+		"DPS": "9.26"
+	},
+	"OMINOUS WIND": {
+		"name": "Ominous Wind",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 4,
+		"TYPE": "GHOST",
+		"ATK": 25,
+		"COOLDOWN": "3.10",
+		"DPS": "8.06"
+	},
+	"PECK": {
+		"name": "Peck",
+		"type": "QUICK_MOVE",
+		"TYPE": "FLYING",
+		"ATK": 10,
+		"COOLDOWN": "1.15",
+		"DPS": "8.70"
+	},
+	"PETAL BLIZZARD": {
+		"name": "Petal Blizzard",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 2,
+		"TYPE": "GRASS",
+		"ATK": 50,
+		"COOLDOWN": "3.20",
+		"DPS": "15.63"
+	},
+	"PLAY ROUGH": {
+		"name": "Play Rough",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 2,
+		"TYPE": "FAIRY",
+		"ATK": 50,
+		"COOLDOWN": "2.90",
+		"DPS": "17.24"
+	},
+	"POISON FANG": {
+		"name": "Poison Fang",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 5,
+		"TYPE": "POISON",
+		"ATK": 15,
+		"COOLDOWN": "2.40",
+		"DPS": "6.25"
+	},
+	"POISON JAB": {
+		"name": "Poison Jab",
+		"type": "QUICK_MOVE",
+		"TYPE": "POISON",
+		"ATK": 15,
+		"COOLDOWN": "1.05",
+		"DPS": "14.29"
+	},
+	"POISON STING": {
+		"name": "Poison Sting",
+		"type": "QUICK_MOVE",
+		"TYPE": "POISON",
+		"ATK": 6,
+		"COOLDOWN": "0.58",
+		"DPS": "10.43"
+	},
+	"POUND": {
+		"name": "Pound",
+		"type": "QUICK_MOVE",
+		"TYPE": "NORMAL",
+		"ATK": 8,
+		"COOLDOWN": "0.54",
+		"DPS": "14.81"
+	},
+	"POWER GEM": {
+		"name": "Power Gem",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 3,
+		"TYPE": "ROCK",
+		"ATK": 40,
+		"COOLDOWN": "2.90",
+		"DPS": "13.79"
+	},
+	"POWER WHIP": {
+		"name": "Power Whip",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 1,
+		"TYPE": "GRASS",
+		"ATK": 60,
+		"COOLDOWN": "2.80",
+		"DPS": "21.43"
+	},
+	"PSYBEAM": {
+		"name": "Psybeam",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 4,
+		"TYPE": "PSYCHIC",
+		"ATK": 35,
+		"COOLDOWN": "3.80",
+		"DPS": "9.21"
+	},
+	"PSYCHIC": {
+		"name": "Psychic",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 2,
+		"TYPE": "PSYCHIC",
+		"ATK": 50,
+		"COOLDOWN": "2.80",
+		"DPS": "17.86"
+	},
+	"PSYCHO CUT": {
+		"name": "Psycho Cut",
+		"type": "QUICK_MOVE",
+		"TYPE": "PSYCHIC",
+		"ATK": 15,
+		"COOLDOWN": "0.57",
+		"DPS": "26.32"
+	},
+	"PSYSHOCK": {
+		"name": "Psyshock",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 3,
+		"TYPE": "PSYCHIC",
+		"ATK": 40,
+		"COOLDOWN": "2.70",
+		"DPS": "14.81"
+	},
+	"QUICK ATTACK": {
+		"name": "Quick Attack",
+		"type": "QUICK_MOVE",
+		"TYPE": "NORMAL",
+		"ATK": 10,
+		"COOLDOWN": "1.33",
+		"DPS": "7.52"
+	},
+	"RAZOR LEAF": {
+		"name": "Razor Leaf",
+		"type": "QUICK_MOVE",
+		"TYPE": "GRASS",
+		"ATK": 15,
+		"COOLDOWN": "1.45",
+		"DPS": "10.34"
+	},
+	"ROCK SLIDE": {
+		"name": "Rock Slide",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 3,
+		"TYPE": "ROCK",
+		"ATK": 40,
+		"COOLDOWN": "3.20",
+		"DPS": "12.50"
+	},
+	"ROCK SMASH": {
+		"name": "Rock Smash",
+		"type": "QUICK_MOVE",
+		"TYPE": "FIGHTING",
+		"ATK": 5,
+		"COOLDOWN": "1.41",
+		"DPS": "3.55"
+	},
+	"ROCK THROW": {
+		"name": "Rock Throw",
+		"type": "QUICK_MOVE",
+		"TYPE": "ROCK",
+		"ATK": 12,
+		"COOLDOWN": "1.36",
+		"DPS": "8.82"
+	},
+	"ROCK TOMB": {
+		"name": "Rock Tomb",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 4,
+		"TYPE": "ROCK",
+		"ATK": 25,
+		"COOLDOWN": "3.40",
+		"DPS": "7.35"
+	},
+	"SCALD": {
+		"name": "Scald",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 3,
+		"TYPE": "WATER",
+		"ATK": 35,
+		"COOLDOWN": "4.00",
+		"DPS": "8.75"
+	},
+	"SCRATCH": {
+		"name": "Scratch",
+		"type": "QUICK_MOVE",
+		"TYPE": "NORMAL",
+		"ATK": 10,
+		"COOLDOWN": "0.50",
+		"DPS": "20.00"
+	},
+	"SEED BOMB": {
+		"name": "Seed Bomb",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 3,
+		"TYPE": "GRASS",
+		"ATK": 30,
+		"COOLDOWN": "2.40",
+		"DPS": "12.50"
+	},
+	"SHADOW BALL": {
+		"name": "Shadow Ball",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 3,
+		"TYPE": "GHOST",
+		"ATK": 40,
+		"COOLDOWN": "3.08",
+		"DPS": "12.99"
+	},
+	"SHADOW CLAW": {
+		"name": "Shadow Claw",
+		"type": "QUICK_MOVE",
+		"TYPE": "GHOST",
+		"ATK": 16,
+		"COOLDOWN": "0.95",
+		"DPS": "16.84"
+	},
+	"SIGNAL BEAM": {
+		"name": "Signal Beam",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 3,
+		"TYPE": "BUG",
+		"ATK": 35,
+		"COOLDOWN": "3.10",
+		"DPS": "11.29"
+	},
+	"SLUDGE": {
+		"name": "Sludge",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 4,
+		"TYPE": "POISON",
+		"ATK": 25,
+		"COOLDOWN": "2.60",
+		"DPS": "9.62"
+	},
+	"SLUDGE BOMB": {
+		"name": "Sludge Bomb",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 2,
+		"TYPE": "POISON",
+		"ATK": 50,
+		"COOLDOWN": "2.60",
+		"DPS": "19.23"
+	},
+	"SLUDGE WAVE": {
+		"name": "Sludge Wave",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 1,
+		"TYPE": "POISON",
+		"ATK": 60,
+		"COOLDOWN": "3.40",
+		"DPS": "17.65"
+	},
+	"SOLAR BEAM": {
+		"name": "Solar Beam",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 1,
+		"TYPE": "GRASS",
+		"ATK": 65,
+		"COOLDOWN": "4.90",
+		"DPS": "13.27"
+	},
+	"SPARK": {
+		"name": "Spark",
+		"type": "QUICK_MOVE",
+		"TYPE": "ELECTRIC",
+		"ATK": 7,
+		"COOLDOWN": "0.70",
+		"DPS": "10.00"
+	},
+	"SPLASH": {
+		"name": "Splash",
+		"type": "QUICK_MOVE",
+		"TYPE": "WATER",
+		"ATK": 0,
+		"COOLDOWN": "1.23",
+		"DPS": "0.00"
+	},
+	"STEEL WING": {
+		"name": "Steel Wing",
+		"type": "QUICK_MOVE",
+		"TYPE": "STEEL",
+		"ATK": 15,
+		"COOLDOWN": "1.33",
+		"DPS": "11.28"
+	},
+	"STOMP": {
+		"name": "Stomp",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 4,
+		"TYPE": "NORMAL",
+		"ATK": 25,
+		"COOLDOWN": "2.10",
+		"DPS": "11.90"
+	},
+	"STONE EDGE": {
+		"name": "Stone Edge",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 1,
+		"TYPE": "ROCK",
+		"ATK": 55,
+		"COOLDOWN": "3.10",
+		"DPS": "17.74"
+	},
+	"STRUGGLE": {
+		"name": "Struggle",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 5,
+		"TYPE": "NORMAL",
+		"ATK": 15,
+		"COOLDOWN": "1.70",
+		"DPS": "8.85"
+	},
+	"SUBMISSION": {
+		"name": "Submission",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 3,
+		"TYPE": "FIGHTING",
+		"ATK": 30,
+		"COOLDOWN": "2.10",
+		"DPS": "14.29"
+	},
+	"SUCKER PUNCH": {
+		"name": "Sucker Punch",
+		"type": "QUICK_MOVE",
+		"TYPE": "DARK",
+		"ATK": 7,
+		"COOLDOWN": "0.70",
+		"DPS": "10.00"
+	},
+	"SWIFT": {
+		"name": "Swift",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 4,
+		"TYPE": "NORMAL",
+		"ATK": 25,
+		"COOLDOWN": "3.00",
+		"DPS": "8.33"
+	},
+	"TACKLE": {
+		"name": "Tackle",
+		"type": "QUICK_MOVE",
+		"TYPE": "NORMAL",
+		"ATK": 12,
+		"COOLDOWN": "1.10",
+		"DPS": "10.91"
+	},
+	"THUNDER": {
+		"name": "Thunder",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 1,
+		"TYPE": "ELECTRIC",
+		"ATK": 65,
+		"COOLDOWN": "4.30",
+		"DPS": "15.12"
+	},
+	"THUNDER PUNCH": {
+		"name": "Thunder Punch",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 3,
+		"TYPE": "ELECTRIC",
+		"ATK": 40,
+		"COOLDOWN": "2.40",
+		"DPS": "16.67"
+	},
+	"THUNDER SHOCK": {
+		"name": "Thunder Shock",
+		"type": "QUICK_MOVE",
+		"TYPE": "ELECTRIC",
+		"ATK": 5,
+		"COOLDOWN": "0.60",
+		"DPS": "8.33"
+	},
+	"THUNDERBOLT": {
+		"name": "Thunderbolt",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 2,
+		"TYPE": "ELECTRIC",
+		"ATK": 50,
+		"COOLDOWN": "2.70",
+		"DPS": "18.52"
+	},
+	"TWISTER": {
+		"name": "Twister",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 5,
+		"TYPE": "DRAGON",
+		"ATK": 15,
+		"COOLDOWN": "2.70",
+		"DPS": "5.56"
+	},
+	"VICE GRIP": {
+		"name": "Vice Grip",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 5,
+		"TYPE": "NORMAL",
+		"ATK": 15,
+		"COOLDOWN": "2.10",
+		"DPS": "7.14"
+	},
+	"VINE WHIP": {
+		"name": "Vine Whip",
+		"type": "QUICK_MOVE",
+		"TYPE": "GRASS",
+		"ATK": 10,
+		"COOLDOWN": "0.65",
+		"DPS": "15.38"
+	},
+	"WATER GUN": {
+		"name": "Water Gun",
+		"type": "QUICK_MOVE",
+		"TYPE": "WATER",
+		"ATK": 10,
+		"COOLDOWN": "0.50",
+		"DPS": "20.00"
+	},
+	"WATER PULSE": {
+		"name": "Water Pulse",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 4,
+		"TYPE": "WATER",
+		"ATK": 30,
+		"COOLDOWN": "3.30",
+		"DPS": "9.09"
+	},
+	"WING ATTACK": {
+		"name": "Wing Attack",
+		"type": "QUICK_MOVE",
+		"TYPE": "FLYING",
+		"ATK": 12,
+		"COOLDOWN": "0.75",
+		"DPS": "16.00"
+	},
+	"WRAP": {
+		"name": "Wrap",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 5,
+		"TYPE": "NORMAL",
+		"ATK": 15,
+		"COOLDOWN": "4.00",
+		"DPS": "3.75"
+	},
+	"X-SCISSOR": {
+		"name": "X-Scissor",
+		"type": "CHARGE_MOVE",
+		"ENERGY": 3,
+		"TYPE": "BUG",
+		"ATK": 30,
+		"COOLDOWN": "2.10",
+		"DPS": "14.29"
+	},
+	"ZEN HEADBUTT": {
+		"name": "Zen Headbutt",
+		"type": "QUICK_MOVE",
+		"TYPE": "PSYCHIC",
+		"ATK": 15,
+		"COOLDOWN": "1.05",
+		"DPS": "14.29"
+	}
+}
