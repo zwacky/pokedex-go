@@ -75,7 +75,7 @@ function sendPokemonDetail(recipientId, pokemon) {
 					elements: [
 						{
 							title: `${pokemon.name} (${pokemon.rarity})`,
-							image_url: `${BASE_URL}/pokemon/${pokemon.name.toLowerCase()}.png`,
+							image_url: `${BASE_URL}/pokemon/${pokemon.name.toUpperCase()}.png`,
 							subtitle: [
 								`Types: ${pokemon.types.join(', ')}`,
 							].join(' · '),
