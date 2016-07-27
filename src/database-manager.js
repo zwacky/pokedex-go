@@ -28,7 +28,7 @@ function findPokemon(pokemonName) {
 				.map(type => DB.TYPES[type]);
 
 			result = Object.assign({}, pokemon);
-			result.rarity = DB.RARITIES[pokemon.rarity].name;
+			// result.rarity = DB.RARITIES[pokemon.rarity].name;
 			result.types = pokemon.types
 				.map(type => DB.TYPES[type].name);
 			result.modifiers = MODIFIERS.reduce((obj, item) => {
@@ -49,7 +49,7 @@ function getModifierTypes(pokemon, modifier) {
 		.flatten()
 		.uniq()
 		.value()
-		.map(mod => DB.TYPES[mod].name);
+		.map(mod => (DB.TYPES[mod]) ? DB.TYPES[mod].name : []);
 }
 
 module.exports = {
