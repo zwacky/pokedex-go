@@ -74,7 +74,7 @@ function sendPokemonDetail(recipientId, pokemon) {
 					template_type: 'generic',
 					elements: [
 						{
-							title: `${pokemon.name} (${pokemon.rarity})`,
+							title: `${pokemon.name} (#${('000' + pokemon['#']).slice(-4)})`,
 							image_url: `${BASE_URL}/pokemon/${pokemon.name.toUpperCase()}.png`,
 							subtitle: [
 								`Types: ${pokemon.types.join(', ')}`,
