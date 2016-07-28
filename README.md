@@ -14,6 +14,8 @@ All the infos a Pokémon trainer needs to take over the gyms in the wild.
 
 - [x] pokemon (151/151)
 - [x] skills (122/122)
+- [ ] enhance skills with damage
+- [ ] update type effectiveness to use latest data
 
 # Contribution
 
