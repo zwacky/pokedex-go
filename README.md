@@ -12,8 +12,8 @@ All the infos a Pokémon trainer needs to take over the gyms in the wild.
 
 # Progress
 
-- [ ] pokemon (3/150)
-- [ ] skills (0/*)
+- [x] pokemon (151/151)
+- [x] skills (122/122)
 
 # Contribution
 
