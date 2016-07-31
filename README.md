@@ -4,6 +4,8 @@
 
 All the infos a Pokémon trainer needs to take over the gyms in the wild.
 
+Pokemon data is based on http://pokemongo.gamepress.gg.
+
 # Usage
 
 - **hi**: Introduction message
