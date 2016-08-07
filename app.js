@@ -46,15 +46,7 @@ app.post('/webhook', (req, res) => {
 				if (messagingEvent.message) {
 					messagingManager.receivedMessage(messagingEvent);
 				} else if (messagingEvent.postback) {
-					const BEST_AGAINST = 'best against';
-					if (messagingEvent.postback.payload && messagingEvent.postback.payload.indexOf(BEST_AGAINST) === 0) {
-						const msg = _.assign(messagingEvent, {
-							message: `${messagingEvent.postback.payload}`
-						});
-						messagingManager.receivedMessage(messagingEvent);
-					} else {
-						messagingManager.sendIntroductionMessage(messagingEvent.sender.id);
-					}
+					messagingManager.sendIntroductionMessage(messagingEvent.sender.id);
 				} else {
 					console.log(`Webhook received unknown messagingEvent: ${messagingEvent}`);
 				}

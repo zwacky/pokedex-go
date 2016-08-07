@@ -28,7 +28,7 @@ function receivedMessage(event) {
 			sendTextMessage(senderId, `Help is not implemented yet.`);
 		} else if (messageText.toUpperCase().indexOf('BEST AGAINST') === 0) {
 			const targetPkmn = messageText.toUpperCase().substr(BEST_AGAINST.length + 1);
-			databaseManager.findBestOpponents(targetPkmn, 3)
+			databaseManager.findBestOpponents(targetPkmn, 5)
 				.then(opponents => sendBestOpponents(senderId, opponents))
 				.catch(err => {
 					sendTextMessage(senderId, `Error occurred. Inform an admin - will get some fixin' soon! 😞`);
