@@ -9,7 +9,7 @@ const TYPES = require('../db/types.json');
 describe('database manager', () => {
 
     it('should find the right modifiers', () => {
-		const MODIFIERS = ['200_from', '0_from'];
+		const MODIFIERS = ['EFFECTIVE', 'NOT_EFFECTIVE'];
 		const promises$ = Object.keys(POKEMONS)
 			.map(pokemonName => databaseManager.findPokemon(pokemonName));
 
