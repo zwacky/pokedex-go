@@ -5,6 +5,7 @@ const app = express();
 const bodyParser = require('body-parser');
 const messagingManager = require('./src/messaging-manager');
 const crypto = require('crypto');
+const _ = require('lodash');
 
 const PORT = process.env.PORT || 5555;
 const VALIDATION_TOKEN = process.env.POKEDEX_VALIDATION_TOKEN || '';
@@ -45,7 +46,15 @@ app.post('/webhook', (req, res) => {
 				if (messagingEvent.message) {
 					messagingManager.receivedMessage(messagingEvent);
 				} else if (messagingEvent.postback) {
-					messagingManager.sendIntroductionMessage(messagingEvent.sender.id);
+					const BEST_AGAINST = 'best against';
+					if (messagingEvent.postback.payload && messagingEvent.postback.payload.indexOf(BEST_AGAINST) === 0) {
+						const msg = _.assign(messagingEvent, {
+							message: `${messagingEvent.postback.payload}`
+						});
+						messagingManager.receivedMessage(messagingEvent);
+					} else {
+						messagingManager.sendIntroductionMessage(messagingEvent.sender.id);
+					}
 				} else {
 					console.log(`Webhook received unknown messagingEvent: ${messagingEvent}`);
 				}

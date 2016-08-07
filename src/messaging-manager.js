@@ -4,6 +4,7 @@ const graphApi = require('./graph-api');
 const databaseManager = require('./database-manager');
 
 const BASE_URL = 'https://pokedex-go.herokuapp.com';
+const BEST_AGAINST = 'BEST AGAINST';
 
 
 function receivedMessage(event) {
@@ -25,6 +26,13 @@ function receivedMessage(event) {
 			sendIntroductionMessage(senderId);
 		} else if (messageText.toUpperCase() === 'HELP') {
 			sendTextMessage(senderId, `Help is not implemented yet.`);
+		} else if (messageText.toUpperCase().indexOf('BEST AGAINST') === 0) {
+			const targetPkmn = messageText.toUpperCase().substr(BEST_AGAINST.length + 1);
+			databaseManager.findBestOpponents(targetPkmn, 3)
+				.then(opponents => sendBestOpponents(senderId, opponents))
+				.catch(err => {
+					sendTextMessage(senderId, `Error occurred. Inform an admin - will get some fixin' soon! 😞`);
+				});
 		} else {
 			databaseManager.findPokemon(messageText.toUpperCase())
 				.then((pokemon) => sendPokemonDetail(senderId, pokemon))
@@ -110,7 +118,27 @@ function sendPokemonDetail(recipientId, pokemon) {
 
 	messages$
 		.then(() => false);
+}
 
+function sendBestOpponents(recipientId, opponents) {
+	const messages = opponents.map((opponent, index) => {
+		return {
+			recipient: {
+				id: recipientId
+			},
+			message: {
+				text: `#${index+1}: ${opponent.name} (DPS: ${opponent.totalDps.toFixed(2)})`
+			}
+		};
+	});
+
+	const messages$ = messages.reduce((promise, item) => {
+		return promise
+			.then(() => graphApi.callSendAPI(item));
+	}, Promise.resolve());
+
+	messages$
+		.then(() => false);
 }
 
 /**
