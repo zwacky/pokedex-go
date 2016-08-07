@@ -108,6 +108,27 @@ function sendPokemonDetail(recipientId, pokemon) {
 			message: {
 				text: `Receives 80% damage from: ${pokemon.modifiers.NOT_EFFECTIVE.join(' · ')}`,
 			}
+		},
+		{
+			recipient: {
+				id: recipientId
+			},
+			message: {
+				attachment: {
+					type: 'template',
+					payload: {
+						template_type: 'button',
+						text: `More Infos?`,
+						buttons: [
+							{
+								type: 'postback',
+								title: `Best against ${pokemon.name}`,
+								payload: `best against ${pokemon.name}`,
+							},
+						]
+					}
+				}
+			}
 		}
 	];
 
