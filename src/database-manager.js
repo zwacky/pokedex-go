@@ -67,7 +67,6 @@ function findBestOpponents(pokemonName, limit) {
 							name: attackingPkmn.name,
 							primaryDps: getSingleDPS(dps.primary),
 							secondaryDps: getSingleDPS(dps.secondary),
-							// totalDps: getSingleDPS(dps.primary),
 							totalDps: getSingleDPS(dps.primary) + getSingleDPS(dps.secondary),
 						};
 
