@@ -16,10 +16,9 @@ function receivedMessage(event) {
 	console.log('Received message for user %d and page %d at %d with message:', senderId, recipientId, timeOfMessage);
 	console.log(JSON.stringify(message));
 
-	const messageId = message.mid;
-
-	const messageText = message.text;
-	const messageAttachments = message.attachments;
+	const messageId = message.mid || null;
+	const messageText = message.text || message;
+	const messageAttachments = message.attachments || null;
 
 	if (messageText) {
 		if (messageText.toUpperCase() === 'HI') {
