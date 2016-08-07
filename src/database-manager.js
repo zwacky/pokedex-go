@@ -22,7 +22,7 @@ function findPokemon(pokemonName) {
 
 		if (pokemon) {
 			const types = pokemon.types;
-			const MODIFIERS = ['200_from', '0_from', '200_to'];
+			const MODIFIERS = ['NORMAL', 'EFFECTIVE', 'NOT_EFFECTIVE'];
 
 			const a = pokemon.types
 				.map(type => DB.TYPES[type]);

@@ -63,35 +63,53 @@ function sendTextMessage(recipientId, messageText) {
  * @param object pokemonName
  */
 function sendPokemonDetail(recipientId, pokemon) {
-	const message = {
-		recipient: {
-			id: recipientId
-		},
-		message: {
-			attachment: {
-				type: 'template',
-				payload: {
-					template_type: 'generic',
-					elements: [
-						{
-							title: `${pokemon.name} (#${('000' + pokemon['#']).slice(-3)})`,
-							image_url: `${BASE_URL}/pokemon/${pokemon.name.toUpperCase()}.png`,
-							subtitle: [
-								`Types: ${pokemon.types.join(', ')}`,
-							].join(' · '),
-						},
-						{
-							title: `Receives 200% damage from`,
-							subtitle: pokemon.modifiers['200_from'].join(' · '),
-							image_url: `${BASE_URL}/cards/very-effective.png`,
-						},
-					]
+	const messages = [
+		{
+			recipient: {
+				id: recipientId
+			},
+			message: {
+				attachment: {
+					type: 'image',
+					payload: {
+						url: `${BASE_URL}/pokemon/${pokemon.name.toUpperCase()}.png`,
+					}
 				}
 			}
+		},
+		{
+			recipient: {
+				id: recipientId
+			},
+			message: {
+				text: `${pokemon.name} (Types: ${pokemon.types.join(' · ')})`
+			}
+		},
+		{
+			recipient: {
+				id: recipientId
+			},
+			message: {
+				text: `Receives 125% damage from: ${pokemon.modifiers.EFFECTIVE.join(' · ')}`,
+			},
+		},
+		{
+			recipient: {
+				id: recipientId
+			},
+			message: {
+				text: `Receives 80% damage from: ${pokemon.modifiers.NOT_EFFECTIVE.join(' · ')}`,
+			}
 		}
-	};
+	];
 
-	graphApi.callSendAPI(message);
+	const messages$ = messages.reduce((promise, item) => {
+		return promise
+			.then(() => graphApi.callSendAPI(item));
+	}, Promise.resolve());
+
+	messages$
+		.then(() => false);
 
 }
 
