@@ -47,9 +47,6 @@ app.post('/webhook', (req, res) => {
 					messagingManager.receivedMessage(messagingEvent);
 				} else if (messagingEvent.postback) {
 					if (messagingEvent.postback.payload && messagingEvent.postback.payload.indexOf('best against') === 0) {
-						const msg = _.assign(messagingEvent, {
-							message: `${messagingEvent.postback.payload}`
-						});
 						messagingManager.receivedMessage(messagingEvent);
 					} else {
 						messagingManager.sendIntroductionMessage(messagingEvent.sender.id);

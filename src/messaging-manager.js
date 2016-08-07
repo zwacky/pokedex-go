@@ -17,7 +17,7 @@ function receivedMessage(event) {
 	console.log(JSON.stringify(message));
 
 	const messageId = message.mid;
-	const messageText = message.text;
+	const messageText = message.text || message.postback.payload;
 	const messageAttachments = message.attachments;
 
 	if (messageText) {
