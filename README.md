@@ -16,8 +16,10 @@ Pokemon data is based on http://pokemongo.gamepress.gg.
 
 - [x] pokemon (151/151)
 - [x] skills (122/122)
-- [ ] enhance skills with damage
-- [ ] update type effectiveness to use latest data
+- [x] enhance skills with damage
+- [x] update type effectiveness to use latest data
+- [ ] tell Pokémon with best moves (primary & secondary)
+- [ ] suggest best Pokémon to counter
 
 # Contribution
 
