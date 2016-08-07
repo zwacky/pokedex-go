@@ -1,182 +1,486 @@
 {
-	"BUG": {
-		"name": "Bug",
-		"emoji": "🐛",
-		"200_to": ["PSYCHIC", "GRASS", "DARK"],
-		"50_to": ["FIGHT", "FIRE", "FLYING", "GHOST", "POISON", "STEEL", "FAIRY"],
-		"0_to": [],
-		"200_from": ["FIRE", "FLYING", "ROCK"],
-		"50_from": ["FIGHT", "GRASS", "GROUND"],
-		"0_from": []
-	},
-	"ELECTRIC": {
-		"name": "Electric",
-		"emoji": "⚡",
-		"200_to": ["FLYING", "WATER"],
-		"50_to": ["DRAGON", "ELECTRIC", "GRASS"],
-		"0_to": ["GROUND"],
-		"200_from": ["GROUND"],
-		"50_from": ["ELECTRA", "FLYING", "STEEL"],
-		"0_from": []
-	},
-	"FIRE": {
-		"name": "Fire",
-		"emoji": "🔥",
-		"200_to": ["BUG", "GRASS", "ICE", "STEEL"],
-		"50_to": ["DRAGON", "FIRE", "ROCK", "WATER"],
-		"0_to": [],
-		"200_from": ["GROUND", "ROCK", "WATER"],
-		"50_from": ["BUG", "FAIRY", "FIRE", "GRASS", "ICE", "STEEL"],
-		"0_from": []
-	},
-	"GRASS": {
-		"name": "Grass",
-		"emoji": "🌱",
-		"200_to": ["GROUND", "ROCK", "WATER"],
-		"50_to": ["BUG", "DRAGON", "FIRE", "FLYING", "GRASS", "POISON", "STEEL"],
-		"0_to": [],
-		"200_from": ["BUG", "FIRE", "FLYING", "ICE", "POISON"],
-		"50_from": ["ELECTRIC", "GRASS", "GROUND", "WATER"],
-		"0_from": []
-	},
 	"NORMAL": {
 		"name": "Normal",
-		"emoji": "",
-		"200_to": [],
-		"50_to": ["ROCK", "STEEL"],
-		"0_to": ["GHOST"],
-		"200_from": ["FIGHT"],
-		"50_from": [],
-		"0_from": ["GHOST"]
-	},
-	"ROCK": {
-		"name": "Rock",
-		"emoji": "🗿",
-		"200_to": ["BUG", "FIRE", "FLYING", "ICE"],
-		"50_to": ["FIGHT", "GROUND", "STEEL"],
-		"0_to": [],
-		"200_from": ["FIGHT", "GRASS", "GROUND", "STEEL", "WATER"],
-		"50_from": ["FIRE", "FLYING", "NORMAL", "POISON"],
-		"0_from": []
-	},
-	"DARK": {
-		"name": "Dark",
-		"emoji": "🌑",
-		"200_to": ["GHOST", "PSYCHIC"],
-		"50_to": ["DARK", "FIGHT", "FAIRY"],
-		"0_to": [],
-		"200_from": ["BUG", "FIGHT", "FAIRY"],
-		"50_from": ["DARK", "GHOST"],
-		"0_from": ["PSYCHO"]
-	},
-	"FAIRY": {
-		"name": "Fairy",
-		"emoji": "👼",
-		"200_to": ["DARK", "DRAGON", "FIGHT"],
-		"50_to": ["FIRE", "POISON", "STEEL"],
-		"0_to": [],
-		"200_from": ["POISON", "STEEL"],
-		"50_from": ["BUG", "DARK", "FIGHT"],
-		"0_from": ["DRAGON"]
-	},
-	"FLYING": {
-		"name": "Flying",
-		"emoji": "",
-		"200_to": ["BUG", "FIGHT", "GRASS"],
-		"50_to": ["ELECTRIC", "ROCK", "STEEL"],
-		"0_to": [],
-		"200_from": ["ELECTRIC", "ICE", "ROCK"],
-		"50_from": ["BUG", "FIGHT", "GRASS"],
-		"0_from": ["GROUND"]
-	},
-	"GROUND": {
-		"name": "Ground",
-		"emoji": "",
-		"200_to": ["ELECTRIC", "FIRE", "POISON", "ROCK", "STEEL"],
-		"50_to": ["BUG", "GRASS"],
-		"0_to": ["FLYING"],
-		"200_from": ["GRASS", "ICE", "WATER"],
-		"50_from": ["POISON", "ROCK"],
-		"0_from": ["ELECTRIC"]
-	},
-	"POISON": {
-		"name": "Poison",
-		"emoji": "💉",
-		"200_to": ["GRASS", "FAIRY"],
-		"50_to": ["GHOST", "GROUND", "POISON", "ROCK"],
-		"0_to": ["STEEL"],
-		"200_from": ["GROUND", "PSYCHIC"],
-		"50_from": ["BUG", "FAIRY", "FIGHT", "GRASS", "POISON"],
-		"0_from": []
-	},
-	"STEEL": {
-		"name": "Steel",
-		"emoji": "🔩",
-		"200_to": ["FAIRY", "ICE", "ROCK"],
-		"50_to": ["ELECTRIC", "FIRE", "STEEL", "WATER"],
-		"0_to": [],
-		"200_from": ["FIGHT", "FIRE", "GROUND"],
-		"50_from": ["BUG", "DRAGON", "FAIRY", "FLYING", "GRASS", "ICE", "NORMAL", "PSYCHIC", "ROCK", "STEEL"],
-		"0_from": ["POISON"]
-	},
-	"DRAGON": {
-		"name": "Dragon",
-		"emoji": "🐲",
-		"200_to": ["DRAGON"],
-		"50_to": ["STEEL"],
-		"0_to": ["FAIRY"],
-		"200_from": ["DRAGON", "ICE", "FAIRY"],
-		"50_from": ["ELECTRIC", "FIRE", "GRASS", "WATER"],
-		"0_from": []
+		"NORMAL": [
+			"NORMAL",
+			"FIGHTING",
+			"FLYING",
+			"POISON",
+			"GROUND",
+			"BUG",
+			"FIRE",
+			"WATER",
+			"GRASS",
+			"ELECTRIC",
+			"PSYCHIC",
+			"ICE",
+			"DRAGON",
+			"DARK",
+			"FAIRY"
+		],
+		"NOT_EFFECTIVE": [
+			"ROCK",
+			"GHOST",
+			"STEEL"
+		]
 	},
 	"FIGHTING": {
 		"name": "Fighting",
-		"emoji": "👊 ",
-		"200_to": ["DARK", "ICE", "NORMAL", "ROCK", "STEEL"],
-		"50_to": ["BUG", "FAIRY", "FLYING", "POISON", "PSYCHIC"],
-		"0_to": ["GHOST"],
-		"200_from": ["FAIRY", "FLYING", "PSYCHO"],
-		"50_from": ["BUG", "DARK", "ROCK"],
-		"0_from": []
+		"EFFECTIVE": [
+			"NORMAL",
+			"ROCK",
+			"STEEL",
+			"ICE",
+			"DARK"
+		],
+		"NORMAL": [
+			"FIGHTING",
+			"GROUND",
+			"FIRE",
+			"WATER",
+			"GRASS",
+			"ELECTRIC",
+			"DRAGON"
+		],
+		"NOT_EFFECTIVE": [
+			"FLYING",
+			"POISON",
+			"BUG",
+			"GHOST",
+			"PSYCHIC",
+			"FAIRY"
+		]
+	},
+	"FLYING": {
+		"name": "Flying",
+		"NORMAL": [
+			"NORMAL",
+			"FLYING",
+			"POISON",
+			"GROUND",
+			"GHOST",
+			"FIRE",
+			"WATER",
+			"PSYCHIC",
+			"ICE",
+			"DRAGON",
+			"DARK",
+			"FAIRY"
+		],
+		"EFFECTIVE": [
+			"FIGHTING",
+			"BUG",
+			"GRASS"
+		],
+		"NOT_EFFECTIVE": [
+			"ROCK",
+			"STEEL",
+			"ELECTRIC"
+		]
+	},
+	"POISON": {
+		"name": "Poison",
+		"NORMAL": [
+			"NORMAL",
+			"FIGHTING",
+			"FLYING",
+			"BUG",
+			"FIRE",
+			"WATER",
+			"ELECTRIC",
+			"PSYCHIC",
+			"ICE",
+			"DRAGON",
+			"DARK"
+		],
+		"NOT_EFFECTIVE": [
+			"POISON",
+			"GROUND",
+			"ROCK",
+			"GHOST",
+			"STEEL"
+		],
+		"EFFECTIVE": [
+			"GRASS",
+			"FAIRY"
+		]
+	},
+	"GROUND": {
+		"name": "Ground",
+		"NORMAL": [
+			"NORMAL",
+			"FIGHTING",
+			"GROUND",
+			"GHOST",
+			"WATER",
+			"PSYCHIC",
+			"ICE",
+			"DRAGON",
+			"DARK",
+			"FAIRY"
+		],
+		"NOT_EFFECTIVE": [
+			"FLYING",
+			"BUG",
+			"GRASS"
+		],
+		"EFFECTIVE": [
+			"POISON",
+			"ROCK",
+			"STEEL",
+			"FIRE",
+			"ELECTRIC"
+		]
+	},
+	"ROCK": {
+		"name": "Rock",
+		"NORMAL": [
+			"NORMAL",
+			"POISON",
+			"ROCK",
+			"GHOST",
+			"WATER",
+			"GRASS",
+			"ELECTRIC",
+			"PSYCHIC",
+			"DRAGON",
+			"DARK",
+			"FAIRY"
+		],
+		"NOT_EFFECTIVE": [
+			"FIGHTING",
+			"GROUND",
+			"STEEL"
+		],
+		"EFFECTIVE": [
+			"FLYING",
+			"BUG",
+			"FIRE",
+			"ICE"
+		]
+	},
+	"BUG": {
+		"name": "Bug",
+		"NORMAL": [
+			"NORMAL",
+			"GROUND",
+			"ROCK",
+			"BUG",
+			"WATER",
+			"ELECTRIC",
+			"ICE",
+			"DRAGON"
+		],
+		"NOT_EFFECTIVE": [
+			"FIGHTING",
+			"FLYING",
+			"POISON",
+			"GHOST",
+			"STEEL",
+			"FIRE",
+			"FAIRY"
+		],
+		"EFFECTIVE": [
+			"GRASS",
+			"PSYCHIC",
+			"DARK"
+		]
 	},
 	"GHOST": {
 		"name": "Ghost",
-		"emoji": "👻",
-		"200_to": ["GHOST", "PSYCHIC"],
-		"50_to": ["DARK"],
-		"0_to": ["NORMAL"],
-		"200_from": ["GHOST", "DARK"],
-		"50_from": ["BUG", "POISON"],
-		"0_from": ["NORMAL", "FIGHT"]
+		"NOT_EFFECTIVE": [
+			"NORMAL",
+			"DARK"
+		],
+		"NORMAL": [
+			"FIGHTING",
+			"FLYING",
+			"POISON",
+			"GROUND",
+			"ROCK",
+			"BUG",
+			"STEEL",
+			"FIRE",
+			"WATER",
+			"GRASS",
+			"ELECTRIC",
+			"ICE",
+			"DRAGON",
+			"FAIRY"
+		],
+		"EFFECTIVE": [
+			"GHOST",
+			"PSYCHIC"
+		]
 	},
-	"ICE": {
-		"name": "Ice",
-		"emoji": "🍦",
-		"200_to": ["DRAGON", "FLYING", "GRASS", "GROUND"],
-		"50_to": ["FIRE", "ICE", "STEEL", "WATER"],
-		"0_to": [],
-		"200_from": ["FIGHT", "FIRE", "ROCK", "STEEL"],
-		"50_from": ["ICE"],
-		"0_from": []
+	"STEEL": {
+		"name": "Steel",
+		"NORMAL": [
+			"NORMAL",
+			"FIGHTING",
+			"FLYING",
+			"POISON",
+			"GROUND",
+			"BUG",
+			"GHOST",
+			"GRASS",
+			"PSYCHIC",
+			"DRAGON",
+			"DARK"
+		],
+		"EFFECTIVE": [
+			"ROCK",
+			"ICE",
+			"FAIRY"
+		],
+		"NOT_EFFECTIVE": [
+			"STEEL",
+			"FIRE",
+			"WATER",
+			"ELECTRIC"
+		]
 	},
-	"PSYCHIC": {
-		"name": "Psychic",
-		"emoji": "🔮",
-		"200_to": ["FIGHT", "POISON"],
-		"50_to": ["PSYCHIC", "STEEL"],
-		"0_to": ["DARK"],
-		"200_from": ["BUG", "DARK", "GHOST"],
-		"50_from": ["FIGHT", "PSYCHIC"],
-		"0_from": []
+	"FIRE": {
+		"name": "Fire",
+		"NORMAL": [
+			"NORMAL",
+			"FIGHTING",
+			"FLYING",
+			"POISON",
+			"GROUND",
+			"GHOST",
+			"ELECTRIC",
+			"PSYCHIC",
+			"DARK",
+			"FAIRY"
+		],
+		"NOT_EFFECTIVE": [
+			"ROCK",
+			"FIRE",
+			"WATER",
+			"DRAGON"
+		],
+		"EFFECTIVE": [
+			"BUG",
+			"STEEL",
+			"GRASS",
+			"ICE"
+		]
 	},
 	"WATER": {
 		"name": "Water",
-		"emoji": "💧",
-		"200_to": ["FIRE", "GROUND", "ROCK"],
-		"50_to": ["DRAGON", "GRASS", "WATER"],
-		"0_to": [],
-		"200_from": ["ELECTRIC", "GRASS"],
-		"50_from": ["FIRE", "ICE", "STEEL", "WATER"],
-		"0_from": []
+		"NORMAL": [
+			"NORMAL",
+			"FIGHTING",
+			"FLYING",
+			"POISON",
+			"BUG",
+			"GHOST",
+			"STEEL",
+			"ELECTRIC",
+			"PSYCHIC",
+			"ICE",
+			"DARK",
+			"FAIRY"
+		],
+		"EFFECTIVE": [
+			"GROUND",
+			"ROCK",
+			"FIRE"
+		],
+		"NOT_EFFECTIVE": [
+			"WATER",
+			"GRASS",
+			"DRAGON"
+		]
+	},
+	"GRASS": {
+		"name": "Grass",
+		"NORMAL": [
+			"NORMAL",
+			"FIGHTING",
+			"GHOST",
+			"ELECTRIC",
+			"PSYCHIC",
+			"ICE",
+			"DARK",
+			"FAIRY"
+		],
+		"NOT_EFFECTIVE": [
+			"FLYING",
+			"POISON",
+			"BUG",
+			"STEEL",
+			"FIRE",
+			"GRASS",
+			"DRAGON"
+		],
+		"EFFECTIVE": [
+			"GROUND",
+			"ROCK",
+			"WATER"
+		]
+	},
+	"ELECTRIC": {
+		"name": "Electric",
+		"NORMAL": [
+			"NORMAL",
+			"FIGHTING",
+			"POISON",
+			"ROCK",
+			"BUG",
+			"GHOST",
+			"STEEL",
+			"FIRE",
+			"PSYCHIC",
+			"ICE",
+			"DARK",
+			"FAIRY"
+		],
+		"EFFECTIVE": [
+			"FLYING",
+			"WATER"
+		],
+		"NOT_EFFECTIVE": [
+			"GROUND",
+			"GRASS",
+			"ELECTRIC",
+			"DRAGON"
+		]
+	},
+	"PSYCHIC": {
+		"name": "Psychic",
+		"NORMAL": [
+			"NORMAL",
+			"FLYING",
+			"GROUND",
+			"ROCK",
+			"BUG",
+			"GHOST",
+			"FIRE",
+			"WATER",
+			"GRASS",
+			"ELECTRIC",
+			"ICE",
+			"DRAGON",
+			"FAIRY"
+		],
+		"EFFECTIVE": [
+			"FIGHTING",
+			"POISON"
+		],
+		"NOT_EFFECTIVE": [
+			"STEEL",
+			"PSYCHIC",
+			"DARK"
+		]
+	},
+	"ICE": {
+		"name": "Ice",
+		"NORMAL": [
+			"NORMAL",
+			"FIGHTING",
+			"POISON",
+			"ROCK",
+			"BUG",
+			"GHOST",
+			"ELECTRIC",
+			"PSYCHIC",
+			"DARK",
+			"FAIRY"
+		],
+		"EFFECTIVE": [
+			"FLYING",
+			"GROUND",
+			"GRASS",
+			"DRAGON"
+		],
+		"NOT_EFFECTIVE": [
+			"STEEL",
+			"FIRE",
+			"WATER",
+			"ICE"
+		]
+	},
+	"DRAGON": {
+		"name": "Dragon",
+		"NORMAL": [
+			"NORMAL",
+			"FIGHTING",
+			"FLYING",
+			"POISON",
+			"GROUND",
+			"ROCK",
+			"BUG",
+			"GHOST",
+			"FIRE",
+			"WATER",
+			"GRASS",
+			"ELECTRIC",
+			"PSYCHIC",
+			"ICE",
+			"DARK"
+		],
+		"NOT_EFFECTIVE": [
+			"STEEL",
+			"FAIRY"
+		],
+		"EFFECTIVE": [
+			"DRAGON"
+		]
+	},
+	"DARK": {
+		"name": "Dark",
+		"NORMAL": [
+			"NORMAL",
+			"FLYING",
+			"POISON",
+			"GROUND",
+			"ROCK",
+			"BUG",
+			"STEEL",
+			"FIRE",
+			"WATER",
+			"GRASS",
+			"ELECTRIC",
+			"ICE",
+			"DRAGON"
+		],
+		"NOT_EFFECTIVE": [
+			"FIGHTING",
+			"DARK",
+			"FAIRY"
+		],
+		"EFFECTIVE": [
+			"GHOST",
+			"PSYCHIC"
+		]
+	},
+	"FAIRY": {
+		"name": "Fairy",
+		"NORMAL": [
+			"NORMAL",
+			"FLYING",
+			"GROUND",
+			"ROCK",
+			"BUG",
+			"GHOST",
+			"WATER",
+			"GRASS",
+			"ELECTRIC",
+			"PSYCHIC",
+			"ICE",
+			"FAIRY"
+		],
+		"EFFECTIVE": [
+			"FIGHTING",
+			"DRAGON",
+			"DARK"
+		],
+		"NOT_EFFECTIVE": [
+			"POISON",
+			"STEEL",
+			"FIRE"
+		]
 	}
 }
