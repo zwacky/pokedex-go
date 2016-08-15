@@ -2,9 +2,11 @@
 
 const graphApi = require('./graph-api');
 const databaseManager = require('./database-manager');
+const _ = require('lodash');
 
 const BASE_URL = 'https://pokedex-go.herokuapp.com';
 const BEST_AGAINST = 'BEST AGAINST';
+const BEST_MOVES = 'BEST MOVES OF';
 
 
 function receivedMessage(event) {
@@ -29,6 +31,13 @@ function receivedMessage(event) {
 			const targetPkmn = messageText.toUpperCase().substr(BEST_AGAINST.length + 1);
 			databaseManager.findBestOpponents(targetPkmn, 5)
 				.then(opponents => sendBestOpponents(senderId, opponents))
+				.catch(err => {
+					sendTextMessage(senderId, `Error occurred. Inform an admin - will get some fixin' soon! 😞`);
+				});
+		} else if (messageText.toUpperCase().indexOf(BEST_MOVES) === 0) {
+			const targetPkmn = messageText.toUpperCase().substr(BEST_MOVES.length + 1);
+			databaseManager.findBestOpponents(targetPkmn, 5)
+				.then(moves => sendPokemonMoves(senderId, moves))
 				.catch(err => {
 					sendTextMessage(senderId, `Error occurred. Inform an admin - will get some fixin' soon! 😞`);
 				});
@@ -124,6 +133,11 @@ function sendPokemonDetail(recipientId, pokemon) {
 								title: `Best against ${pokemon.name}`,
 								payload: `best against ${pokemon.name}`,
 							},
+							{
+								type: 'postback',
+								title: `Best DPS ${pokemon.name}`,
+								payload: `best dps ${pokemon.name}`,
+							},
 						]
 					}
 				}
@@ -156,9 +170,41 @@ function sendBestOpponents(recipientId, opponents) {
 		return promise
 			.then(() => graphApi.callSendAPI(item));
 	}, Promise.resolve());
+}
 
-	messages$
-		.then(() => false);
+function sendPokemonMoves(recipientId, moves) {
+	const moveTypes = [
+		{title: 'Primary:', key: 'primary'},
+		{title: 'Secondary:', key: 'secondary'},
+	];
+	const messages = _(moveTypes)
+		.map(moveType => {
+			return [moveType.title].concat(
+				moves[moveType.key].map((move, index) => {
+					const entry = `${move.TOTAL_DPS.toFixed(1)} DPS - ${move.name} (${move.type})`;
+					return (index === 0) ?
+						`${entry} 🏆` :
+						entry;
+				})
+			);
+		})
+		.flatten()
+		.map(text => {
+			return {
+				recipient: {
+					id: recipientId
+				},
+				message: {
+					text
+				}
+			};
+		})
+		.value();
+
+		const messages$ = messages.reduce((promise, item) => {
+			return promise
+				.then(() => graphApi.callSendAPI(item));
+		}, Promise.resolve());
 }
 
 /**
