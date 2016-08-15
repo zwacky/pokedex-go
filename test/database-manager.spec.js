@@ -29,4 +29,19 @@ describe('database manager', () => {
 		}
     });
 
+	it('should find pokemons dps moves', () => {
+		const promises$ = Object.keys(POKEMONS)
+			.map(pokemonName => databaseManager.findDpsMoves(pokemonName));
+
+		return Promise.all(promises$)
+			.then(results => results.map(compareMoves));
+
+		function compareMoves(moves) {
+			['primary', 'secondary'].forEach(moveType => {
+				assert.equal(_.isObject(moves), true);
+				assert.equal(moves[moveType].length > 0, true);
+			});
+		}
+	});
+
 });

@@ -92,6 +92,40 @@ function findBestOpponents(pokemonName, limit) {
 	});
 }
 
+/**
+ * finds the best set of moves from primary and secondary for a specific pokemon.
+ *
+ * @param string pokemonName
+ * @return Promise
+ */
+function findDpsMoves(pokemonName) {
+	return new Promise((resolve, reject) => {
+		findPokemon(pokemonName)
+			.then(pkmn => {
+				const pkmnDps = ['primary', 'secondary']
+					.reduce((obj, moveType) => {
+						obj[moveType] = pkmn.moves[moveType]
+							.map(move => {
+								const entry = _.assign(DB.MOVES[move]);
+								const m = DB.MOVES[move];
+								const dps = parseFloat(m.DPS);
+								entry.TOTAL_DPS = (pkmn.types.map(t => t.toUpperCase()).indexOf(entry.TYPE) !== -1) ?
+									dps * 1.25 :
+									dps;
+								entry.type = DB.TYPES[entry.TYPE].name;
+								return entry;
+							});
+						return obj;
+					}, {});
+				// order primary and secondary attack after DPS desc
+				['primary', 'secondary'].forEach(moveType => {
+					pkmnDps[moveType].sort((a, b) => b.TOTAL_DPS - a.TOTAL_DPS);
+				});
+				resolve(pkmnDps);
+			});
+	});
+}
+
 function calculateDPS(defendingPkmn, attackingPkmn, moveName) {
 	const move = DB.MOVES[moveName];
 	const isEffective = hasEffectiveness(move.TYPE, _.toUpper(defendingPkmn.types), 'EFFECTIVE');
@@ -133,4 +167,5 @@ function getModifierTypes(pokemon, modifier) {
 module.exports = {
 	findPokemon,
 	findBestOpponents,
+	findDpsMoves,
 };
