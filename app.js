@@ -46,8 +46,10 @@ app.post('/webhook', (req, res) => {
 				if (messagingEvent.message) {
 					messagingManager.receivedMessage(messagingEvent);
 				} else if (messagingEvent.postback) {
-					console.log('=====', messagingEvent);
-					if (messagingEvent.postback.payload && ['best against', 'best moves of'].indexOf(messagingEvent.postback.payload) === 0) {
+					const matchesPayload = ['best against', 'best moves of']
+						.filter(payload => messagingEvent.postback.payload.indexOf(payload) === 0)
+						.length > 0;
+					if (messagingEvent.postback.payload && matchesPayload) {
 						messagingManager.receivedMessage(_.assign(messagingEvent, {message: {}}));
 					} else {
 						messagingManager.sendIntroductionMessage(messagingEvent.sender.id);
