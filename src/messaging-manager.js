@@ -36,7 +36,7 @@ function receivedMessage(event) {
 				});
 		} else if (messageText.toUpperCase().indexOf(BEST_MOVES) === 0) {
 			const targetPkmn = messageText.toUpperCase().substr(BEST_MOVES.length + 1);
-			databaseManager.findBestOpponents(targetPkmn, 5)
+			databaseManager.findDpsMoves(targetPkmn)
 				.then(moves => sendPokemonMoves(senderId, moves))
 				.catch(err => {
 					sendTextMessage(senderId, `Error occurred. Inform an admin - will get some fixin' soon! 😞`);
