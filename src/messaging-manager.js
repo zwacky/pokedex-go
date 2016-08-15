@@ -135,8 +135,8 @@ function sendPokemonDetail(recipientId, pokemon) {
 							},
 							{
 								type: 'postback',
-								title: `Best DPS ${pokemon.name}`,
-								payload: `best dps ${pokemon.name}`,
+								title: `Best Moves of ${pokemon.name}`,
+								payload: `best moves of ${pokemon.name}`,
 							},
 						]
 					}
