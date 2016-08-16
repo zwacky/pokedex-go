@@ -1,4 +1,4 @@
-# POKÉDEX GO
+# POKÉDEX GO [![Build Status](https://travis-ci.org/zwacky/pokedex-go.svg?branch=master)](https://travis-ci.org/zwacky/pokedex-go)
 
 [Facebook Messenger Bot](https://www.facebook.com/pokemondexgo) to get Pokémon infos like weaknesses easy and fast.
 
