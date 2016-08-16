@@ -18,8 +18,8 @@ Pokemon data is based on http://pokemongo.gamepress.gg.
 - [x] skills (122/122)
 - [x] enhance skills with damage
 - [x] update type effectiveness to use latest data
-- [ ] tell Pokémon with best moves (primary & secondary)
-- [ ] suggest best Pokémon to counter
+- [x] tell Pokémon with best moves (primary & secondary)
+- [x] suggest best Pokémon to counter
 
 # Contribution
 
