@@ -4390,5 +4390,39 @@
 		],
 		"weight": "122.00",
 		"#": 150
+	},
+	"MEW": {
+		"baseAttack": "220",
+		"baseDefense": "220",
+		"baseStamina": "200",
+		"candyToEvolve": "",
+		"captureRate": "0",
+		"class": "MYTHIC",
+		"eggDistanceGroup": "",
+		"fleeRate": "10",
+		"height": "0.40",
+		"maxCp": "3299.17",
+		"moves": {
+			"primary": [
+				"POUND"
+			],
+			"secondary": [
+				"DRAGON PULSE",
+				"EARTHQUAKE",
+				"FIRE BLAST",
+				"HYPER BEAM",
+				"MOONBLAST",
+				"PSYCHIC",
+				"SOLAR BEAM",
+				"THUNDER",
+				"HURRICANE"
+			]
+		},
+		"name": "Mew",
+		"types": [
+			"PSYCHIC"
+		],
+		"weight": "4.00",
+		"#": 151
 	}
 }
