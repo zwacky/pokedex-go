@@ -1,6 +1,6 @@
 {
   "name": "pokedex-go",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PokéDex Go Messenger Bot",
   "main": "app.js",
   "scripts": {
