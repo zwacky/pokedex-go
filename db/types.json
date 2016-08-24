@@ -163,27 +163,27 @@
 		"name": "Bug",
 		"NORMAL": [
 			"NORMAL",
-			"GROUND",
-			"ROCK",
 			"BUG",
 			"WATER",
 			"ELECTRIC",
 			"ICE",
-			"DRAGON"
-		],
-		"NOT_EFFECTIVE": [
-			"FIGHTING",
-			"FLYING",
+			"DRAGON",
+			"PSYCHIC",
+			"DARK",
 			"POISON",
 			"GHOST",
 			"STEEL",
-			"FIRE",
 			"FAIRY"
 		],
-		"EFFECTIVE": [
+		"NOT_EFFECTIVE": [
 			"GRASS",
-			"PSYCHIC",
-			"DARK"
+			"GROUND",
+			"FIGHTING"
+		],
+		"EFFECTIVE": [
+			"FIRE",
+			"ROCK",
+			"FLYING"
 		]
 	},
 	"GHOST": {
