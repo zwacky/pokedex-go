@@ -21,7 +21,7 @@ function receivedMessage(event) {
 	const messageId = message.mid;
 	const messageText = (
 		message.text ||
-		(event && event.postback) ? event.postback.payload : null
+		((event && event.postback) ? event.postback.payload : null)
 	) + '';
 	const messageAttachments = message.attachments;
 
