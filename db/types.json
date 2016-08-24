@@ -3,7 +3,6 @@
 		"name": "Normal",
 		"NORMAL": [
 			"NORMAL",
-			"FIGHTING",
 			"FLYING",
 			"POISON",
 			"GROUND",
@@ -16,39 +15,42 @@
 			"ICE",
 			"DRAGON",
 			"DARK",
+			"ROCK",
+			"STEEL",
 			"FAIRY"
 		],
+		"EFFECTIVE": [
+			"FIGHTING"
+		],
 		"NOT_EFFECTIVE": [
-			"ROCK",
-			"GHOST",
-			"STEEL"
+			"GHOST"
 		]
 	},
 	"FIGHTING": {
 		"name": "Fighting",
-		"EFFECTIVE": [
+		"NORMAL": [
 			"NORMAL",
-			"ROCK",
 			"STEEL",
 			"ICE",
-			"DARK"
-		],
-		"NORMAL": [
 			"FIGHTING",
 			"GROUND",
 			"FIRE",
 			"WATER",
 			"GRASS",
 			"ELECTRIC",
-			"DRAGON"
+			"DRAGON",
+			"POISON",
+			"GHOST"
+		],
+		"EFFECTIVE": [
+			"FAIRY",
+			"FLYING",
+			"PSYCHIC"
 		],
 		"NOT_EFFECTIVE": [
-			"FLYING",
-			"POISON",
-			"BUG",
-			"GHOST",
-			"PSYCHIC",
-			"FAIRY"
+			"ROCK",
+			"DARK",
+			"BUG"
 		]
 	},
 	"FLYING": {
@@ -82,27 +84,27 @@
 		"name": "Poison",
 		"NORMAL": [
 			"NORMAL",
-			"FIGHTING",
 			"FLYING",
-			"BUG",
 			"FIRE",
 			"WATER",
 			"ELECTRIC",
-			"PSYCHIC",
 			"ICE",
 			"DRAGON",
-			"DARK"
-		],
-		"NOT_EFFECTIVE": [
-			"POISON",
-			"GROUND",
+			"DARK",
 			"ROCK",
 			"GHOST",
 			"STEEL"
 		],
-		"EFFECTIVE": [
+		"NOT_EFFECTIVE": [
+			"BUG",
 			"GRASS",
+			"FIGHTING",
+			"POISON",
 			"FAIRY"
+		],
+		"EFFECTIVE": [
+			"GROUND",
+			"PSYCHIC"
 		]
 	},
 	"GROUND": {
@@ -112,24 +114,24 @@
 			"FIGHTING",
 			"GROUND",
 			"GHOST",
-			"WATER",
 			"PSYCHIC",
-			"ICE",
 			"DRAGON",
 			"DARK",
-			"FAIRY"
-		],
-		"NOT_EFFECTIVE": [
+			"FAIRY",
 			"FLYING",
 			"BUG",
-			"GRASS"
+			"STEEL",
+			"FIRE"
+		],
+		"NOT_EFFECTIVE": [
+			"ELECTRIC",
+			"ROCK",
+			"POISON"
 		],
 		"EFFECTIVE": [
-			"POISON",
-			"ROCK",
-			"STEEL",
-			"FIRE",
-			"ELECTRIC"
+			"GRASS",
+			"ICE",
+			"WATER"
 		]
 	},
 	"ROCK": {
@@ -247,24 +249,24 @@
 			"FIGHTING",
 			"FLYING",
 			"POISON",
-			"GROUND",
 			"GHOST",
 			"ELECTRIC",
 			"PSYCHIC",
 			"DARK",
-			"FAIRY"
-		],
-		"NOT_EFFECTIVE": [
-			"ROCK",
-			"FIRE",
-			"WATER",
 			"DRAGON"
 		],
-		"EFFECTIVE": [
+		"NOT_EFFECTIVE": [
 			"BUG",
-			"STEEL",
+			"FIRE",
 			"GRASS",
+			"FAIRY",
+			"STEEL",
 			"ICE"
+		],
+		"EFFECTIVE": [
+			"ROCK",
+			"GROUND",
+			"WATER"
 		]
 	},
 	"WATER": {
@@ -276,22 +278,22 @@
 			"POISON",
 			"BUG",
 			"GHOST",
-			"STEEL",
-			"ELECTRIC",
 			"PSYCHIC",
-			"ICE",
 			"DARK",
-			"FAIRY"
-		],
-		"EFFECTIVE": [
+			"FAIRY",
 			"GROUND",
 			"ROCK",
-			"FIRE"
+			"DRAGON"
+		],
+		"EFFECTIVE": [
+			"ELECTRIC",
+			"GRASS"
 		],
 		"NOT_EFFECTIVE": [
-			"WATER",
-			"GRASS",
-			"DRAGON"
+			"FIRE",
+			"ICE",
+			"STEEL",
+			"WATER"
 		]
 	},
 	"GRASS": {
@@ -300,25 +302,25 @@
 			"NORMAL",
 			"FIGHTING",
 			"GHOST",
-			"ELECTRIC",
 			"PSYCHIC",
-			"ICE",
 			"DARK",
-			"FAIRY"
-		],
-		"NOT_EFFECTIVE": [
-			"FLYING",
-			"POISON",
-			"BUG",
 			"STEEL",
-			"FIRE",
-			"GRASS",
+			"FAIRY",
+			"ROCK",
 			"DRAGON"
 		],
-		"EFFECTIVE": [
+		"NOT_EFFECTIVE": [
+			"GRASS",
+			"ELECTRIC",
 			"GROUND",
-			"ROCK",
 			"WATER"
+		],
+		"EFFECTIVE": [
+			"ICE",
+			"BUG",
+			"FIRE",
+			"FLYING",
+			"POISON"
 		]
 	},
 	"ELECTRIC": {
@@ -330,22 +332,22 @@
 			"ROCK",
 			"BUG",
 			"GHOST",
-			"STEEL",
 			"FIRE",
 			"PSYCHIC",
 			"ICE",
 			"DARK",
-			"FAIRY"
-		],
-		"EFFECTIVE": [
-			"FLYING",
+			"FAIRY",
+			"GRASS",
+			"DRAGON",
 			"WATER"
 		],
+		"EFFECTIVE": [
+			"GROUND"
+		],
 		"NOT_EFFECTIVE": [
-			"GROUND",
-			"GRASS",
 			"ELECTRIC",
-			"DRAGON"
+			"FLYING",
+			"STEEL"
 		]
 	},
 	"PSYCHIC": {
@@ -355,24 +357,24 @@
 			"FLYING",
 			"GROUND",
 			"ROCK",
-			"BUG",
-			"GHOST",
 			"FIRE",
 			"WATER",
 			"GRASS",
 			"ELECTRIC",
 			"ICE",
 			"DRAGON",
-			"FAIRY"
+			"FAIRY",
+			"POISON",
+			"STEEL"
 		],
 		"EFFECTIVE": [
-			"FIGHTING",
-			"POISON"
+			"BUG",
+			"DARK",
+			"GHOST"
 		],
 		"NOT_EFFECTIVE": [
-			"STEEL",
-			"PSYCHIC",
-			"DARK"
+			"FIGHTING",
+			"PSYCHIC"
 		]
 	},
 	"ICE": {
@@ -413,20 +415,20 @@
 			"ROCK",
 			"BUG",
 			"GHOST",
-			"FIRE",
-			"WATER",
-			"GRASS",
-			"ELECTRIC",
 			"PSYCHIC",
-			"ICE",
-			"DARK"
+			"DARK",
+			"STEEL"
 		],
 		"NOT_EFFECTIVE": [
-			"STEEL",
-			"FAIRY"
+			"ELECTRIC",
+			"FIRE",
+			"GRASS",
+			"WATER"
 		],
 		"EFFECTIVE": [
-			"DRAGON"
+			"FAIRY",
+			"DRAGON",
+			"ICE"
 		]
 	},
 	"DARK": {
@@ -463,24 +465,24 @@
 			"FLYING",
 			"GROUND",
 			"ROCK",
-			"BUG",
 			"GHOST",
 			"WATER",
 			"GRASS",
 			"ELECTRIC",
 			"PSYCHIC",
 			"ICE",
+			"FIRE",
 			"FAIRY"
 		],
 		"EFFECTIVE": [
-			"FIGHTING",
-			"DRAGON",
-			"DARK"
+			"POISON",
+			"STEEL"
 		],
 		"NOT_EFFECTIVE": [
-			"POISON",
-			"STEEL",
-			"FIRE"
+			"DRAGON",
+			"FIGHTING",
+			"BUG",
+			"DARK"
 		]
 	}
 }
