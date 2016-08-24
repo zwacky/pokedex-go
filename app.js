@@ -43,13 +43,13 @@ app.post('/webhook', (req, res) => {
 
 			// Iterate over each messaging event
 			pageEntry.messaging.forEach((messagingEvent) => {
+				console.log('------', messagingEvent);
 				if (messagingEvent.message) {
 					messagingManager.receivedMessage(messagingEvent);
 				} else if (messagingEvent.postback) {
 					const matchesPayload = ['best against', 'best moves of']
 						.filter(payload => messagingEvent.postback.payload.indexOf(payload) === 0)
 						.length > 0;
-					console.log('=======', messagingEvent);
 					if (messagingEvent.postback.payload && matchesPayload) {
 						messagingManager.receivedMessage(_.assign(messagingEvent, {message: {}}));
 					} else {
