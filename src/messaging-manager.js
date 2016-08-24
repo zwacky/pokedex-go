@@ -19,7 +19,7 @@ function receivedMessage(event) {
 	console.log(JSON.stringify(message));
 
 	const messageId = message.mid;
-	const messageText = message.text || event.postback.payload;
+	const messageText = message.text || message.sticker_id || event.postback.payload;
 	const messageAttachments = message.attachments;
 
 	if (messageText) {
