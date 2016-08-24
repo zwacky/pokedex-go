@@ -49,6 +49,7 @@ app.post('/webhook', (req, res) => {
 					const matchesPayload = ['best against', 'best moves of']
 						.filter(payload => messagingEvent.postback.payload.indexOf(payload) === 0)
 						.length > 0;
+					console.log('=======', messagingEvent);
 					if (messagingEvent.postback.payload && matchesPayload) {
 						messagingManager.receivedMessage(_.assign(messagingEvent, {message: {}}));
 					} else {
