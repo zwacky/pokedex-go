@@ -44,4 +44,26 @@ describe('database manager', () => {
 		}
 	});
 
+	it('should find pokemon in other languages', () => {
+		const searches = [
+			{name: 'Venusaur', translation: 'Bisaflor'},
+			{name: 'Blastoise', translation: 'Turtok'},
+			{name: 'Pidgey', translation: 'Taubsi'},
+			{name: 'Zubat', translation: 'Zubat'},
+			{name: 'Meowth', translation: 'Miaouss'},
+			{name: 'Magnemite', translation: 'Magnéti'},
+			{name: 'Grimer', translation: 'Sleima'},
+			{name: 'Lickitung', translation: 'Excelangue'},
+			{name: 'Farfetch\'d', translation: 'Porenta'},
+		];
+		const promises$ = searches
+			.map(search => databaseManager.findPokemon(search.translation));
+
+		return Promise.all(promises$)
+			.then(results => {
+				searches
+					.forEach((item, index) => assert.equal(item.name, results[index].name));
+			});
+	});
+
 });

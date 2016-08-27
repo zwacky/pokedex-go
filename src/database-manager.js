@@ -18,8 +18,13 @@ const DB = {
 function findPokemon(pokemonName) {
 	return new Promise((resolve, reject) => {
 		let result = null;
-
-		const pokemon = DB.POKEMONS[pokemonName.toUpperCase()];
+		const pokemon = _(DB.POKEMONS)
+			.filter(pkmn => _(pkmn.alternateNames)
+				.filter((entry, key) => entry.toUpperCase() === pokemonName.toUpperCase())
+				.value()
+				.length !== 0
+			)
+			.first();
 
 		if (pokemon) {
 			const types = pokemon.types;
@@ -39,6 +44,7 @@ function findPokemon(pokemonName) {
 
 			resolve(result);
 		} else {
+			console.log('reject', pokemonName);
 			reject();
 		}
 	});
