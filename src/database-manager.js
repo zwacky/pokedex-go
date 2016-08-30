@@ -71,6 +71,7 @@ function findBestOpponents(pokemonName, limit) {
 						return {
 							key,
 							name: attackingPkmn.name,
+							types: attackingPkmn.types,
 							primaryDps: getSingleDPS(dps.primary),
 							secondaryDps: getSingleDPS(dps.secondary),
 							totalDps: getSingleDPS(dps.primary) + getSingleDPS(dps.secondary),

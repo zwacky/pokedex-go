@@ -32,7 +32,7 @@ function receivedMessage(event) {
 			sendTextMessage(senderId, `Help is not implemented yet.`);
 		} else if (messageText.toUpperCase().indexOf('BEST AGAINST') === 0) {
 			const targetPkmn = messageText.toUpperCase().substr(BEST_AGAINST.length + 1);
-			databaseManager.findBestOpponents(targetPkmn, 5)
+			databaseManager.findBestOpponents(targetPkmn, 30)
 				.then(opponents => sendBestOpponents(senderId, opponents))
 				.catch(err => {
 					sendTextMessage(senderId, `Error occurred. Inform an admin - will get some fixin' soon! 😞`);
@@ -158,13 +158,34 @@ function sendPokemonDetail(recipientId, pokemon) {
 }
 
 function sendBestOpponents(recipientId, opponents) {
-	const messages = opponents.map((opponent, index) => {
+	const entries = [];
+	const groups = opponents.reduce((obj, item) => {
+		// we only take the first type of any pokemon for grouping
+		obj[item.types[0]] = (_.isArray(obj[item.types[0]])) ?
+			obj[item.types[0]] :
+			[];
+		obj[item.types[0]].push(item);
+		return obj;
+	}, []);
+
+	Object.keys(groups)
+		.slice(0, 5)
+		.forEach((group, groupIndex) => {
+			const entry = groups[group]
+				.slice(0, 3)
+				.map((pkmn, index) => `${pkmn.name} (DPS: ${pkmn.totalDps.toFixed(2)})`)
+				.join(' · ');
+			entries.push(`#${groupIndex+1}: ${group}`);
+			entries.push(entry);
+		});
+
+	const messages = entries.map(entry => {
 		return {
 			recipient: {
 				id: recipientId
 			},
 			message: {
-				text: `#${index+1}: ${opponent.name} (DPS: ${opponent.totalDps.toFixed(2)})`
+				text: entry
 			}
 		};
 	});
