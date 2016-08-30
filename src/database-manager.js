@@ -134,30 +134,26 @@ function findDpsMoves(pokemonName) {
 
 function calculateDPS(defendingPkmn, attackingPkmn, moveName) {
 	const move = DB.MOVES[moveName];
-	const isEffective = hasEffectiveness(move.TYPE, _.toUpper(defendingPkmn.types), 'EFFECTIVE');
-	const isNotEffective = hasEffectiveness(move.TYPE, _.toUpper(defendingPkmn.types), 'NOT_EFFECTIVE');
+	const effectivenessTimes = {
+		pro: hasEffectiveness(move.TYPE, _.toUpper(defendingPkmn.types), 'EFFECTIVE'),
+		contra: hasEffectiveness(move.TYPE, _.toUpper(defendingPkmn.types), 'NOT_EFFECTIVE'),
+	};
 
 	let dps = parseFloat(move.DPS);
 
 	// checking for STAB bonus
-	if (attackingPkmn.types.indexOf(move.TYPE) !== -1) {
-		dps *= 1.25;
-	}
-	// checking for very effective bonus
-	if (isEffective) {
-		dps *= 1.25;
-	}
-	// checking for not very effective bonus
-	if (isNotEffective) {
-		dps *= 0.8;
-	}
+	dps *= Math.pow(1.25, (attackingPkmn.types.indexOf(move.TYPE) !== -1) ? 1 : 0);
+
+	// checking for effective bonuses
+	dps *= Math.pow(1.25, effectivenessTimes.pro);
+	dps *= Math.pow(0.8, effectivenessTimes.contra);
 
 	return dps;
 
 	function hasEffectiveness(moveType, defendingTypes, effectiveType) {
 		return (DB.TYPES[moveType][effectiveType] || [])
 			.filter(type => defendingTypes.indexOf(type) !== -1)
-			.length > 0;
+			.length;
 	}
 }
 
