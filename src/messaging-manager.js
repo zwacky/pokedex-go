@@ -169,12 +169,12 @@ function sendBestOpponents(recipientId, opponents) {
 	}, []);
 
 	Object.keys(groups)
-		.slice(0, 5)
+		.slice(0, 3)
 		.forEach((group, groupIndex) => {
 			const entry = groups[group]
 				.slice(0, 3)
 				.map((pkmn, index) => `${pkmn.name} (DPS: ${pkmn.totalDps.toFixed(2)})`)
-				.join(' · ');
+				.join('\n');
 			entries.push(`#${groupIndex+1}: ${group}`);
 			entries.push(entry);
 		});
