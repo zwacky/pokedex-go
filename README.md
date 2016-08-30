@@ -21,8 +21,10 @@ Pokemon data is based on http://pokemongo.gamepress.gg.
 - [x] tell Pokémon with best moves (primary & secondary)
 - [x] suggest best Pokémon to counter
 - [x] multi language Pokémon names
+- [ ] return Pokémon names in 'best against x' in the language they have been requested in
 - [ ] correct type DPS calculation with the double effectiveness for double type pokemon (up to 1.56x damage modifier)
 - [ ] fuzzy search for Pokémon à la "did you mean x?"
+- [ ] translate moves in different languages
 
 # Contribution
 
