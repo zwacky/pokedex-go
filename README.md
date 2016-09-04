@@ -20,8 +20,8 @@ Pokemon data is based on http://pokemongo.gamepress.gg.
 - [x] update type effectiveness to use latest data
 - [x] tell Pokémon with best moves (primary & secondary)
 - [x] suggest best Pokémon to counter
+- [x] multi language Pokémon names
 - [ ] correct type DPS calculation with the double effectiveness for double type pokemon (up to 1.56x damage modifier)
-- [ ] multi language Pokémon names
 - [ ] fuzzy search for Pokémon à la "did you mean x?"
 
 # Contribution
