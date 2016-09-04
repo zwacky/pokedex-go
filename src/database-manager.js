@@ -58,6 +58,7 @@ function findPokemon(pokemonName) {
  * @return array
  */
 function findBestOpponents(pokemonName, limit) {
+	let language = null;
 	return new Promise((resolve, reject) => {
 		findPokemon(pokemonName)
 			.then(defendingPkmn => {
@@ -68,9 +69,15 @@ function findBestOpponents(pokemonName, limit) {
 							secondary: calculateStepDPS(attackingPkmn, defendingPkmn, 'secondary'),
 						};
 
+						// decide the language of the requested pokemon name
+						language = language === null ?
+							determineLanguage(pokemonName, defendingPkmn.alternateNames) :
+							language;
+
 						return {
 							key,
-							name: attackingPkmn.name,
+							name: attackingPkmn.alternateNames[language] || attackingPkmn.name,
+							alternateNames: attackingPkmn.alternateNames,
 							types: attackingPkmn.types,
 							primaryDps: getSingleDPS(dps.primary),
 							secondaryDps: getSingleDPS(dps.secondary),
@@ -109,6 +116,7 @@ function findDpsMoves(pokemonName) {
 	return new Promise((resolve, reject) => {
 		findPokemon(pokemonName)
 			.then(pkmn => {
+				const language = determineLanguage(pokemonName, pkmn.alternateNames);
 				const pkmnDps = ['primary', 'secondary']
 					.reduce((obj, moveType) => {
 						obj[moveType] = pkmn.moves[moveType]
@@ -120,6 +128,7 @@ function findDpsMoves(pokemonName) {
 									dps * 1.25 :
 									dps;
 								entry.type = DB.TYPES[entry.TYPE].name;
+								entry.name = entry.alternateNames[language];
 								return entry;
 							});
 						return obj;
@@ -165,6 +174,16 @@ function getModifierTypes(pokemon, modifier) {
 		.uniq()
 		.value()
 		.map(mod => (DB.TYPES[mod]) ? DB.TYPES[mod].name : []);
+}
+
+function determineLanguage(pokemonName, alternateNames) {
+	return _(alternateNames)
+		.map((item, key) => {
+			return { lang: key, name: item };
+		})
+		.filter(item => item.name === pokemonName)
+		.map(item => item.lang)
+		.first();
 }
 
 module.exports = {
