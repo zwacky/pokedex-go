@@ -181,7 +181,7 @@ function determineLanguage(pokemonName, alternateNames) {
 		.map((item, key) => {
 			return { lang: key, name: item };
 		})
-		.filter(item => item.name === pokemonName)
+		.filter(item => item.name.toUpperCase() === pokemonName.toUpperCase())
 		.map(item => item.lang)
 		.first();
 }
