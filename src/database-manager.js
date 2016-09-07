@@ -8,6 +8,11 @@ const DB = {
 	TYPES: require('../db/types.json'),
 	MOVES: require('../db/moves.json'),
 };
+const LANGUAGE_SORTING = {
+	en: 4,
+	de: 3,
+	es: 2,
+};
 
 /**
  * finds one pokemon based of technical_name.
@@ -27,6 +32,7 @@ function findPokemon(pokemonName) {
 			.first();
 
 		if (pokemon) {
+			const language = determineLanguage(pokemonName, pokemon.alternateNames);
 			const types = pokemon.types;
 			const MODIFIERS = ['NORMAL', 'EFFECTIVE', 'NOT_EFFECTIVE'];
 
@@ -41,6 +47,7 @@ function findPokemon(pokemonName) {
 				obj[item] = getModifierTypes(pokemon, item);
 				return obj;
 			}, {});
+			result.name = pokemon.alternateNames[language];
 
 			resolve(result);
 		} else {
@@ -183,6 +190,7 @@ function determineLanguage(pokemonName, alternateNames) {
 		})
 		.filter(item => item.name.toUpperCase() === pokemonName.toUpperCase())
 		.map(item => item.lang)
+		.sortBy(item => (item.lang in LANGUAGE_SORTING) ? LANGUAGE_SORTING[item.lang] : 1)
 		.first();
 }
 
