@@ -91,7 +91,7 @@ function sendPokemonDetail(recipientId, pokemon) {
 				attachment: {
 					type: 'image',
 					payload: {
-						url: `${BASE_URL}/pokemon/${pokemon.alternativeNames.en.toUpperCase()}.png`,
+						url: `${BASE_URL}/pokemon/${pokemon.alternateNames.en.toUpperCase()}.png`,
 					}
 				}
 			}
