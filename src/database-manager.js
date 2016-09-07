@@ -9,9 +9,9 @@ const DB = {
 	MOVES: require('../db/moves.json'),
 };
 const LANGUAGE_SORTING = {
-	en: 4,
-	de: 3,
-	es: 2,
+	en: 1,
+	de: 2,
+	es: 3,
 };
 
 /**
@@ -124,6 +124,7 @@ function findDpsMoves(pokemonName) {
 		findPokemon(pokemonName)
 			.then(pkmn => {
 				const language = determineLanguage(pokemonName, pkmn.alternateNames);
+				console.log('===', language);
 				const pkmnDps = ['primary', 'secondary']
 					.reduce((obj, moveType) => {
 						obj[moveType] = pkmn.moves[moveType]
@@ -190,7 +191,7 @@ function determineLanguage(pokemonName, alternateNames) {
 		})
 		.filter(item => item.name.toUpperCase() === pokemonName.toUpperCase())
 		.map(item => item.lang)
-		.sortBy(item => (item.lang in LANGUAGE_SORTING) ? LANGUAGE_SORTING[item.lang] : 1)
+		.sortBy(lang => (lang in LANGUAGE_SORTING) ? LANGUAGE_SORTING[lang] : 5)
 		.first();
 }
 
