@@ -124,7 +124,6 @@ function findDpsMoves(pokemonName) {
 		findPokemon(pokemonName)
 			.then(pkmn => {
 				const language = determineLanguage(pokemonName, pkmn.alternateNames);
-				console.log('===', language);
 				const pkmnDps = ['primary', 'secondary']
 					.reduce((obj, moveType) => {
 						obj[moveType] = pkmn.moves[moveType]
