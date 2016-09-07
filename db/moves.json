@@ -1090,7 +1090,14 @@
     "TYPE": "GROUND",
     "ATK": 15,
     "COOLDOWN": "1.35",
-    "DPS": "11.11"
+    "DPS": "11.11",
+	"alternateNames": {
+	  "en": "Mud-Slap",
+	  "fr": "Coud'Boue",
+	  "de": "Lehmschelle",
+	  "it": "Fangosberla",
+	  "es": "Bofetón Lodo"
+	}
   },
   "NIGHT SLASH": {
     "name": "Night Slash",
