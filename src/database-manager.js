@@ -8,6 +8,11 @@ const DB = {
 	TYPES: require('../db/types.json'),
 	MOVES: require('../db/moves.json'),
 };
+const LANGUAGE_SORTING = {
+	en: 1,
+	de: 2,
+	es: 3,
+};
 
 /**
  * finds one pokemon based of technical_name.
@@ -27,6 +32,7 @@ function findPokemon(pokemonName) {
 			.first();
 
 		if (pokemon) {
+			const language = determineLanguage(pokemonName, pokemon.alternateNames);
 			const types = pokemon.types;
 			const MODIFIERS = ['NORMAL', 'EFFECTIVE', 'NOT_EFFECTIVE'];
 
@@ -41,6 +47,7 @@ function findPokemon(pokemonName) {
 				obj[item] = getModifierTypes(pokemon, item);
 				return obj;
 			}, {});
+			result.name = pokemon.alternateNames[language];
 
 			resolve(result);
 		} else {
@@ -58,6 +65,7 @@ function findPokemon(pokemonName) {
  * @return array
  */
 function findBestOpponents(pokemonName, limit) {
+	let language = null;
 	return new Promise((resolve, reject) => {
 		findPokemon(pokemonName)
 			.then(defendingPkmn => {
@@ -68,9 +76,16 @@ function findBestOpponents(pokemonName, limit) {
 							secondary: calculateStepDPS(attackingPkmn, defendingPkmn, 'secondary'),
 						};
 
+						// decide the language of the requested pokemon name
+						language = language === null ?
+							determineLanguage(pokemonName, defendingPkmn.alternateNames) :
+							language;
+
 						return {
 							key,
-							name: attackingPkmn.name,
+							name: attackingPkmn.alternateNames[language] || attackingPkmn.name,
+							alternateNames: attackingPkmn.alternateNames,
+							types: attackingPkmn.types,
 							primaryDps: getSingleDPS(dps.primary),
 							secondaryDps: getSingleDPS(dps.secondary),
 							totalDps: getSingleDPS(dps.primary) + getSingleDPS(dps.secondary),
@@ -108,6 +123,7 @@ function findDpsMoves(pokemonName) {
 	return new Promise((resolve, reject) => {
 		findPokemon(pokemonName)
 			.then(pkmn => {
+				const language = determineLanguage(pokemonName, pkmn.alternateNames);
 				const pkmnDps = ['primary', 'secondary']
 					.reduce((obj, moveType) => {
 						obj[moveType] = pkmn.moves[moveType]
@@ -119,6 +135,7 @@ function findDpsMoves(pokemonName) {
 									dps * 1.25 :
 									dps;
 								entry.type = DB.TYPES[entry.TYPE].name;
+								entry.name = entry.alternateNames[language];
 								return entry;
 							});
 						return obj;
@@ -134,30 +151,26 @@ function findDpsMoves(pokemonName) {
 
 function calculateDPS(defendingPkmn, attackingPkmn, moveName) {
 	const move = DB.MOVES[moveName];
-	const isEffective = hasEffectiveness(move.TYPE, _.toUpper(defendingPkmn.types), 'EFFECTIVE');
-	const isNotEffective = hasEffectiveness(move.TYPE, _.toUpper(defendingPkmn.types), 'NOT_EFFECTIVE');
+	const effectivenessTimes = {
+		pro: hasEffectiveness(move.TYPE, _.toUpper(defendingPkmn.types), 'EFFECTIVE'),
+		contra: hasEffectiveness(move.TYPE, _.toUpper(defendingPkmn.types), 'NOT_EFFECTIVE'),
+	};
 
 	let dps = parseFloat(move.DPS);
 
 	// checking for STAB bonus
-	if (attackingPkmn.types.indexOf(move.TYPE) !== -1) {
-		dps *= 1.25;
-	}
-	// checking for very effective bonus
-	if (isEffective) {
-		dps *= 1.25;
-	}
-	// checking for not very effective bonus
-	if (isNotEffective) {
-		dps *= 0.8;
-	}
+	dps *= Math.pow(1.25, (attackingPkmn.types.indexOf(move.TYPE) !== -1) ? 1 : 0);
+
+	// checking for effective bonuses
+	dps *= Math.pow(1.25, effectivenessTimes.pro);
+	dps *= Math.pow(0.8, effectivenessTimes.contra);
 
 	return dps;
 
 	function hasEffectiveness(moveType, defendingTypes, effectiveType) {
 		return (DB.TYPES[moveType][effectiveType] || [])
 			.filter(type => defendingTypes.indexOf(type) !== -1)
-			.length > 0;
+			.length;
 	}
 }
 
@@ -168,6 +181,17 @@ function getModifierTypes(pokemon, modifier) {
 		.uniq()
 		.value()
 		.map(mod => (DB.TYPES[mod]) ? DB.TYPES[mod].name : []);
+}
+
+function determineLanguage(pokemonName, alternateNames) {
+	return _(alternateNames)
+		.map((item, key) => {
+			return { lang: key, name: item };
+		})
+		.filter(item => item.name.toUpperCase() === pokemonName.toUpperCase())
+		.map(item => item.lang)
+		.sortBy(lang => (lang in LANGUAGE_SORTING) ? LANGUAGE_SORTING[lang] : 5)
+		.first();
 }
 
 module.exports = {

@@ -62,7 +62,7 @@ describe('database manager', () => {
 		return Promise.all(promises$)
 			.then(results => {
 				searches
-					.forEach((item, index) => assert.equal(item.name, results[index].name));
+					.forEach((item, index) => assert.equal(item.translation, results[index].name));
 			});
 	});
 
