@@ -48,8 +48,11 @@ function receivedMessage(event) {
 			databaseManager.findPokemon(messageText.toUpperCase())
 				.then((pokemon) => sendPokemonDetail(senderId, pokemon))
 				.catch(err => {
-					// no pokemon found with that name
-					sendTextMessage(senderId, `Didn't find anything about ${messageText}. 😞`);
+					databaseManager.findSimilarPokemons(messageText.toUpperCase())
+						// check if there is similar pokemon with that name
+						.then(matches => sendSimilarPokemonNames(senderId, 'Did you mean one of these Pokémon?', matches))
+						// no pokemon found with that name
+						.catch(() => sendTextMessage(senderId, `Didn't find anything about ${messageText}. 😞`));
 				});
 		}
 	}
@@ -73,6 +76,33 @@ function sendTextMessage(recipientId, messageText) {
 	};
 
 	return graphApi.callSendAPI(messageData);
+}
+
+/**
+ * sends a suggestion of similar sounding pokemon names to select.
+ *
+ * @param string recipientId
+ * @param string messageText
+ * @param Array<string> similarPokemonNames
+ * @return Promise
+ */
+function sendSimilarPokemonNames(recipientId, messageText, similarPokemonNames) {
+	const callToAction = {
+		recipient: {
+			id: recipientId
+		},
+		message: {
+			text: messageText,
+			quick_replies: similarPokemonNames
+				.map((pkmnName, index) => ({
+					content_type: 'text',
+					title: pkmnName,
+					payload: index,
+				}))
+		}
+	};
+
+	graphApi.callSendAPI(callToAction);
 }
 
 /**

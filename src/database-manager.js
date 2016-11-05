@@ -1,6 +1,7 @@
 'use strict';
 
 const _ = require('lodash');
+const similar = require('string-similarity');
 
 const DB = {
 	POKEMONS: require('../db/pokemons.json'),
@@ -149,6 +150,27 @@ function findDpsMoves(pokemonName) {
 	});
 }
 
+/**
+ * finds on lehvenstein algorithm the similarity of
+ *
+ * @param string inputName
+ * @return Array<Pokemon>
+ */
+function findSimilarPokemons(inputName) {
+	const SIMILARITY = 0.5;
+	return new Promise((resolve, reject) => {
+		const matches = _(DB.POKEMONS)
+			.map(pkmn => pkmn.alternateNames.en)
+			.flatten()
+			.uniqBy()
+			.filter(pkmnName => similar.compareTwoStrings(inputName.toUpperCase(), pkmnName.toUpperCase()) > SIMILARITY)
+			.value();
+		return (matches.length > 0) ?
+			resolve(matches) :
+			reject();
+	});
+}
+
 function calculateDPS(defendingPkmn, attackingPkmn, moveName) {
 	const move = DB.MOVES[moveName];
 	const effectivenessTimes = {
@@ -198,4 +220,5 @@ module.exports = {
 	findPokemon,
 	findBestOpponents,
 	findDpsMoves,
+	findSimilarPokemons,
 };
