@@ -4,8 +4,8 @@
     "type": "CHARGE_MOVE",
     "TYPE": "POISON",
     "ATK": 10,
-    "COOLDOWN": "1.05",
-    "DPS": "9.52",
+    "COOLDOWN": "1.30",
+    "DPS": "7.69",
     "alternateNames": {
       "en": "Acid",
       "fr": "Acide",
@@ -17,11 +17,11 @@
   "AERIAL ACE": {
     "name": "Aerial Ace",
     "type": "CHARGE_MOVE",
-    "ENERGY": 4,
+    "ENERGY": 3,
     "TYPE": "FLYING",
-    "ATK": 30,
-    "COOLDOWN": "2.90",
-    "DPS": "10.34",
+    "ATK": 55,
+    "COOLDOWN": "2.40",
+    "DPS": "22.92",
     "alternateNames": {
       "en": "Aerial Ace",
       "fr": "Aéropique",
@@ -33,11 +33,11 @@
   "AIR CUTTER": {
     "name": "Air Cutter",
     "type": "CHARGE_MOVE",
-    "ENERGY": 4,
+    "ENERGY": 2,
     "TYPE": "FLYING",
-    "ATK": 30,
-    "COOLDOWN": "3.30",
-    "DPS": "9.09",
+    "ATK": 60,
+    "COOLDOWN": "2.70",
+    "DPS": "22.22",
     "alternateNames": {
       "en": "Air Cutter",
       "fr": "Tranch'Air",
@@ -46,14 +46,22 @@
       "es": "Aire Afilado"
     }
   },
+  "AIR SLASH": {
+    "name": "Air Slash",
+    "type": "CHARGE_MOVE",
+    "TYPE": "FLYING",
+    "ATK": 12,
+    "COOLDOWN": "1.20",
+    "DPS": "10.00"
+  },
   "ANCIENT POWER": {
     "name": "Ancient Power",
     "type": "CHARGE_MOVE",
-    "ENERGY": 4,
+    "ENERGY": 3,
     "TYPE": "ROCK",
-    "ATK": 35,
-    "COOLDOWN": "3.60",
-    "DPS": "9.72",
+    "ATK": 70,
+    "COOLDOWN": "3.50",
+    "DPS": "20.00",
     "alternateNames": {
       "en": "Ancient Power",
       "fr": "Pouvoir Antique",
@@ -65,11 +73,11 @@
   "AQUA JET": {
     "name": "Aqua Jet",
     "type": "CHARGE_MOVE",
-    "ENERGY": 5,
+    "ENERGY": 3,
     "TYPE": "WATER",
-    "ATK": 25,
-    "COOLDOWN": "2.35",
-    "DPS": "10.64",
+    "ATK": 45,
+    "COOLDOWN": "2.60",
+    "DPS": "17.31",
     "alternateNames": {
       "en": "Aqua Jet",
       "fr": "Aqua-Jet",
@@ -81,11 +89,11 @@
   "AQUA TAIL": {
     "name": "Aqua Tail",
     "type": "CHARGE_MOVE",
-    "ENERGY": 2,
+    "ENERGY": 3,
     "TYPE": "WATER",
-    "ATK": 45,
-    "COOLDOWN": "2.35",
-    "DPS": "19.15",
+    "ATK": 50,
+    "COOLDOWN": "1.90",
+    "DPS": "26.32",
     "alternateNames": {
       "en": "Aqua Tail",
       "fr": "Hydroqueue",
@@ -94,13 +102,39 @@
       "es": "Acua Cola"
     }
   },
+  "ASTONISH": {
+    "name": "Astonish",
+    "type": "CHARGE_MOVE",
+    "TYPE": "GHOST",
+    "ATK": 8,
+    "COOLDOWN": "1.05",
+    "DPS": "7.62"
+  },
+  "AURORA BEAM": {
+    "name": "Aurora Beam",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 2,
+    "TYPE": "ICE",
+    "ATK": 80,
+    "COOLDOWN": "3.55",
+    "DPS": "22.54"
+  },
+  "AVALANCHE": {
+    "name": "Avalanche",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 2,
+    "TYPE": "ICE",
+    "ATK": 90,
+    "COOLDOWN": "2.70",
+    "DPS": "33.33"
+  },
   "BITE": {
     "name": "Bite",
     "type": "CHARGE_MOVE",
     "TYPE": "DARK",
-    "ATK": 6,
-    "COOLDOWN": "0.50",
-    "DPS": "12.00",
+    "ATK": 10,
+    "COOLDOWN": "1.00",
+    "DPS": "10.00",
     "alternateNames": {
       "en": "Bite",
       "fr": "Morsure",
@@ -114,9 +148,9 @@
     "type": "CHARGE_MOVE",
     "ENERGY": 1,
     "TYPE": "ICE",
-    "ATK": 100,
-    "COOLDOWN": "3.90",
-    "DPS": "25.64",
+    "ATK": 130,
+    "COOLDOWN": "3.10",
+    "DPS": "41.94",
     "alternateNames": {
       "en": "Blizzard",
       "fr": "Blizzard",
@@ -128,11 +162,11 @@
   "BODY SLAM": {
     "name": "Body Slam",
     "type": "CHARGE_MOVE",
-    "ENERGY": 2,
+    "ENERGY": 3,
     "TYPE": "NORMAL",
-    "ATK": 40,
-    "COOLDOWN": "1.56",
-    "DPS": "25.64",
+    "ATK": 50,
+    "COOLDOWN": "1.90",
+    "DPS": "26.32",
     "alternateNames": {
       "en": "Body Slam",
       "fr": "Plaquage",
@@ -144,11 +178,11 @@
   "BONE CLUB": {
     "name": "Bone Club",
     "type": "CHARGE_MOVE",
-    "ENERGY": 4,
+    "ENERGY": 3,
     "TYPE": "GROUND",
-    "ATK": 25,
+    "ATK": 40,
     "COOLDOWN": "1.60",
-    "DPS": "15.63",
+    "DPS": "25.00",
     "alternateNames": {
       "en": "Bone Club",
       "fr": "Massd'Os",
@@ -157,14 +191,23 @@
       "es": "Hueso Palo"
     }
   },
+  "BRAVE BIRD": {
+    "name": "Brave Bird",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 1,
+    "TYPE": "FLYING",
+    "ATK": 90,
+    "COOLDOWN": "2.00",
+    "DPS": "45.00"
+  },
   "BRICK BREAK": {
     "name": "Brick Break",
     "type": "CHARGE_MOVE",
     "ENERGY": 3,
     "TYPE": "FIGHTING",
-    "ATK": 30,
+    "ATK": 40,
     "COOLDOWN": "1.60",
-    "DPS": "18.75",
+    "DPS": "25.00",
     "alternateNames": {
       "en": "Brick Break",
       "fr": "Casse-Brique",
@@ -176,11 +219,11 @@
   "BRINE": {
     "name": "Brine",
     "type": "CHARGE_MOVE",
-    "ENERGY": 4,
+    "ENERGY": 2,
     "TYPE": "WATER",
-    "ATK": 25,
-    "COOLDOWN": "2.40",
-    "DPS": "10.42",
+    "ATK": 60,
+    "COOLDOWN": "2.30",
+    "DPS": "26.09",
     "alternateNames": {
       "en": "Brine",
       "fr": "Saumure",
@@ -193,9 +236,9 @@
     "name": "Bubble",
     "type": "CHARGE_MOVE",
     "TYPE": "WATER",
-    "ATK": 25,
-    "COOLDOWN": "2.30",
-    "DPS": "10.87",
+    "ATK": 15,
+    "COOLDOWN": "1.70",
+    "DPS": "8.82",
     "alternateNames": {
       "en": "Bubble",
       "fr": "Écume",
@@ -207,11 +250,11 @@
   "BUBBLE BEAM": {
     "name": "Bubble Beam",
     "type": "CHARGE_MOVE",
-    "ENERGY": 4,
+    "ENERGY": 3,
     "TYPE": "WATER",
-    "ATK": 30,
-    "COOLDOWN": "2.90",
-    "DPS": "10.34",
+    "ATK": 45,
+    "COOLDOWN": "1.90",
+    "DPS": "23.68",
     "alternateNames": {
       "en": "Bubble Beam",
       "fr": "Bulles d’O",
@@ -225,8 +268,8 @@
     "type": "CHARGE_MOVE",
     "TYPE": "BUG",
     "ATK": 5,
-    "COOLDOWN": "0.45",
-    "DPS": "11.11",
+    "COOLDOWN": "0.95",
+    "DPS": "5.26",
     "alternateNames": {
       "en": "Bug Bite",
       "fr": "Piqûre",
@@ -240,9 +283,9 @@
     "type": "CHARGE_MOVE",
     "ENERGY": 2,
     "TYPE": "BUG",
-    "ATK": 75,
-    "COOLDOWN": "4.25",
-    "DPS": "17.65",
+    "ATK": 90,
+    "COOLDOWN": "3.70",
+    "DPS": "24.32",
     "alternateNames": {
       "en": "Bug Buzz",
       "fr": "Bourdon",
@@ -254,11 +297,11 @@
   "BULLDOZE": {
     "name": "Bulldoze",
     "type": "CHARGE_MOVE",
-    "ENERGY": 4,
+    "ENERGY": 2,
     "TYPE": "GROUND",
-    "ATK": 35,
-    "COOLDOWN": "3.40",
-    "DPS": "10.29",
+    "ATK": 80,
+    "COOLDOWN": "3.50",
+    "DPS": "22.86",
     "alternateNames": {
       "en": "Bulldoze",
       "fr": "Piétisol",
@@ -271,9 +314,9 @@
     "name": "Bullet Punch",
     "type": "CHARGE_MOVE",
     "TYPE": "STEEL",
-    "ATK": 10,
-    "COOLDOWN": "1.20",
-    "DPS": "8.33",
+    "ATK": 12,
+    "COOLDOWN": "1.40",
+    "DPS": "8.57",
     "alternateNames": {
       "en": "Bullet Punch",
       "fr": "Pisto-Poing",
@@ -282,13 +325,38 @@
       "es": "Puño Bala"
     }
   },
+  "BULLET SEED": {
+    "name": "Bullet Seed",
+    "type": "CHARGE_MOVE",
+    "TYPE": "GRASS",
+    "ATK": 8,
+    "COOLDOWN": "1.55",
+    "DPS": "5.16"
+  },
+  "CHARGE BEAM": {
+    "name": "Charge Beam",
+    "type": "CHARGE_MOVE",
+    "TYPE": "ELECTRIC",
+    "ATK": 8,
+    "COOLDOWN": "1.55",
+    "DPS": "5.16"
+  },
+  "CLOSE COMBAT": {
+    "name": "Close Combat",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 1,
+    "TYPE": "FIGHTING",
+    "ATK": 100,
+    "COOLDOWN": "2.30",
+    "DPS": "43.48"
+  },
   "CONFUSION": {
     "name": "Confusion",
     "type": "CHARGE_MOVE",
     "TYPE": "PSYCHIC",
-    "ATK": 15,
-    "COOLDOWN": "1.51",
-    "DPS": "9.93",
+    "ATK": 20,
+    "COOLDOWN": "2.10",
+    "DPS": "9.52",
     "alternateNames": {
       "en": "Confusion",
       "fr": "Choc Mental",
@@ -297,14 +365,22 @@
       "es": "Confusión"
     }
   },
+  "COUNTER": {
+    "name": "Counter",
+    "type": "CHARGE_MOVE",
+    "TYPE": "FIGHTING",
+    "ATK": 10,
+    "COOLDOWN": "0.90",
+    "DPS": "11.11"
+  },
   "CROSS CHOP": {
     "name": "Cross Chop",
     "type": "CHARGE_MOVE",
-    "ENERGY": 1,
+    "ENERGY": 2,
     "TYPE": "FIGHTING",
-    "ATK": 60,
-    "COOLDOWN": "2.00",
-    "DPS": "30.00",
+    "ATK": 50,
+    "COOLDOWN": "1.50",
+    "DPS": "33.33",
     "alternateNames": {
       "en": "Cross Chop",
       "fr": "Coup-Croix",
@@ -316,11 +392,11 @@
   "CROSS POISON": {
     "name": "Cross Poison",
     "type": "CHARGE_MOVE",
-    "ENERGY": 4,
+    "ENERGY": 3,
     "TYPE": "POISON",
-    "ATK": 25,
+    "ATK": 40,
     "COOLDOWN": "1.50",
-    "DPS": "16.67",
+    "DPS": "26.67",
     "alternateNames": {
       "en": "Cross Poison",
       "fr": "Poison-Croix",
@@ -329,13 +405,22 @@
       "es": "Veneno X"
     }
   },
+  "CRUNCH": {
+    "name": "Crunch",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 3,
+    "TYPE": "DARK",
+    "ATK": 70,
+    "COOLDOWN": "3.20",
+    "DPS": "21.88"
+  },
   "CUT": {
     "name": "Cut",
     "type": "CHARGE_MOVE",
     "TYPE": "NORMAL",
-    "ATK": 12,
-    "COOLDOWN": "1.13",
-    "DPS": "10.62",
+    "ATK": 10,
+    "COOLDOWN": "1.00",
+    "DPS": "10.00",
     "alternateNames": {
       "en": "Cut",
       "fr": "Coupe",
@@ -347,11 +432,11 @@
   "DARK PULSE": {
     "name": "Dark Pulse",
     "type": "CHARGE_MOVE",
-    "ENERGY": 3,
+    "ENERGY": 2,
     "TYPE": "DARK",
-    "ATK": 45,
-    "COOLDOWN": "3.50",
-    "DPS": "12.86",
+    "ATK": 80,
+    "COOLDOWN": "3.00",
+    "DPS": "26.67",
     "alternateNames": {
       "en": "Dark Pulse",
       "fr": "Vibrobscur",
@@ -363,11 +448,11 @@
   "DAZZLING GLEAM": {
     "name": "Dazzling Gleam",
     "type": "CHARGE_MOVE",
-    "ENERGY": 3,
+    "ENERGY": 2,
     "TYPE": "FAIRY",
-    "ATK": 55,
-    "COOLDOWN": "4.20",
-    "DPS": "13.10",
+    "ATK": 100,
+    "COOLDOWN": "3.50",
+    "DPS": "28.57",
     "alternateNames": {
       "en": "Dazzling Gleam",
       "fr": "Éclat Magique",
@@ -379,11 +464,11 @@
   "DIG": {
     "name": "Dig",
     "type": "CHARGE_MOVE",
-    "ENERGY": 3,
+    "ENERGY": 2,
     "TYPE": "GROUND",
-    "ATK": 70,
-    "COOLDOWN": "5.80",
-    "DPS": "12.07",
+    "ATK": 100,
+    "COOLDOWN": "4.70",
+    "DPS": "21.28",
     "alternateNames": {
       "en": "Dig",
       "fr": "Tunnel",
@@ -395,11 +480,11 @@
   "DISARMING VOICE": {
     "name": "Disarming Voice",
     "type": "CHARGE_MOVE",
-    "ENERGY": 5,
+    "ENERGY": 3,
     "TYPE": "FAIRY",
-    "ATK": 25,
+    "ATK": 70,
     "COOLDOWN": "3.90",
-    "DPS": "6.41",
+    "DPS": "17.95",
     "alternateNames": {
       "en": "Disarming Voice",
       "fr": "Voix Enjôleuse",
@@ -413,9 +498,9 @@
     "type": "CHARGE_MOVE",
     "ENERGY": 3,
     "TYPE": "ELECTRIC",
-    "ATK": 35,
+    "ATK": 65,
     "COOLDOWN": "2.50",
-    "DPS": "14.00",
+    "DPS": "26.00",
     "alternateNames": {
       "en": "Discharge",
       "fr": "Coup d'Jus",
@@ -428,8 +513,8 @@
     "name": "Dragon Breath",
     "type": "CHARGE_MOVE",
     "TYPE": "DRAGON",
-    "ATK": 6,
-    "COOLDOWN": "0.50",
+    "ATK": 12,
+    "COOLDOWN": "1.00",
     "DPS": "12.00",
     "alternateNames": {
       "en": "Dragon Breath",
@@ -442,11 +527,11 @@
   "DRAGON CLAW": {
     "name": "Dragon Claw",
     "type": "CHARGE_MOVE",
-    "ENERGY": 2,
+    "ENERGY": 3,
     "TYPE": "DRAGON",
-    "ATK": 35,
-    "COOLDOWN": "1.60",
-    "DPS": "21.88",
+    "ATK": 50,
+    "COOLDOWN": "1.70",
+    "DPS": "29.41",
     "alternateNames": {
       "en": "Dragon Claw",
       "fr": "Dracogriffe",
@@ -460,9 +545,9 @@
     "type": "CHARGE_MOVE",
     "ENERGY": 2,
     "TYPE": "DRAGON",
-    "ATK": 65,
+    "ATK": 90,
     "COOLDOWN": "3.60",
-    "DPS": "18.06",
+    "DPS": "25.00",
     "alternateNames": {
       "en": "Dragon Pulse",
       "fr": "Dracochoc",
@@ -471,14 +556,22 @@
       "es": "Pulso Dragón"
     }
   },
+  "DRAGON TAIL": {
+    "name": "Dragon Tail",
+    "type": "CHARGE_MOVE",
+    "TYPE": "DRAGON",
+    "ATK": 15,
+    "COOLDOWN": "1.55",
+    "DPS": "9.68"
+  },
   "DRAINING KISS": {
     "name": "Draining Kiss",
     "type": "CHARGE_MOVE",
-    "ENERGY": 5,
+    "ENERGY": 2,
     "TYPE": "FAIRY",
-    "ATK": 25,
-    "COOLDOWN": "2.80",
-    "DPS": "8.93",
+    "ATK": 60,
+    "COOLDOWN": "2.60",
+    "DPS": "23.08",
     "alternateNames": {
       "en": "Draining Kiss",
       "fr": "Vampibaiser",
@@ -492,9 +585,9 @@
     "type": "CHARGE_MOVE",
     "ENERGY": 3,
     "TYPE": "FLYING",
-    "ATK": 40,
-    "COOLDOWN": "2.70",
-    "DPS": "14.81",
+    "ATK": 60,
+    "COOLDOWN": "2.30",
+    "DPS": "26.09",
     "alternateNames": {
       "en": "Drill Peck",
       "fr": "Bec Vrille",
@@ -506,11 +599,11 @@
   "DRILL RUN": {
     "name": "Drill Run",
     "type": "CHARGE_MOVE",
-    "ENERGY": 3,
+    "ENERGY": 2,
     "TYPE": "GROUND",
-    "ATK": 50,
-    "COOLDOWN": "3.40",
-    "DPS": "14.71",
+    "ATK": 80,
+    "COOLDOWN": "2.80",
+    "DPS": "28.57",
     "alternateNames": {
       "en": "Drill Run",
       "fr": "Tunnelier",
@@ -519,14 +612,23 @@
       "es": "Taladradora"
     }
   },
+  "DYNAMIC PUNCH": {
+    "name": "Dynamic Punch",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 2,
+    "TYPE": "FIGHTING",
+    "ATK": 90,
+    "COOLDOWN": "2.70",
+    "DPS": "33.33"
+  },
   "EARTHQUAKE": {
     "name": "Earthquake",
     "type": "CHARGE_MOVE",
     "ENERGY": 1,
     "TYPE": "GROUND",
-    "ATK": 100,
-    "COOLDOWN": "4.20",
-    "DPS": "23.81",
+    "ATK": 120,
+    "COOLDOWN": "3.60",
+    "DPS": "33.33",
     "alternateNames": {
       "en": "Earthquake",
       "fr": "Séisme",
@@ -540,8 +642,8 @@
     "type": "CHARGE_MOVE",
     "TYPE": "FIRE",
     "ATK": 10,
-    "COOLDOWN": "1.05",
-    "DPS": "9.52",
+    "COOLDOWN": "1.50",
+    "DPS": "6.67",
     "alternateNames": {
       "en": "Ember",
       "fr": "Flammèche",
@@ -550,13 +652,30 @@
       "es": "Ascuas"
     }
   },
+  "ENERGY BALL": {
+    "name": "Energy Ball",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 2,
+    "TYPE": "GRASS",
+    "ATK": 90,
+    "COOLDOWN": "3.90",
+    "DPS": "23.08"
+  },
+  "EXTRASENSORY": {
+    "name": "Extrasensory",
+    "type": "CHARGE_MOVE",
+    "TYPE": "PSYCHIC",
+    "ATK": 12,
+    "COOLDOWN": "1.55",
+    "DPS": "7.74"
+  },
   "FEINT ATTACK": {
     "name": "Feint Attack",
     "type": "CHARGE_MOVE",
     "TYPE": "DARK",
     "ATK": 12,
-    "COOLDOWN": "1.04",
-    "DPS": "11.54",
+    "COOLDOWN": "1.40",
+    "DPS": "8.57",
     "alternateNames": {
       "en": "Feint Attack",
       "fr": "Feinte",
@@ -570,9 +689,9 @@
     "type": "CHARGE_MOVE",
     "ENERGY": 1,
     "TYPE": "FIRE",
-    "ATK": 100,
-    "COOLDOWN": "4.10",
-    "DPS": "24.39",
+    "ATK": 140,
+    "COOLDOWN": "4.20",
+    "DPS": "33.33",
     "alternateNames": {
       "en": "Fire Blast",
       "fr": "Déflagration",
@@ -585,9 +704,9 @@
     "name": "Fire Fang",
     "type": "CHARGE_MOVE",
     "TYPE": "FIRE",
-    "ATK": 10,
-    "COOLDOWN": "0.84",
-    "DPS": "11.90",
+    "ATK": 12,
+    "COOLDOWN": "1.34",
+    "DPS": "8.96",
     "alternateNames": {
       "en": "Fire Fang",
       "fr": "Crocs Feu",
@@ -601,9 +720,9 @@
     "type": "CHARGE_MOVE",
     "ENERGY": 3,
     "TYPE": "FIRE",
-    "ATK": 40,
-    "COOLDOWN": "2.80",
-    "DPS": "14.29",
+    "ATK": 55,
+    "COOLDOWN": "2.20",
+    "DPS": "25.00",
     "alternateNames": {
       "en": "Fire Punch",
       "fr": "Poing de Feu",
@@ -612,14 +731,22 @@
       "es": "Puño Fuego"
     }
   },
+  "FIRE SPIN": {
+    "name": "Fire Spin",
+    "type": "CHARGE_MOVE",
+    "TYPE": "FIRE",
+    "ATK": 15,
+    "COOLDOWN": "1.55",
+    "DPS": "9.68"
+  },
   "FLAME BURST": {
     "name": "Flame Burst",
     "type": "CHARGE_MOVE",
-    "ENERGY": 4,
+    "ENERGY": 2,
     "TYPE": "FIRE",
-    "ATK": 30,
-    "COOLDOWN": "2.10",
-    "DPS": "14.29",
+    "ATK": 70,
+    "COOLDOWN": "2.60",
+    "DPS": "26.92",
     "alternateNames": {
       "en": "Flame Burst",
       "fr": "Rebondifeu",
@@ -631,11 +758,11 @@
   "FLAME CHARGE": {
     "name": "Flame Charge",
     "type": "CHARGE_MOVE",
-    "ENERGY": 5,
+    "ENERGY": 3,
     "TYPE": "FIRE",
-    "ATK": 25,
-    "COOLDOWN": "3.10",
-    "DPS": "8.06",
+    "ATK": 70,
+    "COOLDOWN": "3.80",
+    "DPS": "18.42",
     "alternateNames": {
       "en": "Flame Charge",
       "fr": "Nitrocharge",
@@ -647,11 +774,11 @@
   "FLAME WHEEL": {
     "name": "Flame Wheel",
     "type": "CHARGE_MOVE",
-    "ENERGY": 4,
+    "ENERGY": 2,
     "TYPE": "FIRE",
-    "ATK": 40,
-    "COOLDOWN": "4.60",
-    "DPS": "8.70",
+    "ATK": 60,
+    "COOLDOWN": "2.70",
+    "DPS": "22.22",
     "alternateNames": {
       "en": "Flame Wheel",
       "fr": "Roue de Feu",
@@ -665,9 +792,9 @@
     "type": "CHARGE_MOVE",
     "ENERGY": 2,
     "TYPE": "FIRE",
-    "ATK": 55,
-    "COOLDOWN": "2.90",
-    "DPS": "18.97",
+    "ATK": 70,
+    "COOLDOWN": "2.20",
+    "DPS": "31.82",
     "alternateNames": {
       "en": "Flamethrower",
       "fr": "Lance-Flammes",
@@ -679,11 +806,11 @@
   "FLASH CANNON": {
     "name": "Flash Cannon",
     "type": "CHARGE_MOVE",
-    "ENERGY": 3,
+    "ENERGY": 1,
     "TYPE": "STEEL",
-    "ATK": 60,
-    "COOLDOWN": "3.90",
-    "DPS": "15.38",
+    "ATK": 100,
+    "COOLDOWN": "2.70",
+    "DPS": "37.04",
     "alternateNames": {
       "en": "Flash Cannon",
       "fr": "Luminocanon",
@@ -692,13 +819,31 @@
       "es": "Foco Resplandor"
     }
   },
+  "FOCUS BLAST": {
+    "name": "Focus Blast",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 1,
+    "TYPE": "FIGHTING",
+    "ATK": 140,
+    "COOLDOWN": "3.50",
+    "DPS": "40.00"
+  },
+  "FOUL PLAY": {
+    "name": "Foul Play",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 2,
+    "TYPE": "DARK",
+    "ATK": 70,
+    "COOLDOWN": "2.00",
+    "DPS": "35.00"
+  },
   "FROST BREATH": {
     "name": "Frost Breath",
     "type": "CHARGE_MOVE",
     "TYPE": "ICE",
-    "ATK": 9,
-    "COOLDOWN": "0.81",
-    "DPS": "11.11",
+    "ATK": 10,
+    "COOLDOWN": "1.40",
+    "DPS": "7.14",
     "alternateNames": {
       "en": "Frost Breath",
       "fr": "Souffle Glacé",
@@ -712,8 +857,8 @@
     "type": "CHARGE_MOVE",
     "TYPE": "BUG",
     "ATK": 3,
-    "COOLDOWN": "0.40",
-    "DPS": "7.50",
+    "COOLDOWN": "0.90",
+    "DPS": "3.33",
     "alternateNames": {
       "en": "Fury Cutter",
       "fr": "Taillade",
@@ -722,14 +867,41 @@
       "es": "Cortefuria"
     }
   },
+  "FUTURESIGHT": {
+    "name": "Futuresight",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 1,
+    "TYPE": "PSYCHIC",
+    "ATK": 120,
+    "COOLDOWN": "2.70",
+    "DPS": "44.44"
+  },
+  "GIGA DRAIN": {
+    "name": "Giga Drain",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 1,
+    "TYPE": "GRASS",
+    "ATK": 50,
+    "COOLDOWN": "3.90",
+    "DPS": "12.82"
+  },
+  "GRASS KNOT": {
+    "name": "Grass Knot",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 2,
+    "TYPE": "GRASS",
+    "ATK": 90,
+    "COOLDOWN": "2.60",
+    "DPS": "34.62"
+  },
   "GUNK SHOT": {
     "name": "Gunk Shot",
     "type": "CHARGE_MOVE",
     "ENERGY": 1,
     "TYPE": "POISON",
-    "ATK": 65,
-    "COOLDOWN": "3.00",
-    "DPS": "21.67",
+    "ATK": 130,
+    "COOLDOWN": "3.10",
+    "DPS": "41.94",
     "alternateNames": {
       "en": "Gunk Shot",
       "fr": "Détricanon",
@@ -738,14 +910,32 @@
       "es": "Lanza Mugre"
     }
   },
+  "GYRO BALL": {
+    "name": "Gyro Ball",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 2,
+    "TYPE": "STEEL",
+    "ATK": 80,
+    "COOLDOWN": "3.30",
+    "DPS": "24.24"
+  },
+  "HEART STAMP": {
+    "name": "Heart Stamp",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 3,
+    "TYPE": "PSYCHIC",
+    "ATK": 40,
+    "COOLDOWN": "1.90",
+    "DPS": "21.05"
+  },
   "HEAT WAVE": {
     "name": "Heat Wave",
     "type": "CHARGE_MOVE",
     "ENERGY": 1,
     "TYPE": "FIRE",
-    "ATK": 80,
-    "COOLDOWN": "3.80",
-    "DPS": "21.05",
+    "ATK": 95,
+    "COOLDOWN": "3.00",
+    "DPS": "31.67",
     "alternateNames": {
       "en": "Heat Wave",
       "fr": "Canicule",
@@ -754,14 +944,39 @@
       "es": "Onda Ígnea"
     }
   },
+  "HEAVY SLAM": {
+    "name": "Heavy Slam",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 2,
+    "TYPE": "STEEL",
+    "ATK": 70,
+    "COOLDOWN": "2.10",
+    "DPS": "33.33"
+  },
+  "HEX": {
+    "name": "Hex",
+    "type": "CHARGE_MOVE",
+    "TYPE": "GHOST",
+    "ATK": 10,
+    "COOLDOWN": "1.20",
+    "DPS": "8.33"
+  },
+  "HIDDEN POWER": {
+    "name": "Hidden Power",
+    "type": "CHARGE_MOVE",
+    "TYPE": "NORMAL",
+    "ATK": 10,
+    "COOLDOWN": "1.50",
+    "DPS": "6.67"
+  },
   "HORN ATTACK": {
     "name": "Horn Attack",
     "type": "CHARGE_MOVE",
-    "ENERGY": 4,
+    "ENERGY": 3,
     "TYPE": "NORMAL",
-    "ATK": 25,
-    "COOLDOWN": "2.20",
-    "DPS": "11.36",
+    "ATK": 40,
+    "COOLDOWN": "1.85",
+    "DPS": "21.62",
     "alternateNames": {
       "en": "Horn Attack",
       "fr": "Koud'Korne",
@@ -775,9 +990,9 @@
     "type": "CHARGE_MOVE",
     "ENERGY": 1,
     "TYPE": "FLYING",
-    "ATK": 80,
-    "COOLDOWN": "3.20",
-    "DPS": "25.00",
+    "ATK": 110,
+    "COOLDOWN": "2.70",
+    "DPS": "40.74",
     "alternateNames": {
       "en": "Hurricane",
       "fr": "Vent Violent",
@@ -791,9 +1006,9 @@
     "type": "CHARGE_MOVE",
     "ENERGY": 1,
     "TYPE": "WATER",
-    "ATK": 90,
-    "COOLDOWN": "3.80",
-    "DPS": "23.68",
+    "ATK": 130,
+    "COOLDOWN": "3.30",
+    "DPS": "39.39",
     "alternateNames": {
       "en": "Hydro Pump",
       "fr": "Hydrocanon",
@@ -807,9 +1022,9 @@
     "type": "CHARGE_MOVE",
     "ENERGY": 1,
     "TYPE": "NORMAL",
-    "ATK": 120,
-    "COOLDOWN": "5.00",
-    "DPS": "24.00",
+    "ATK": 150,
+    "COOLDOWN": "3.80",
+    "DPS": "39.47",
     "alternateNames": {
       "en": "Hyper Beam",
       "fr": "Ultralaser",
@@ -821,11 +1036,11 @@
   "HYPER FANG": {
     "name": "Hyper Fang",
     "type": "CHARGE_MOVE",
-    "ENERGY": 3,
+    "ENERGY": 2,
     "TYPE": "NORMAL",
-    "ATK": 35,
-    "COOLDOWN": "2.10",
-    "DPS": "16.67",
+    "ATK": 80,
+    "COOLDOWN": "2.50",
+    "DPS": "32.00",
     "alternateNames": {
       "en": "Hyper Fang",
       "fr": "Croc de Mort",
@@ -839,9 +1054,9 @@
     "type": "CHARGE_MOVE",
     "ENERGY": 2,
     "TYPE": "ICE",
-    "ATK": 65,
-    "COOLDOWN": "3.65",
-    "DPS": "17.81",
+    "ATK": 90,
+    "COOLDOWN": "3.30",
+    "DPS": "27.27",
     "alternateNames": {
       "en": "Ice Beam",
       "fr": "Laser Glace",
@@ -855,9 +1070,9 @@
     "type": "CHARGE_MOVE",
     "ENERGY": 3,
     "TYPE": "ICE",
-    "ATK": 45,
-    "COOLDOWN": "3.50",
-    "DPS": "12.86",
+    "ATK": 50,
+    "COOLDOWN": "1.90",
+    "DPS": "26.32",
     "alternateNames": {
       "en": "Ice Punch",
       "fr": "Poing-Glace",
@@ -870,9 +1085,9 @@
     "name": "Ice Shard",
     "type": "CHARGE_MOVE",
     "TYPE": "ICE",
-    "ATK": 15,
-    "COOLDOWN": "1.40",
-    "DPS": "10.71",
+    "ATK": 12,
+    "COOLDOWN": "1.70",
+    "DPS": "7.06",
     "alternateNames": {
       "en": "Ice Shard",
       "fr": "Éclats Glace",
@@ -884,11 +1099,11 @@
   "ICY WIND": {
     "name": "Icy Wind",
     "type": "CHARGE_MOVE",
-    "ENERGY": 5,
+    "ENERGY": 3,
     "TYPE": "ICE",
-    "ATK": 25,
-    "COOLDOWN": "3.80",
-    "DPS": "6.58",
+    "ATK": 60,
+    "COOLDOWN": "3.30",
+    "DPS": "18.18",
     "alternateNames": {
       "en": "Icy Wind",
       "fr": "Vent Glace",
@@ -897,14 +1112,22 @@
       "es": "Viento Hielo"
     }
   },
+  "INFESTATION": {
+    "name": "Infestation",
+    "type": "CHARGE_MOVE",
+    "TYPE": "BUG",
+    "ATK": 10,
+    "COOLDOWN": "1.55",
+    "DPS": "6.45"
+  },
   "IRON HEAD": {
     "name": "Iron Head",
     "type": "CHARGE_MOVE",
-    "ENERGY": 3,
+    "ENERGY": 2,
     "TYPE": "STEEL",
-    "ATK": 30,
-    "COOLDOWN": "2.00",
-    "DPS": "15.00",
+    "ATK": 60,
+    "COOLDOWN": "1.90",
+    "DPS": "31.58",
     "alternateNames": {
       "en": "Iron Head",
       "fr": "Tête de Fer",
@@ -913,13 +1136,21 @@
       "es": "Cabeza de Hierro"
     }
   },
+  "IRON TAIL": {
+    "name": "Iron Tail",
+    "type": "CHARGE_MOVE",
+    "TYPE": "STEEL",
+    "ATK": 15,
+    "COOLDOWN": "1.55",
+    "DPS": "9.68"
+  },
   "KARATE CHOP": {
     "name": "Karate Chop",
     "type": "CHARGE_MOVE",
     "TYPE": "FIGHTING",
-    "ATK": 6,
-    "COOLDOWN": "0.80",
-    "DPS": "7.50",
+    "ATK": 8,
+    "COOLDOWN": "1.30",
+    "DPS": "6.15",
     "alternateNames": {
       "en": "Karate Chop",
       "fr": "Poing-Karaté",
@@ -931,11 +1162,11 @@
   "LEAF BLADE": {
     "name": "Leaf Blade",
     "type": "CHARGE_MOVE",
-    "ENERGY": 2,
+    "ENERGY": 3,
     "TYPE": "GRASS",
-    "ATK": 55,
-    "COOLDOWN": "2.80",
-    "DPS": "19.64",
+    "ATK": 70,
+    "COOLDOWN": "2.40",
+    "DPS": "29.17",
     "alternateNames": {
       "en": "Leaf Blade",
       "fr": "Lame-Feuille",
@@ -949,8 +1180,8 @@
     "type": "CHARGE_MOVE",
     "TYPE": "GHOST",
     "ATK": 5,
-    "COOLDOWN": "0.50",
-    "DPS": "10.00",
+    "COOLDOWN": "1.00",
+    "DPS": "5.00",
     "alternateNames": {
       "en": "Lick",
       "fr": "Léchouille",
@@ -963,9 +1194,9 @@
     "name": "Low Kick",
     "type": "CHARGE_MOVE",
     "TYPE": "FIGHTING",
-    "ATK": 5,
-    "COOLDOWN": "0.60",
-    "DPS": "8.33",
+    "ATK": 6,
+    "COOLDOWN": "1.10",
+    "DPS": "5.45",
     "alternateNames": {
       "en": "Low Kick",
       "fr": "Balayage",
@@ -977,11 +1208,11 @@
   "LOW SWEEP": {
     "name": "Low Sweep",
     "type": "CHARGE_MOVE",
-    "ENERGY": 4,
+    "ENERGY": 3,
     "TYPE": "FIGHTING",
-    "ATK": 30,
-    "COOLDOWN": "2.25",
-    "DPS": "13.33",
+    "ATK": 40,
+    "COOLDOWN": "1.90",
+    "DPS": "21.05",
     "alternateNames": {
       "en": "Low Sweep",
       "fr": "Balayette",
@@ -993,11 +1224,11 @@
   "MAGNET BOMB": {
     "name": "Magnet Bomb",
     "type": "CHARGE_MOVE",
-    "ENERGY": 4,
+    "ENERGY": 3,
     "TYPE": "STEEL",
-    "ATK": 30,
+    "ATK": 70,
     "COOLDOWN": "2.80",
-    "DPS": "10.71",
+    "DPS": "25.00",
     "alternateNames": {
       "en": "Magnet Bomb",
       "fr": "Bombaimant",
@@ -1006,14 +1237,23 @@
       "es": "Bomba Imán"
     }
   },
+  "MEGA DRAIN": {
+    "name": "Mega Drain",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 2,
+    "TYPE": "GRASS",
+    "ATK": 25,
+    "COOLDOWN": "2.60",
+    "DPS": "9.62"
+  },
   "MEGAHORN": {
     "name": "Megahorn",
     "type": "CHARGE_MOVE",
     "ENERGY": 1,
     "TYPE": "BUG",
-    "ATK": 80,
-    "COOLDOWN": "3.20",
-    "DPS": "25.00",
+    "ATK": 90,
+    "COOLDOWN": "2.20",
+    "DPS": "40.91",
     "alternateNames": {
       "en": "Megahorn",
       "fr": "Mégacorne",
@@ -1027,8 +1267,8 @@
     "type": "CHARGE_MOVE",
     "TYPE": "STEEL",
     "ATK": 8,
-    "COOLDOWN": "0.63",
-    "DPS": "12.70",
+    "COOLDOWN": "1.13",
+    "DPS": "7.08",
     "alternateNames": {
       "en": "Metal Claw",
       "fr": "Griffe Acier",
@@ -1037,14 +1277,23 @@
       "es": "Garra Metal"
     }
   },
+  "MIRROR COAT": {
+    "name": "Mirror Coat",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 2,
+    "TYPE": "PSYCHIC",
+    "ATK": 60,
+    "COOLDOWN": "2.60",
+    "DPS": "23.08"
+  },
   "MOONBLAST": {
     "name": "Moonblast",
     "type": "CHARGE_MOVE",
     "ENERGY": 1,
     "TYPE": "FAIRY",
-    "ATK": 85,
-    "COOLDOWN": "4.10",
-    "DPS": "20.73",
+    "ATK": 130,
+    "COOLDOWN": "3.90",
+    "DPS": "33.33",
     "alternateNames": {
       "en": "Moonblast",
       "fr": "Pouvoir Lunaire",
@@ -1056,11 +1305,11 @@
   "MUD BOMB": {
     "name": "Mud Bomb",
     "type": "CHARGE_MOVE",
-    "ENERGY": 4,
+    "ENERGY": 3,
     "TYPE": "GROUND",
-    "ATK": 30,
-    "COOLDOWN": "2.60",
-    "DPS": "11.54",
+    "ATK": 55,
+    "COOLDOWN": "2.30",
+    "DPS": "23.91",
     "alternateNames": {
       "en": "Mud Bomb",
       "fr": "Boue-Bombe",
@@ -1073,9 +1322,9 @@
     "name": "Mud Shot",
     "type": "CHARGE_MOVE",
     "TYPE": "GROUND",
-    "ATK": 6,
-    "COOLDOWN": "0.55",
-    "DPS": "10.91",
+    "ATK": 9,
+    "COOLDOWN": "1.05",
+    "DPS": "8.57",
     "alternateNames": {
       "en": "Mud Shot",
       "fr": "Tir de Boue",
@@ -1089,24 +1338,33 @@
     "type": "CHARGE_MOVE",
     "TYPE": "GROUND",
     "ATK": 15,
-    "COOLDOWN": "1.35",
-    "DPS": "11.11",
-	"alternateNames": {
-	  "en": "Mud-Slap",
-	  "fr": "Coud'Boue",
-	  "de": "Lehmschelle",
-	  "it": "Fangosberla",
-	  "es": "Bofetón Lodo"
-	}
+    "COOLDOWN": "1.85",
+    "DPS": "8.11",
+    "alternateNames": {
+      "en": "Mud-Slap",
+      "fr": "Coud'Boue",
+      "de": "Lehmschelle",
+      "it": "Fangosberla",
+      "es": "Bofetón Lodo"
+    }
+  },
+  "NIGHT SHADE": {
+    "name": "Night Shade",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 2,
+    "TYPE": "GHOST",
+    "ATK": 60,
+    "COOLDOWN": "2.60",
+    "DPS": "23.08"
   },
   "NIGHT SLASH": {
     "name": "Night Slash",
     "type": "CHARGE_MOVE",
-    "ENERGY": 4,
+    "ENERGY": 3,
     "TYPE": "DARK",
-    "ATK": 30,
-    "COOLDOWN": "2.70",
-    "DPS": "11.11",
+    "ATK": 50,
+    "COOLDOWN": "2.20",
+    "DPS": "22.73",
     "alternateNames": {
       "en": "Night Slash",
       "fr": "Tranche-Nuit",
@@ -1118,11 +1376,11 @@
   "OMINOUS WIND": {
     "name": "Ominous Wind",
     "type": "CHARGE_MOVE",
-    "ENERGY": 4,
+    "ENERGY": 3,
     "TYPE": "GHOST",
-    "ATK": 30,
-    "COOLDOWN": "3.10",
-    "DPS": "9.68",
+    "ATK": 50,
+    "COOLDOWN": "2.30",
+    "DPS": "21.74",
     "alternateNames": {
       "en": "Ominous Wind",
       "fr": "Vent Mauvais",
@@ -1131,13 +1389,40 @@
       "es": "Viento Aciago"
     }
   },
+  "OUTRAGE": {
+    "name": "Outrage",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 2,
+    "TYPE": "DRAGON",
+    "ATK": 110,
+    "COOLDOWN": "3.90",
+    "DPS": "28.21"
+  },
+  "OVERHEAT": {
+    "name": "Overheat",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 1,
+    "TYPE": "FIRE",
+    "ATK": 160,
+    "COOLDOWN": "4.00",
+    "DPS": "40.00"
+  },
+  "PARABOLIC CHARGE": {
+    "name": "Parabolic Charge",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 2,
+    "TYPE": "ELECTRIC",
+    "ATK": 25,
+    "COOLDOWN": "2.80",
+    "DPS": "8.93"
+  },
   "PECK": {
     "name": "Peck",
     "type": "CHARGE_MOVE",
     "TYPE": "FLYING",
     "ATK": 10,
-    "COOLDOWN": "1.15",
-    "DPS": "8.70",
+    "COOLDOWN": "1.50",
+    "DPS": "6.67",
     "alternateNames": {
       "en": "Peck",
       "fr": "Picpic",
@@ -1149,11 +1434,11 @@
   "PETAL BLIZZARD": {
     "name": "Petal Blizzard",
     "type": "CHARGE_MOVE",
-    "ENERGY": 2,
+    "ENERGY": 1,
     "TYPE": "GRASS",
-    "ATK": 65,
-    "COOLDOWN": "3.20",
-    "DPS": "20.31",
+    "ATK": 110,
+    "COOLDOWN": "2.60",
+    "DPS": "42.31",
     "alternateNames": {
       "en": "Petal Blizzard",
       "fr": "Tempête Florale",
@@ -1167,9 +1452,9 @@
     "type": "CHARGE_MOVE",
     "ENERGY": 2,
     "TYPE": "FAIRY",
-    "ATK": 55,
+    "ATK": 90,
     "COOLDOWN": "2.90",
-    "DPS": "18.97",
+    "DPS": "31.03",
     "alternateNames": {
       "en": "Play Rough",
       "fr": "Câlinerie",
@@ -1181,11 +1466,11 @@
   "POISON FANG": {
     "name": "Poison Fang",
     "type": "CHARGE_MOVE",
-    "ENERGY": 5,
+    "ENERGY": 3,
     "TYPE": "POISON",
-    "ATK": 25,
-    "COOLDOWN": "2.40",
-    "DPS": "10.42",
+    "ATK": 35,
+    "COOLDOWN": "1.70",
+    "DPS": "20.59",
     "alternateNames": {
       "en": "Poison Fang",
       "fr": "Crochet Venin",
@@ -1199,8 +1484,8 @@
     "type": "CHARGE_MOVE",
     "TYPE": "POISON",
     "ATK": 12,
-    "COOLDOWN": "1.05",
-    "DPS": "11.43",
+    "COOLDOWN": "1.30",
+    "DPS": "9.23",
     "alternateNames": {
       "en": "Poison Jab",
       "fr": "Direct Toxik",
@@ -1214,8 +1499,8 @@
     "type": "CHARGE_MOVE",
     "TYPE": "POISON",
     "ATK": 6,
-    "COOLDOWN": "0.58",
-    "DPS": "10.43",
+    "COOLDOWN": "1.08",
+    "DPS": "5.58",
     "alternateNames": {
       "en": "Poison Sting",
       "fr": "Dard-Venin",
@@ -1228,9 +1513,9 @@
     "name": "Pound",
     "type": "CHARGE_MOVE",
     "TYPE": "NORMAL",
-    "ATK": 7,
-    "COOLDOWN": "0.54",
-    "DPS": "12.96",
+    "ATK": 8,
+    "COOLDOWN": "1.04",
+    "DPS": "7.69",
     "alternateNames": {
       "en": "Pound",
       "fr": "Écras'Face",
@@ -1239,14 +1524,22 @@
       "es": "Destructor"
     }
   },
+  "POWDER SNOW": {
+    "name": "Powder Snow",
+    "type": "CHARGE_MOVE",
+    "TYPE": "ICE",
+    "ATK": 6,
+    "COOLDOWN": "1.00",
+    "DPS": "6.00"
+  },
   "POWER GEM": {
     "name": "Power Gem",
     "type": "CHARGE_MOVE",
-    "ENERGY": 3,
+    "ENERGY": 2,
     "TYPE": "ROCK",
-    "ATK": 40,
+    "ATK": 80,
     "COOLDOWN": "2.90",
-    "DPS": "13.79",
+    "DPS": "27.59",
     "alternateNames": {
       "en": "Power Gem",
       "fr": "Rayon Gemme",
@@ -1258,11 +1551,11 @@
   "POWER WHIP": {
     "name": "Power Whip",
     "type": "CHARGE_MOVE",
-    "ENERGY": 1,
+    "ENERGY": 2,
     "TYPE": "GRASS",
-    "ATK": 70,
-    "COOLDOWN": "2.80",
-    "DPS": "25.00",
+    "ATK": 90,
+    "COOLDOWN": "2.60",
+    "DPS": "34.62",
     "alternateNames": {
       "en": "Power Whip",
       "fr": "Mégafouet",
@@ -1274,11 +1567,11 @@
   "PSYBEAM": {
     "name": "Psybeam",
     "type": "CHARGE_MOVE",
-    "ENERGY": 4,
+    "ENERGY": 2,
     "TYPE": "PSYCHIC",
-    "ATK": 40,
-    "COOLDOWN": "3.80",
-    "DPS": "10.53",
+    "ATK": 70,
+    "COOLDOWN": "3.20",
+    "DPS": "21.88",
     "alternateNames": {
       "en": "Psybeam",
       "fr": "Rafale Psy",
@@ -1290,11 +1583,11 @@
   "PSYCHIC": {
     "name": "Psychic",
     "type": "CHARGE_MOVE",
-    "ENERGY": 2,
+    "ENERGY": 1,
     "TYPE": "PSYCHIC",
-    "ATK": 55,
+    "ATK": 100,
     "COOLDOWN": "2.80",
-    "DPS": "19.64",
+    "DPS": "35.71",
     "alternateNames": {
       "en": "Psychic",
       "fr": "Psyko",
@@ -1307,9 +1600,9 @@
     "name": "Psycho Cut",
     "type": "CHARGE_MOVE",
     "TYPE": "PSYCHIC",
-    "ATK": 7,
-    "COOLDOWN": "0.57",
-    "DPS": "12.28",
+    "ATK": 8,
+    "COOLDOWN": "1.07",
+    "DPS": "7.48",
     "alternateNames": {
       "en": "Psycho Cut",
       "fr": "Coupe Psycho",
@@ -1323,9 +1616,9 @@
     "type": "CHARGE_MOVE",
     "ENERGY": 3,
     "TYPE": "PSYCHIC",
-    "ATK": 40,
+    "ATK": 65,
     "COOLDOWN": "2.70",
-    "DPS": "14.81",
+    "DPS": "24.07",
     "alternateNames": {
       "en": "Psyshock",
       "fr": "Choc Psy",
@@ -1334,13 +1627,22 @@
       "es": "Psicocarga"
     }
   },
+  "PSYSTRIKE": {
+    "name": "Psystrike",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 2,
+    "TYPE": "PSYCHIC",
+    "ATK": 100,
+    "COOLDOWN": "4.40",
+    "DPS": "22.73"
+  },
   "QUICK ATTACK": {
     "name": "Quick Attack",
     "type": "CHARGE_MOVE",
     "TYPE": "NORMAL",
     "ATK": 10,
-    "COOLDOWN": "1.33",
-    "DPS": "7.52",
+    "COOLDOWN": "1.25",
+    "DPS": "8.00",
     "alternateNames": {
       "en": "Quick Attack",
       "fr": "Vive-Attaque",
@@ -1354,8 +1656,8 @@
     "type": "CHARGE_MOVE",
     "TYPE": "GRASS",
     "ATK": 15,
-    "COOLDOWN": "1.45",
-    "DPS": "10.34",
+    "COOLDOWN": "1.50",
+    "DPS": "10.00",
     "alternateNames": {
       "en": "Razor Leaf",
       "fr": "Tranch'Herbe",
@@ -1364,14 +1666,32 @@
       "es": "Hoja Afilada"
     }
   },
-  "ROCK SLIDE": {
-    "name": "Rock Slide",
+  "REST": {
+    "name": "Rest",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 3,
+    "TYPE": "NORMAL",
+    "ATK": 50,
+    "COOLDOWN": "1.90",
+    "DPS": "26.32"
+  },
+  "ROCK BLAST": {
+    "name": "Rock Blast",
     "type": "CHARGE_MOVE",
     "ENERGY": 3,
     "TYPE": "ROCK",
     "ATK": 50,
-    "COOLDOWN": "3.20",
-    "DPS": "15.63",
+    "COOLDOWN": "2.10",
+    "DPS": "23.81"
+  },
+  "ROCK SLIDE": {
+    "name": "Rock Slide",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 2,
+    "TYPE": "ROCK",
+    "ATK": 80,
+    "COOLDOWN": "2.70",
+    "DPS": "29.63",
     "alternateNames": {
       "en": "Rock Slide",
       "fr": "Éboulement",
@@ -1385,8 +1705,8 @@
     "type": "CHARGE_MOVE",
     "TYPE": "FIGHTING",
     "ATK": 15,
-    "COOLDOWN": "1.41",
-    "DPS": "10.64",
+    "COOLDOWN": "1.70",
+    "DPS": "8.82",
     "alternateNames": {
       "en": "Rock Smash",
       "fr": "Éclate-Roc",
@@ -1400,8 +1720,8 @@
     "type": "CHARGE_MOVE",
     "TYPE": "ROCK",
     "ATK": 12,
-    "COOLDOWN": "1.36",
-    "DPS": "8.82",
+    "COOLDOWN": "1.40",
+    "DPS": "8.57",
     "alternateNames": {
       "en": "Rock Throw",
       "fr": "Jet-Pierres",
@@ -1413,11 +1733,11 @@
   "ROCK TOMB": {
     "name": "Rock Tomb",
     "type": "CHARGE_MOVE",
-    "ENERGY": 4,
+    "ENERGY": 2,
     "TYPE": "ROCK",
-    "ATK": 30,
-    "COOLDOWN": "3.40",
-    "DPS": "8.82",
+    "ATK": 70,
+    "COOLDOWN": "3.20",
+    "DPS": "21.88",
     "alternateNames": {
       "en": "Rock Tomb",
       "fr": "Tomberoche",
@@ -1426,14 +1746,23 @@
       "es": "Tumba Rocas"
     }
   },
+  "SAND TOMB": {
+    "name": "Sand Tomb",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 2,
+    "TYPE": "GROUND",
+    "ATK": 80,
+    "COOLDOWN": "4.00",
+    "DPS": "20.00"
+  },
   "SCALD": {
     "name": "Scald",
     "type": "CHARGE_MOVE",
-    "ENERGY": 3,
+    "ENERGY": 2,
     "TYPE": "WATER",
-    "ATK": 55,
-    "COOLDOWN": "4.00",
-    "DPS": "13.75",
+    "ATK": 80,
+    "COOLDOWN": "3.70",
+    "DPS": "21.62",
     "alternateNames": {
       "en": "Scald",
       "fr": "Ébullition",
@@ -1446,8 +1775,8 @@
     "name": "Scratch",
     "type": "CHARGE_MOVE",
     "TYPE": "NORMAL",
-    "ATK": 6,
-    "COOLDOWN": "0.50",
+    "ATK": 12,
+    "COOLDOWN": "1.00",
     "DPS": "12.00",
     "alternateNames": {
       "en": "Scratch",
@@ -1462,9 +1791,9 @@
     "type": "CHARGE_MOVE",
     "ENERGY": 3,
     "TYPE": "GRASS",
-    "ATK": 40,
-    "COOLDOWN": "2.40",
-    "DPS": "16.67",
+    "ATK": 55,
+    "COOLDOWN": "2.10",
+    "DPS": "26.19",
     "alternateNames": {
       "en": "Seed Bomb",
       "fr": "Canon Graine",
@@ -1476,11 +1805,11 @@
   "SHADOW BALL": {
     "name": "Shadow Ball",
     "type": "CHARGE_MOVE",
-    "ENERGY": 3,
+    "ENERGY": 2,
     "TYPE": "GHOST",
-    "ATK": 45,
-    "COOLDOWN": "3.08",
-    "DPS": "14.61",
+    "ATK": 100,
+    "COOLDOWN": "3.00",
+    "DPS": "33.33",
     "alternateNames": {
       "en": "Shadow Ball",
       "fr": "Ball'Ombre",
@@ -1493,9 +1822,9 @@
     "name": "Shadow Claw",
     "type": "CHARGE_MOVE",
     "TYPE": "GHOST",
-    "ATK": 11,
-    "COOLDOWN": "0.95",
-    "DPS": "11.58",
+    "ATK": 12,
+    "COOLDOWN": "1.20",
+    "DPS": "10.00",
     "alternateNames": {
       "en": "Shadow Claw",
       "fr": "Griffe Ombre",
@@ -1504,14 +1833,32 @@
       "es": "Garra Umbría"
     }
   },
+  "SHADOW PUNCH": {
+    "name": "Shadow Punch",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 3,
+    "TYPE": "GHOST",
+    "ATK": 40,
+    "COOLDOWN": "1.70",
+    "DPS": "23.53"
+  },
+  "SHADOW SNEAK": {
+    "name": "Shadow Sneak",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 3,
+    "TYPE": "GHOST",
+    "ATK": 50,
+    "COOLDOWN": "2.90",
+    "DPS": "17.24"
+  },
   "SIGNAL BEAM": {
     "name": "Signal Beam",
     "type": "CHARGE_MOVE",
-    "ENERGY": 3,
+    "ENERGY": 2,
     "TYPE": "BUG",
-    "ATK": 45,
-    "COOLDOWN": "3.10",
-    "DPS": "14.52",
+    "ATK": 75,
+    "COOLDOWN": "2.90",
+    "DPS": "25.86",
     "alternateNames": {
       "en": "Signal Beam",
       "fr": "Rayon Signal",
@@ -1520,14 +1867,32 @@
       "es": "Doble Rayo"
     }
   },
+  "SILVER WIND": {
+    "name": "Silver Wind",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 3,
+    "TYPE": "BUG",
+    "ATK": 70,
+    "COOLDOWN": "3.70",
+    "DPS": "18.92"
+  },
+  "SKY ATTACK": {
+    "name": "Sky Attack",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 2,
+    "TYPE": "FLYING",
+    "ATK": 70,
+    "COOLDOWN": "2.00",
+    "DPS": "35.00"
+  },
   "SLUDGE": {
     "name": "Sludge",
     "type": "CHARGE_MOVE",
-    "ENERGY": 4,
+    "ENERGY": 3,
     "TYPE": "POISON",
-    "ATK": 30,
-    "COOLDOWN": "2.60",
-    "DPS": "11.54",
+    "ATK": 50,
+    "COOLDOWN": "2.10",
+    "DPS": "23.81",
     "alternateNames": {
       "en": "Sludge",
       "fr": "Détritus",
@@ -1541,9 +1906,9 @@
     "type": "CHARGE_MOVE",
     "ENERGY": 2,
     "TYPE": "POISON",
-    "ATK": 55,
-    "COOLDOWN": "2.60",
-    "DPS": "21.15",
+    "ATK": 80,
+    "COOLDOWN": "2.30",
+    "DPS": "34.78",
     "alternateNames": {
       "en": "Sludge Bomb",
       "fr": "Bomb-Beurk",
@@ -1557,9 +1922,9 @@
     "type": "CHARGE_MOVE",
     "ENERGY": 1,
     "TYPE": "POISON",
-    "ATK": 70,
-    "COOLDOWN": "3.40",
-    "DPS": "20.59",
+    "ATK": 110,
+    "COOLDOWN": "3.20",
+    "DPS": "34.38",
     "alternateNames": {
       "en": "Sludge Wave",
       "fr": "Cradovague",
@@ -1568,14 +1933,22 @@
       "es": "Onda Tóxica"
     }
   },
+  "SNARL": {
+    "name": "Snarl",
+    "type": "CHARGE_MOVE",
+    "TYPE": "DARK",
+    "ATK": 12,
+    "COOLDOWN": "1.55",
+    "DPS": "7.74"
+  },
   "SOLAR BEAM": {
     "name": "Solar Beam",
     "type": "CHARGE_MOVE",
     "ENERGY": 1,
     "TYPE": "GRASS",
-    "ATK": 120,
+    "ATK": 180,
     "COOLDOWN": "4.90",
-    "DPS": "24.49",
+    "DPS": "36.73",
     "alternateNames": {
       "en": "Solar Beam",
       "fr": "Lance-Soleil",
@@ -1589,8 +1962,8 @@
     "type": "CHARGE_MOVE",
     "TYPE": "ELECTRIC",
     "ATK": 7,
-    "COOLDOWN": "0.70",
-    "DPS": "10.00",
+    "COOLDOWN": "1.20",
+    "DPS": "5.83",
     "alternateNames": {
       "en": "Spark",
       "fr": "Étincelle",
@@ -1604,7 +1977,7 @@
     "type": "CHARGE_MOVE",
     "TYPE": "WATER",
     "ATK": 0,
-    "COOLDOWN": "1.23",
+    "COOLDOWN": "1.73",
     "DPS": "0.00",
     "alternateNames": {
       "en": "Splash",
@@ -1618,9 +1991,9 @@
     "name": "Steel Wing",
     "type": "CHARGE_MOVE",
     "TYPE": "STEEL",
-    "ATK": 15,
-    "COOLDOWN": "1.33",
-    "DPS": "11.28",
+    "ATK": 12,
+    "COOLDOWN": "1.30",
+    "DPS": "9.23",
     "alternateNames": {
       "en": "Steel Wing",
       "fr": "Aile d’Acier",
@@ -1632,11 +2005,11 @@
   "STOMP": {
     "name": "Stomp",
     "type": "CHARGE_MOVE",
-    "ENERGY": 4,
+    "ENERGY": 2,
     "TYPE": "NORMAL",
-    "ATK": 30,
-    "COOLDOWN": "2.10",
-    "DPS": "14.29",
+    "ATK": 55,
+    "COOLDOWN": "1.70",
+    "DPS": "32.35",
     "alternateNames": {
       "en": "Stomp",
       "fr": "Écrasement",
@@ -1650,9 +2023,9 @@
     "type": "CHARGE_MOVE",
     "ENERGY": 1,
     "TYPE": "ROCK",
-    "ATK": 80,
-    "COOLDOWN": "3.10",
-    "DPS": "25.81",
+    "ATK": 100,
+    "COOLDOWN": "2.30",
+    "DPS": "43.48",
     "alternateNames": {
       "en": "Stone Edge",
       "fr": "Lame de Roc",
@@ -1664,11 +2037,11 @@
   "STRUGGLE": {
     "name": "Struggle",
     "type": "CHARGE_MOVE",
-    "ENERGY": 5,
+    "ENERGY": 3,
     "TYPE": "NORMAL",
-    "ATK": 15,
-    "COOLDOWN": "1.70",
-    "DPS": "8.85",
+    "ATK": 35,
+    "COOLDOWN": "2.20",
+    "DPS": "15.91",
     "alternateNames": {
       "en": "Struggle",
       "fr": "Lutte",
@@ -1677,14 +2050,22 @@
       "es": "Combate"
     }
   },
+  "STRUGGLE BUG": {
+    "name": "Struggle Bug",
+    "type": "CHARGE_MOVE",
+    "TYPE": "BUG",
+    "ATK": 6,
+    "COOLDOWN": "1.50",
+    "DPS": "4.00"
+  },
   "SUBMISSION": {
     "name": "Submission",
     "type": "CHARGE_MOVE",
-    "ENERGY": 3,
+    "ENERGY": 2,
     "TYPE": "FIGHTING",
-    "ATK": 30,
-    "COOLDOWN": "2.10",
-    "DPS": "14.29",
+    "ATK": 60,
+    "COOLDOWN": "2.20",
+    "DPS": "27.27",
     "alternateNames": {
       "en": "Submission",
       "fr": "Sacrifice",
@@ -1697,9 +2078,9 @@
     "name": "Sucker Punch",
     "type": "CHARGE_MOVE",
     "TYPE": "DARK",
-    "ATK": 7,
-    "COOLDOWN": "0.70",
-    "DPS": "10.00",
+    "ATK": 8,
+    "COOLDOWN": "1.20",
+    "DPS": "6.67",
     "alternateNames": {
       "en": "Sucker Punch",
       "fr": "Coup Bas",
@@ -1711,11 +2092,11 @@
   "SWIFT": {
     "name": "Swift",
     "type": "CHARGE_MOVE",
-    "ENERGY": 4,
+    "ENERGY": 2,
     "TYPE": "NORMAL",
-    "ATK": 30,
-    "COOLDOWN": "3.00",
-    "DPS": "10.00",
+    "ATK": 60,
+    "COOLDOWN": "2.80",
+    "DPS": "21.43",
     "alternateNames": {
       "en": "Swift",
       "fr": "Météores",
@@ -1728,9 +2109,9 @@
     "name": "Tackle",
     "type": "CHARGE_MOVE",
     "TYPE": "NORMAL",
-    "ATK": 12,
-    "COOLDOWN": "1.10",
-    "DPS": "10.91",
+    "ATK": 10,
+    "COOLDOWN": "1.00",
+    "DPS": "10.00",
     "alternateNames": {
       "en": "Tackle",
       "fr": "Charge",
@@ -1745,8 +2126,8 @@
     "ENERGY": 1,
     "TYPE": "ELECTRIC",
     "ATK": 100,
-    "COOLDOWN": "4.30",
-    "DPS": "23.26",
+    "COOLDOWN": "2.40",
+    "DPS": "41.67",
     "alternateNames": {
       "en": "Thunder",
       "fr": "Fatal-Foudre",
@@ -1760,9 +2141,9 @@
     "type": "CHARGE_MOVE",
     "ENERGY": 3,
     "TYPE": "ELECTRIC",
-    "ATK": 40,
-    "COOLDOWN": "2.40",
-    "DPS": "16.67",
+    "ATK": 45,
+    "COOLDOWN": "1.80",
+    "DPS": "25.00",
     "alternateNames": {
       "en": "Thunder Punch",
       "fr": "Poing-Éclair",
@@ -1775,9 +2156,9 @@
     "name": "Thunder Shock",
     "type": "CHARGE_MOVE",
     "TYPE": "ELECTRIC",
-    "ATK": 5,
-    "COOLDOWN": "0.60",
-    "DPS": "8.33",
+    "ATK": 6,
+    "COOLDOWN": "1.10",
+    "DPS": "5.45",
     "alternateNames": {
       "en": "Thunder Shock",
       "fr": "Éclair",
@@ -1791,9 +2172,9 @@
     "type": "CHARGE_MOVE",
     "ENERGY": 2,
     "TYPE": "ELECTRIC",
-    "ATK": 55,
-    "COOLDOWN": "2.70",
-    "DPS": "20.37",
+    "ATK": 80,
+    "COOLDOWN": "2.50",
+    "DPS": "32.00",
     "alternateNames": {
       "en": "Thunderbolt",
       "fr": "Tonnerre",
@@ -1802,14 +2183,22 @@
       "es": "Rayo"
     }
   },
+  "TRANSFORM": {
+    "name": "Transform",
+    "type": "CHARGE_MOVE",
+    "TYPE": "NORMAL",
+    "ATK": 0,
+    "COOLDOWN": "2.23",
+    "DPS": "0.00"
+  },
   "TWISTER": {
     "name": "Twister",
     "type": "CHARGE_MOVE",
-    "ENERGY": 5,
+    "ENERGY": 3,
     "TYPE": "DRAGON",
-    "ATK": 25,
-    "COOLDOWN": "2.70",
-    "DPS": "9.26",
+    "ATK": 45,
+    "COOLDOWN": "2.80",
+    "DPS": "16.07",
     "alternateNames": {
       "en": "Twister",
       "fr": "Ouragan",
@@ -1821,11 +2210,11 @@
   "VICE GRIP": {
     "name": "Vice Grip",
     "type": "CHARGE_MOVE",
-    "ENERGY": 5,
+    "ENERGY": 3,
     "TYPE": "NORMAL",
-    "ATK": 25,
-    "COOLDOWN": "2.10",
-    "DPS": "11.90",
+    "ATK": 35,
+    "COOLDOWN": "1.90",
+    "DPS": "18.42",
     "alternateNames": {
       "en": "Vice Grip",
       "fr": "Force Poigne",
@@ -1838,9 +2227,9 @@
     "name": "Vine Whip",
     "type": "CHARGE_MOVE",
     "TYPE": "GRASS",
-    "ATK": 7,
-    "COOLDOWN": "0.65",
-    "DPS": "10.77",
+    "ATK": 8,
+    "COOLDOWN": "1.10",
+    "DPS": "7.27",
     "alternateNames": {
       "en": "Vine Whip",
       "fr": "Fouet Lianes",
@@ -1849,13 +2238,21 @@
       "es": "Látigo Cepa"
     }
   },
+  "VOLT SWITCH": {
+    "name": "Volt Switch",
+    "type": "CHARGE_MOVE",
+    "TYPE": "ELECTRIC",
+    "ATK": 12,
+    "COOLDOWN": "2.30",
+    "DPS": "5.22"
+  },
   "WATER GUN": {
     "name": "Water Gun",
     "type": "CHARGE_MOVE",
     "TYPE": "WATER",
-    "ATK": 6,
-    "COOLDOWN": "0.50",
-    "DPS": "12.00",
+    "ATK": 10,
+    "COOLDOWN": "1.00",
+    "DPS": "10.00",
     "alternateNames": {
       "en": "Water Gun",
       "fr": "Pistolet à O",
@@ -1867,11 +2264,11 @@
   "WATER PULSE": {
     "name": "Water Pulse",
     "type": "CHARGE_MOVE",
-    "ENERGY": 4,
+    "ENERGY": 2,
     "TYPE": "WATER",
-    "ATK": 35,
-    "COOLDOWN": "3.30",
-    "DPS": "10.61",
+    "ATK": 70,
+    "COOLDOWN": "3.20",
+    "DPS": "21.88",
     "alternateNames": {
       "en": "Water Pulse",
       "fr": "Vibraqua",
@@ -1880,13 +2277,22 @@
       "es": "Hidropulso"
     }
   },
+  "WILD CHARGE": {
+    "name": "Wild Charge",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 2,
+    "TYPE": "ELECTRIC",
+    "ATK": 90,
+    "COOLDOWN": "2.60",
+    "DPS": "34.62"
+  },
   "WING ATTACK": {
     "name": "Wing Attack",
     "type": "CHARGE_MOVE",
     "TYPE": "FLYING",
-    "ATK": 9,
-    "COOLDOWN": "0.75",
-    "DPS": "12.00",
+    "ATK": 10,
+    "COOLDOWN": "1.25",
+    "DPS": "8.00",
     "alternateNames": {
       "en": "Wing Attack",
       "fr": "Cru-Aile",
@@ -1898,11 +2304,11 @@
   "WRAP": {
     "name": "Wrap",
     "type": "CHARGE_MOVE",
-    "ENERGY": 5,
+    "ENERGY": 3,
     "TYPE": "NORMAL",
-    "ATK": 25,
-    "COOLDOWN": "4.00",
-    "DPS": "6.25",
+    "ATK": 60,
+    "COOLDOWN": "2.90",
+    "DPS": "20.69",
     "alternateNames": {
       "en": "Wrap",
       "fr": "Ligotage",
@@ -1916,9 +2322,9 @@
     "type": "CHARGE_MOVE",
     "ENERGY": 3,
     "TYPE": "BUG",
-    "ATK": 35,
-    "COOLDOWN": "2.10",
-    "DPS": "16.67",
+    "ATK": 45,
+    "COOLDOWN": "1.60",
+    "DPS": "28.13",
     "alternateNames": {
       "en": "X-Scissor",
       "fr": "Plaie-Croix",
@@ -1927,13 +2333,22 @@
       "es": "Tijera X"
     }
   },
+  "ZAP CANNON": {
+    "name": "Zap Cannon",
+    "type": "CHARGE_MOVE",
+    "ENERGY": 1,
+    "TYPE": "ELECTRIC",
+    "ATK": 140,
+    "COOLDOWN": "3.70",
+    "DPS": "37.84"
+  },
   "ZEN HEADBUTT": {
     "name": "Zen Headbutt",
     "type": "CHARGE_MOVE",
     "TYPE": "PSYCHIC",
     "ATK": 12,
-    "COOLDOWN": "1.05",
-    "DPS": "11.43",
+    "COOLDOWN": "1.55",
+    "DPS": "7.74",
     "alternateNames": {
       "en": "Zen Headbutt",
       "fr": "Psykoud'Boul",
