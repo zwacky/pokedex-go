@@ -66,4 +66,18 @@ describe('database manager', () => {
 			});
 	});
 
+	it('should find the new johto pokemon', () => {
+		const inclusiveIds = {
+			from: 152,
+			till: 251,
+		};
+
+		const filteredPkmn = _(POKEMONS)
+			.filter(item => item['#'] >= inclusiveIds.from && item['#'] <= inclusiveIds.till)
+			.value();
+
+		assert.equal(100 === filteredPkmn.length, true);
+
+	});
+
 });

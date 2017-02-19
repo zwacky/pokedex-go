@@ -34,7 +34,8 @@ describe('similar strings', () => {
 		checks
 			.forEach((item, index) => {
 				databaseManager.findSimilarPokemons(item.input)
-					.then(matches => assert.equal(matches.indexOf(item.find) !== -1, true, `${item.input}: ${matches}`));
+					.then(matches => assert.equal(matches.indexOf(item.finds) !== -1, true, `${item.input}: ${matches}`))
+					.catch(err => console.log('error', err));
 			});
 	});
 });
