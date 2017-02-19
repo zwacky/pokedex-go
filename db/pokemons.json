@@ -5179,5 +5179,3200 @@
 			"en": "Mew",
 			"fr": "Mew"
 		}
+	},
+	"CHIKORITA": {
+		"baseAttack": "92",
+		"baseDefense": "122",
+		"baseStamina": "90",
+		"buddyDistance": "1",
+		"candyToEvolve": "25",
+		"captureRate": "",
+		"class": "NORMAL",
+		"eggDistanceGroup": "2",
+		"fleeRate": "5",
+		"height": "0.89",
+		"maxCp": "801",
+		"moves": {
+			"primary": [
+				"VINE WHIP",
+				"TACKLE"
+			],
+			"secondary": [
+				"ENERGY BALL",
+				"GRASS KNOT",
+				"BODY SLAM"
+			]
+		},
+		"name": "Chikorita",
+		"types": [
+			"GRASS"
+		],
+		"weight": "6.40",
+		"#": 152,
+		"alternateNames": {
+			"de": "CHIKORITA",
+			"en": "CHIKORITA",
+			"fr": "CHIKORITA"
+		}
+	},
+	"BAYLEEF": {
+		"baseAttack": "122",
+		"baseDefense": "155",
+		"baseStamina": "120",
+		"buddyDistance": "1",
+		"candyToEvolve": "100",
+		"captureRate": "",
+		"class": "NORMAL",
+		"fleeRate": "5",
+		"height": "1.19",
+		"maxCp": "1296",
+		"moves": {
+			"primary": [
+				"RAZOR LEAF",
+				"TACKLE"
+			],
+			"secondary": [
+				"ENERGY BALL",
+				"GRASS KNOT",
+				"ANCIENT POWER"
+			]
+		},
+		"name": "Bayleef",
+		"types": [
+			"GRASS"
+		],
+		"weight": "15.80",
+		"#": 153,
+		"alternateNames": {
+			"de": "BAYLEEF",
+			"en": "BAYLEEF",
+			"fr": "BAYLEEF"
+		}
+	},
+	"MEGANIUM": {
+		"baseAttack": "168",
+		"baseDefense": "202",
+		"baseStamina": "160",
+		"buddyDistance": "1",
+		"captureRate": "",
+		"class": "NORMAL",
+		"fleeRate": "5",
+		"height": "1.80",
+		"maxCp": "2227",
+		"moves": {
+			"primary": [
+				"RAZOR LEAF",
+				"VINE WHIP"
+			],
+			"secondary": [
+				"PETAL BLIZZARD",
+				"SOLAR BEAM",
+				"EARTHQUAKE"
+			]
+		},
+		"name": "Meganium",
+		"types": [
+			"GRASS"
+		],
+		"weight": "100.50",
+		"#": 154,
+		"alternateNames": {
+			"de": "MEGANIUM",
+			"en": "MEGANIUM",
+			"fr": "MEGANIUM"
+		}
+	},
+	"CYNDAQUIL": {
+		"baseAttack": "116",
+		"baseDefense": "96",
+		"baseStamina": "78",
+		"buddyDistance": "1",
+		"candyToEvolve": "25",
+		"captureRate": "",
+		"class": "NORMAL",
+		"eggDistanceGroup": "2",
+		"fleeRate": "5",
+		"height": "0.51",
+		"maxCp": "831",
+		"moves": {
+			"primary": [
+				"EMBER",
+				"TACKLE"
+			],
+			"secondary": [
+				"FLAME CHARGE",
+				"SWIFT",
+				"FLAMETHROWER"
+			]
+		},
+		"name": "Cyndaquil",
+		"types": [
+			"FIRE"
+		],
+		"weight": "7.90",
+		"#": 155,
+		"alternateNames": {
+			"de": "CYNDAQUIL",
+			"en": "CYNDAQUIL",
+			"fr": "CYNDAQUIL"
+		}
+	},
+	"QUILAVA": {
+		"baseAttack": "158",
+		"baseDefense": "129",
+		"baseStamina": "116",
+		"buddyDistance": "1",
+		"candyToEvolve": "100",
+		"captureRate": "",
+		"fleeRate": "5",
+		"height": "0.89",
+		"maxCp": "1484",
+		"moves": {
+			"primary": [
+				"EMBER",
+				"TACKLE"
+			],
+			"secondary": [
+				"FLAME CHARGE",
+				"DIG",
+				"FLAMETHROWER"
+			]
+		},
+		"name": "Quilava",
+		"types": [
+			"FIRE"
+		],
+		"weight": "19.00",
+		"#": 156,
+		"alternateNames": {
+			"de": "QUILAVA",
+			"en": "QUILAVA",
+			"fr": "QUILAVA"
+		}
+	},
+	"TYPHLOSION": {
+		"baseAttack": "223",
+		"baseDefense": "176",
+		"baseStamina": "156",
+		"buddyDistance": "1",
+		"captureRate": "",
+		"class": "NORMAL",
+		"fleeRate": "5",
+		"height": "1.70",
+		"maxCp": "2686",
+		"moves": {
+			"primary": [
+				"EMBER",
+				"SHADOW CLAW"
+			],
+			"secondary": [
+				"FIRE BLAST",
+				"OVERHEAT",
+				"SOLAR BEAM"
+			]
+		},
+		"name": "Typhlosion",
+		"types": [
+			"FIRE"
+		],
+		"weight": "79.50",
+		"#": 157,
+		"alternateNames": {
+			"de": "TYPHLOSION",
+			"en": "TYPHLOSION",
+			"fr": "TYPHLOSION"
+		}
+	},
+	"TOTODILE": {
+		"baseAttack": "117",
+		"baseDefense": "116",
+		"baseStamina": "100",
+		"buddyDistance": "1",
+		"candyToEvolve": "25",
+		"captureRate": "",
+		"class": "NORMAL",
+		"eggDistanceGroup": "2",
+		"fleeRate": "5",
+		"height": "0.61",
+		"maxCp": "1011",
+		"moves": {
+			"primary": [
+				"WATER GUN",
+				"SCRATCH"
+			],
+			"secondary": [
+				"CRUNCH",
+				"AQUA JET",
+				"WATER PULSE"
+			]
+		},
+		"name": "Totodile",
+		"types": [
+			"WATER"
+		],
+		"weight": "9.50",
+		"#": 158,
+		"alternateNames": {
+			"de": "TOTODILE",
+			"en": "TOTODILE",
+			"fr": "TOTODILE"
+		}
+	},
+	"CROCONAW": {
+		"baseAttack": "150",
+		"baseDefense": "151",
+		"baseStamina": "130",
+		"buddyDistance": "1",
+		"candyToEvolve": "100",
+		"captureRate": "",
+		"class": "NORMAL",
+		"fleeRate": "5",
+		"height": "1.09",
+		"maxCp": "1598",
+		"moves": {
+			"primary": [
+				"WATER GUN",
+				"SCRATCH"
+			],
+			"secondary": [
+				"CRUNCH",
+				"ICE PUNCH",
+				"WATER PULSE"
+			]
+		},
+		"name": "Croconaw",
+		"types": [
+			"WATER"
+		],
+		"weight": "25.00",
+		"#": 159,
+		"alternateNames": {
+			"de": "CROCONAW",
+			"en": "CROCONAW",
+			"fr": "CROCONAW"
+		}
+	},
+	"FERALIGATR": {
+		"baseAttack": "205",
+		"baseDefense": "197",
+		"baseStamina": "170",
+		"buddyDistance": "1",
+		"captureRate": "",
+		"class": "NORMAL",
+		"fleeRate": "5",
+		"height": "2.31",
+		"maxCp": "2721",
+		"moves": {
+			"primary": [
+				"WATER GUN",
+				"BITE"
+			],
+			"secondary": [
+				"CRUNCH",
+				"HYDRO PUMP",
+				"ICE BEAM"
+			]
+		},
+		"name": "Feraligatr",
+		"types": [
+			"WATER"
+		],
+		"weight": "88.80",
+		"#": 160,
+		"alternateNames": {
+			"de": "FERALIGATR",
+			"en": "FERALIGATR",
+			"fr": "FERALIGATR"
+		}
+	},
+	"SENTRET": {
+		"baseAttack": "79",
+		"baseDefense": "77",
+		"baseStamina": "70",
+		"buddyDistance": "1",
+		"candyToEvolve": "50",
+		"captureRate": "",
+		"class": "NORMAL",
+		"eggDistanceGroup": "2",
+		"fleeRate": "5",
+		"height": "0.79",
+		"maxCp": "519",
+		"moves": {
+			"primary": [
+				"SCRATCH",
+				"QUICK ATTACK"
+			],
+			"secondary": [
+				"DIG",
+				"BRICK BREAK",
+				"GRASS KNOT"
+			]
+		},
+		"name": "Sentret",
+		"types": [
+			"NORMAL"
+		],
+		"weight": "6.00",
+		"#": 161,
+		"alternateNames": {
+			"de": "SENTRET",
+			"en": "SENTRET",
+			"fr": "SENTRET"
+		}
+	},
+	"FURRET": {
+		"baseAttack": "148",
+		"baseDefense": "130",
+		"baseStamina": "170",
+		"buddyDistance": "1",
+		"captureRate": "",
+		"class": "NORMAL",
+		"fleeRate": "5",
+		"height": "1.80",
+		"maxCp": "1667",
+		"moves": {
+			"primary": [
+				"QUICK ATTACK",
+				"SUCKER PUNCH"
+			],
+			"secondary": [
+				"DIG",
+				"BRICK BREAK",
+				"HYPER BEAM"
+			]
+		},
+		"name": "Furret",
+		"types": [
+			"NORMAL"
+		],
+		"weight": "32.50",
+		"#": 162,
+		"alternateNames": {
+			"de": "FURRET",
+			"en": "FURRET",
+			"fr": "FURRET"
+		}
+	},
+	"HOOTHOOT": {
+		"baseAttack": "67",
+		"baseDefense": "101",
+		"baseStamina": "120",
+		"buddyDistance": "1",
+		"candyToEvolve": "50",
+		"captureRate": "",
+		"class": "NORMAL",
+		"eggDistanceGroup": "2",
+		"fleeRate": "5",
+		"height": "0.71",
+		"maxCp": "640",
+		"moves": {
+			"primary": [
+				"FEINT ATTACK",
+				"PECK"
+			],
+			"secondary": [
+				"BLIZZARD"
+			]
+		},
+		"name": "Hoothoot",
+		"types": [
+			"FLYING",
+			"NORMAL"
+		],
+		"weight": "21.20",
+		"#": 163,
+		"alternateNames": {
+			"de": "HOOTHOOT",
+			"en": "HOOTHOOT",
+			"fr": "HOOTHOOT"
+		}
+	},
+	"NOCTOWL": {
+		"baseAttack": "145",
+		"baseDefense": "179",
+		"baseStamina": "200",
+		"buddyDistance": "1",
+		"captureRate": "",
+		"class": "NORMAL",
+		"fleeRate": "5",
+		"height": "1.60",
+		"maxCp": "2040",
+		"moves": {
+			"primary": [
+				"WING ATTACK",
+				"EXTRASENSORY"
+			],
+			"secondary": [
+				"PSYCHIC",
+				"SKY ATTACK",
+				"NIGHT SHADE"
+			]
+		},
+		"name": "Noctowl",
+		"types": [
+			"FLYING",
+			"NORMAL"
+		],
+		"weight": "40.80",
+		"#": 164,
+		"alternateNames": {
+			"de": "NOCTOWL",
+			"en": "NOCTOWL",
+			"fr": "NOCTOWL"
+		}
+	},
+	"LEDYBA": {
+		"baseAttack": "72",
+		"baseDefense": "142",
+		"baseStamina": "80",
+		"buddyDistance": "1",
+		"candyToEvolve": "50",
+		"captureRate": "",
+		"class": "NORMAL",
+		"eggDistanceGroup": "2",
+		"fleeRate": "5",
+		"height": "0.99",
+		"maxCp": "663",
+		"moves": {
+			"primary": [
+				"TACKLE",
+				"BUG BITE"
+			],
+			"secondary": [
+				"SWIFT",
+				"SILVER WIND",
+				"AERIAL ACE"
+			]
+		},
+		"name": "Ledyba",
+		"types": [
+			"BUG",
+			"FLYING"
+		],
+		"weight": "10.80",
+		"#": 165,
+		"alternateNames": {
+			"de": "LEDYBA",
+			"en": "LEDYBA",
+			"fr": "LEDYBA"
+		}
+	},
+	"LEDIAN": {
+		"baseAttack": "107",
+		"baseDefense": "209",
+		"baseStamina": "110",
+		"buddyDistance": "1",
+		"captureRate": "",
+		"class": "NORMAL",
+		"fleeRate": "5",
+		"height": "1.40",
+		"maxCp": "1275",
+		"moves": {
+			"primary": [
+				"STRUGGLE BUG",
+				"BUG BITE"
+			],
+			"secondary": [
+				"BUG BUZZ",
+				"SILVER WIND",
+				"AERIAL ACE"
+			]
+		},
+		"name": "Ledian",
+		"types": [
+			"BUG",
+			"FLYING"
+		],
+		"weight": "35.60",
+		"#": 166,
+		"alternateNames": {
+			"de": "LEDIAN",
+			"en": "LEDIAN",
+			"fr": "LEDIAN"
+		}
+	},
+	"SPINARAK": {
+		"baseAttack": "105",
+		"baseDefense": "73",
+		"baseStamina": "80",
+		"buddyDistance": "1",
+		"candyToEvolve": "50",
+		"captureRate": "",
+		"class": "NORMAL",
+		"eggDistanceGroup": "2",
+		"fleeRate": "5",
+		"height": "0.51",
+		"maxCp": "685",
+		"moves": {
+			"primary": [
+				"POISON STING",
+				"BUG BITE"
+			],
+			"secondary": [
+				"NIGHT SLASH",
+				"SIGNAL BEAM",
+				"CROSS POISON"
+			]
+		},
+		"name": "Spinarak",
+		"types": [
+			"BUG",
+			"POISON"
+		],
+		"weight": "8.50",
+		"#": 167,
+		"alternateNames": {
+			"de": "SPINARAK",
+			"en": "SPINARAK",
+			"fr": "SPINARAK"
+		}
+	},
+	"ARIADOS": {
+		"baseAttack": "161",
+		"baseDefense": "128",
+		"baseStamina": "140",
+		"buddyDistance": "1",
+		"captureRate": "",
+		"class": "NORMAL",
+		"fleeRate": "5",
+		"height": "1.09",
+		"maxCp": "1636",
+		"moves": {
+			"primary": [
+				"POISON STING",
+				"INFESTATION"
+			],
+			"secondary": [
+				"SHADOW SNEAK",
+				"MEGAHORN",
+				"CROSS POISON"
+			]
+		},
+		"name": "Ariados",
+		"types": [
+			"BUG",
+			"POISON"
+		],
+		"weight": "33.50",
+		"#": 168,
+		"alternateNames": {
+			"de": "ARIADOS",
+			"en": "ARIADOS",
+			"fr": "ARIADOS"
+		}
+	},
+	"CROBAT": {
+		"baseAttack": "194",
+		"baseDefense": "178",
+		"baseStamina": "170",
+		"buddyDistance": "1",
+		"captureRate": "",
+		"class": "NORMAL",
+		"fleeRate": "5",
+		"height": "1.80",
+		"maxCp": "2466",
+		"moves": {
+			"primary": [
+				"AIR SLASH",
+				"BITE"
+			],
+			"secondary": [
+				"SHADOW BALL",
+				"AIR CUTTER",
+				"SLUDGE BOMB"
+			]
+		},
+		"name": "Crobat",
+		"types": [
+			"FLYING",
+			"POISON"
+		],
+		"weight": "75.00",
+		"#": 169,
+		"alternateNames": {
+			"de": "CROBAT",
+			"en": "CROBAT",
+			"fr": "CROBAT"
+		}
+	},
+	"CHINCHOU": {
+		"baseAttack": "106",
+		"baseDefense": "106",
+		"baseStamina": "150",
+		"captureRate": "",
+		"class": "NORMAL",
+		"eggDistanceGroup": "5",
+		"fleeRate": "5",
+		"height": "0.51",
+		"maxCp": "1067",
+		"moves": {
+			"primary": [
+				"BUBBLE",
+				"SPARK"
+			],
+			"secondary": [
+				"WATER PULSE",
+				"THUNDERBOLT",
+				"BUBBLE BEAM"
+			]
+		},
+		"name": "Chinchou",
+		"types": [
+			"ELECTRIC",
+			"WATER"
+		],
+		"weight": "12.00",
+		"#": 170,
+		"alternateNames": {
+			"de": "CHINCHOU",
+			"en": "CHINCHOU",
+			"fr": "CHINCHOU"
+		}
+	},
+	"LANTURN": {
+		"baseAttack": "146",
+		"baseDefense": "146",
+		"baseStamina": "250",
+		"captureRate": "",
+		"class": "NORMAL",
+		"fleeRate": "5",
+		"height": "1.19",
+		"maxCp": "2077",
+		"moves": {
+			"primary": [
+				"WATER GUN",
+				"CHARGE BEAM"
+			],
+			"secondary": [
+				"HYDRO PUMP",
+				"THUNDERBOLT",
+				"THUNDER"
+			]
+		},
+		"name": "Lanturn",
+		"types": [
+			"ELECTRIC",
+			"WATER"
+		],
+		"weight": "22.50",
+		"#": 171,
+		"alternateNames": {
+			"de": "LANTURN",
+			"en": "LANTURN",
+			"fr": "LANTURN"
+		}
+	},
+	"PICHU": {
+		"baseAttack": "77",
+		"baseDefense": "63",
+		"baseStamina": "40",
+		"buddyDistance": "1",
+		"candyToEvolve": "25",
+		"captureRate": "",
+		"class": "NORMAL",
+		"eggDistanceGroup": "5",
+		"fleeRate": "5",
+		"height": "0.30",
+		"maxCp": "376",
+		"moves": {
+			"primary": [
+				"THUNDER SHOCK",
+				"QUICK ATTACK"
+			],
+			"secondary": [
+				"THUNDERBOLT",
+				"DISARMING VOICE",
+				"THUNDER PUNCH"
+			]
+		},
+		"name": "Pichu",
+		"types": [
+			"ELECTRIC"
+		],
+		"weight": "2.00",
+		"#": 172,
+		"alternateNames": {
+			"de": "PICHU",
+			"en": "PICHU",
+			"fr": "PICHU"
+		}
+	},
+	"CLEFFA": {
+		"baseAttack": "75",
+		"baseDefense": "91",
+		"baseStamina": "100",
+		"buddyDistance": "1",
+		"candyToEvolve": "25",
+		"captureRate": "",
+		"class": "NORMAL",
+		"eggDistanceGroup": "2",
+		"fleeRate": "5",
+		"height": "0.30",
+		"maxCp": "620",
+		"moves": {
+			"primary": [
+				"ZEN HEADBUTT",
+				"POUND"
+			],
+			"secondary": [
+				"SIGNAL BEAM",
+				"PSYSHOCK",
+				"GRASS KNOT",
+				"PSYCHIC",
+				"BODY SLAM"
+			]
+		},
+		"name": "Cleffa",
+		"types": [
+			"FAIRY"
+		],
+		"weight": "3.00",
+		"#": 173,
+		"alternateNames": {
+			"de": "CLEFFA",
+			"en": "CLEFFA",
+			"fr": "CLEFFA"
+		}
+	},
+	"IGGLYBUFF": {
+		"baseAttack": "69",
+		"baseDefense": "34",
+		"baseStamina": "180",
+		"buddyDistance": "1",
+		"candyToEvolve": "25",
+		"captureRate": "",
+		"class": "NORMAL",
+		"eggDistanceGroup": "2",
+		"fleeRate": "5",
+		"height": "0.30",
+		"maxCp": "512",
+		"moves": {
+			"primary": [
+				"POUND",
+				"FEINT ATTACK"
+			],
+			"secondary": [
+				"SHADOW BALL",
+				"WILD CHARGE",
+				"PSYCHIC",
+				"BODY SLAM"
+			]
+		},
+		"name": "Igglybuff",
+		"types": [
+			"FAIRY",
+			"NORMAL"
+		],
+		"weight": "1.00",
+		"#": 174,
+		"alternateNames": {
+			"de": "IGGLYBUFF",
+			"en": "IGGLYBUFF",
+			"fr": "IGGLYBUFF"
+		}
+	},
+	"TOGEPI": {
+		"baseAttack": "67",
+		"baseDefense": "116",
+		"baseStamina": "70",
+		"buddyDistance": "5",
+		"candyToEvolve": "50",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"fleeRate": "5",
+		"height": "0.30",
+		"maxCp": "540",
+		"moves": {
+			"primary": [
+				"HIDDEN POWER",
+				"PECK",
+				"ZEN HEADBUTT"
+			],
+			"secondary": [
+				"ANCIENT POWER",
+				"PSYSHOCK",
+				"DAZZLING GLEAM"
+			]
+		},
+		"name": "Togepi",
+		"types": [
+			"FAIRY"
+		],
+		"weight": "1.50",
+		"#": 175,
+		"alternateNames": {
+			"de": "TOGEPI",
+			"en": "TOGEPI",
+			"fr": "TOGEPI"
+		}
+	},
+	"TOGETIC": {
+		"baseAttack": "139",
+		"baseDefense": "191",
+		"baseStamina": "110",
+		"buddyDistance": "5",
+		"captureRate": "",
+		"class": "NORMAL",
+		"fleeRate": "5",
+		"height": "0.61",
+		"maxCp": "1543",
+		"moves": {
+			"primary": [
+				"EXTRASENSORY",
+				"HIDDEN POWER"
+			],
+			"secondary": [
+				"ANCIENT POWER",
+				"DAZZLING GLEAM",
+				"AERIAL ACE"
+			]
+		},
+		"name": "Togetic",
+		"types": [
+			"FAIRY",
+			"FLYING"
+		],
+		"weight": "3.20",
+		"#": 176,
+		"alternateNames": {
+			"de": "TOGETIC",
+			"en": "TOGETIC",
+			"fr": "TOGETIC"
+		}
+	},
+	"NATU": {
+		"baseAttack": "134",
+		"baseDefense": "89",
+		"baseStamina": "80",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "0.20",
+		"maxCp": "925",
+		"moves": {
+			"primary": [
+				"PECK",
+				"QUICK ATTACK"
+			],
+			"secondary": [
+				"NIGHT SHADE",
+				"PSYSHOCK",
+				"DRILL PECK"
+			]
+		},
+		"name": "Natu",
+		"types": [
+			"FLYING",
+			"PSYCHIC"
+		],
+		"weight": "2.00",
+		"#": 177,
+		"alternateNames": {
+			"de": "NATU",
+			"en": "NATU",
+			"fr": "NATU"
+		}
+	},
+	"XATU": {
+		"baseAttack": "192",
+		"baseDefense": "146",
+		"baseStamina": "130",
+		"captureRate": "",
+		"height": "1.50",
+		"maxCp": "1975",
+		"moves": {
+			"primary": [
+				"AIR SLASH",
+				"FEINT ATTACK"
+			],
+			"secondary": [
+				"OMINOUS WIND",
+				"FUTURESIGHT",
+				"AERIAL ACE"
+			]
+		},
+		"name": "Xatu",
+		"types": [
+			"FLYING",
+			"PSYCHIC"
+		],
+		"weight": "15.00",
+		"#": 178,
+		"alternateNames": {
+			"de": "XATU",
+			"en": "XATU",
+			"fr": "XATU"
+		}
+	},
+	"MAREEP": {
+		"baseAttack": "114",
+		"baseDefense": "82",
+		"baseStamina": "110",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "0.61",
+		"maxCp": "887",
+		"moves": {
+			"primary": [
+				"TACKLE",
+				"THUNDER SHOCK"
+			],
+			"secondary": [
+				"BODY SLAM",
+				"THUNDERBOLT",
+				"DISCHARGE"
+			]
+		},
+		"name": "Mareep",
+		"types": [
+			"ELECTRIC"
+		],
+		"weight": "7.80",
+		"#": 179,
+		"alternateNames": {
+			"de": "MAREEP",
+			"en": "MAREEP",
+			"fr": "MAREEP"
+		}
+	},
+	"FLAAFFY": {
+		"baseAttack": "145",
+		"baseDefense": "112",
+		"baseStamina": "140",
+		"captureRate": "",
+		"height": "0.79",
+		"maxCp": "1402",
+		"moves": {
+			"primary": [
+				"TACKLE",
+				"CHARGE BEAM"
+			],
+			"secondary": [
+				"POWER GEM",
+				"THUNDERBOLT",
+				"DISCHARGE"
+			]
+		},
+		"name": "Flaaffy",
+		"types": [
+			"ELECTRIC"
+		],
+		"weight": "13.30",
+		"#": 180,
+		"alternateNames": {
+			"de": "FLAAFFY",
+			"en": "FLAAFFY",
+			"fr": "FLAAFFY"
+		}
+	},
+	"AMPHAROS": {
+		"baseAttack": "211",
+		"baseDefense": "172",
+		"baseStamina": "180",
+		"captureRate": "",
+		"height": "1.40",
+		"maxCp": "2695",
+		"moves": {
+			"primary": [
+				"CHARGE BEAM",
+				"VOLT SWITCH"
+			],
+			"secondary": [
+				"ZAP CANNON",
+				"FOCUS BLAST",
+				"THUNDER"
+			]
+		},
+		"name": "Ampharos",
+		"types": [
+			"ELECTRIC"
+		],
+		"weight": "61.50",
+		"#": 181,
+		"alternateNames": {
+			"de": "AMPHAROS",
+			"en": "AMPHAROS",
+			"fr": "AMPHAROS"
+		}
+	},
+	"BELLOSSOM": {
+		"baseAttack": "169",
+		"baseDefense": "189",
+		"baseStamina": "150",
+		"captureRate": "",
+		"height": "0.41",
+		"maxCp": "2108",
+		"moves": {
+			"primary": [
+				"RAZOR LEAF",
+				"ACID"
+			],
+			"secondary": [
+				"LEAF BLADE",
+				"PETAL BLIZZARD",
+				"DAZZLING GLEAM"
+			]
+		},
+		"name": "Bellossom",
+		"types": [
+			"GRASS"
+		],
+		"weight": "5.80",
+		"#": 182,
+		"alternateNames": {
+			"de": "BELLOSSOM",
+			"en": "BELLOSSOM",
+			"fr": "BELLOSSOM"
+		}
+	},
+	"MARILL": {
+		"baseAttack": "37",
+		"baseDefense": "93",
+		"baseStamina": "140",
+		"captureRate": "",
+		"eggDistanceGroup": "2",
+		"height": "0.41",
+		"maxCp": "420",
+		"moves": {
+			"primary": [
+				"TACKLE",
+				"BUBBLE"
+			],
+			"secondary": [
+				"BUBBLE BEAM",
+				"AQUA TAIL",
+				"BODY SLAM"
+			]
+		},
+		"name": "Marill",
+		"types": [
+			"FAIRY",
+			"WATER"
+		],
+		"weight": "8.50",
+		"#": 183,
+		"alternateNames": {
+			"de": "MARILL",
+			"en": "MARILL",
+			"fr": "MARILL"
+		}
+	},
+	"AZUMARILL": {
+		"baseAttack": "112",
+		"baseDefense": "152",
+		"baseStamina": "200",
+		"captureRate": "",
+		"height": "0.79",
+		"maxCp": "1503",
+		"moves": {
+			"primary": [
+				"ROCK SMASH",
+				"BUBBLE"
+			],
+			"secondary": [
+				"PLAY ROUGH",
+				"HYDRO PUMP",
+				"ICE BEAM"
+			]
+		},
+		"name": "Azumarill",
+		"types": [
+			"FAIRY",
+			"WATER"
+		],
+		"weight": "28.50",
+		"#": 184,
+		"alternateNames": {
+			"de": "AZUMARILL",
+			"en": "AZUMARILL",
+			"fr": "AZUMARILL"
+		}
+	},
+	"SUDOWOODO": {
+		"baseAttack": "167",
+		"baseDefense": "198",
+		"baseStamina": "140",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "1.19",
+		"maxCp": "2065",
+		"moves": {
+			"primary": [
+				"ROCK THROW",
+				"COUNTER"
+			],
+			"secondary": [
+				"STONE EDGE",
+				"EARTHQUAKE",
+				"ROCK SLIDE"
+			]
+		},
+		"name": "Sudowoodo",
+		"types": [
+			"ROCK"
+		],
+		"weight": "38.00",
+		"#": 185,
+		"alternateNames": {
+			"de": "SUDOWOODO",
+			"en": "SUDOWOODO",
+			"fr": "SUDOWOODO"
+		}
+	},
+	"POLITOED": {
+		"baseAttack": "174",
+		"baseDefense": "192",
+		"baseStamina": "180",
+		"captureRate": "",
+		"height": "1.09",
+		"maxCp": "2371",
+		"moves": {
+			"primary": [
+				"MUD SHOT",
+				"BUBBLE"
+			],
+			"secondary": [
+				"HYDRO PUMP",
+				"BLIZZARD",
+				"EARTHQUAKE"
+			]
+		},
+		"name": "Politoed",
+		"types": [
+			"WATER"
+		],
+		"weight": "33.90",
+		"#": 186,
+		"alternateNames": {
+			"de": "POLITOED",
+			"en": "POLITOED",
+			"fr": "POLITOED"
+		}
+	},
+	"HOPPIP": {
+		"baseAttack": "67",
+		"baseDefense": "101",
+		"baseStamina": "70",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "0.41",
+		"maxCp": "508",
+		"moves": {
+			"primary": [
+				"TACKLE",
+				"BULLET SEED"
+			],
+			"secondary": [
+				"GRASS KNOT",
+				"DAZZLING GLEAM",
+				"SEED BOMB"
+			]
+		},
+		"name": "Hoppip",
+		"types": [
+			"FLYING",
+			"GRASS"
+		],
+		"weight": "0.50",
+		"#": 187,
+		"alternateNames": {
+			"de": "HOPPIP",
+			"en": "HOPPIP",
+			"fr": "HOPPIP"
+		}
+	},
+	"SKIPLOOM": {
+		"baseAttack": "91",
+		"baseDefense": "127",
+		"baseStamina": "110",
+		"captureRate": "",
+		"height": "0.61",
+		"maxCp": "882",
+		"moves": {
+			"primary": [
+				"TACKLE",
+				"BULLET SEED"
+			],
+			"secondary": [
+				"GRASS KNOT",
+				"DAZZLING GLEAM",
+				"ENERGY BALL"
+			]
+		},
+		"name": "Skiploom",
+		"types": [
+			"FLYING",
+			"GRASS"
+		],
+		"weight": "1.00",
+		"#": 188,
+		"alternateNames": {
+			"de": "SKIPLOOM",
+			"en": "SKIPLOOM",
+			"fr": "SKIPLOOM"
+		}
+	},
+	"JUMPLUFF": {
+		"baseAttack": "118",
+		"baseDefense": "197",
+		"baseStamina": "150",
+		"captureRate": "",
+		"height": "0.79",
+		"maxCp": "1553",
+		"moves": {
+			"primary": [
+				"INFESTATION",
+				"BULLET SEED"
+			],
+			"secondary": [
+				"ENERGY BALL",
+				"DAZZLING GLEAM",
+				"SOLAR BEAM"
+			]
+		},
+		"name": "Jumpluff",
+		"types": [
+			"FLYING",
+			"GRASS"
+		],
+		"weight": "3.00",
+		"#": 189,
+		"alternateNames": {
+			"de": "JUMPLUFF",
+			"en": "JUMPLUFF",
+			"fr": "JUMPLUFF"
+		}
+	},
+	"AIPOM": {
+		"baseAttack": "136",
+		"baseDefense": "112",
+		"baseStamina": "110",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "0.79",
+		"maxCp": "1188",
+		"moves": {
+			"primary": [
+				"SCRATCH",
+				"ASTONISH"
+			],
+			"secondary": [
+				"LOW SWEEP",
+				"SWIFT",
+				"AERIAL ACE"
+			]
+		},
+		"name": "Aipom",
+		"types": [
+			"NORMAL"
+		],
+		"weight": "11.50",
+		"#": 190,
+		"alternateNames": {
+			"de": "AIPOM",
+			"en": "AIPOM",
+			"fr": "AIPOM"
+		}
+	},
+	"SUNKERN": {
+		"baseAttack": "55",
+		"baseDefense": "55",
+		"baseStamina": "60",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "0.30",
+		"maxCp": "316",
+		"moves": {
+			"primary": [
+				"RAZOR LEAF",
+				"CUT"
+			],
+			"secondary": [
+				"ENERGY BALL",
+				"GRASS KNOT",
+				"SEED BOMB"
+			]
+		},
+		"name": "Sunkern",
+		"types": [
+			"GRASS"
+		],
+		"weight": "1.80",
+		"#": 191,
+		"alternateNames": {
+			"de": "SUNKERN",
+			"en": "SUNKERN",
+			"fr": "SUNKERN"
+		}
+	},
+	"SUNFLORA": {
+		"baseAttack": "185",
+		"baseDefense": "148",
+		"baseStamina": "150",
+		"captureRate": "",
+		"height": "0.79",
+		"maxCp": "2048",
+		"moves": {
+			"primary": [
+				"RAZOR LEAF",
+				"BULLET SEED"
+			],
+			"secondary": [
+				"SOLAR BEAM",
+				"PETAL BLIZZARD",
+				"SLUDGE BOMB"
+			]
+		},
+		"name": "Sunflora",
+		"types": [
+			"GRASS"
+		],
+		"weight": "8.50",
+		"#": 192,
+		"alternateNames": {
+			"de": "SUNFLORA",
+			"en": "SUNFLORA",
+			"fr": "SUNFLORA"
+		}
+	},
+	"YANMA": {
+		"baseAttack": "154",
+		"baseDefense": "94",
+		"baseStamina": "130",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "1.19",
+		"maxCp": "1326",
+		"moves": {
+			"primary": [
+				"QUICK ATTACK",
+				"WING ATTACK"
+			],
+			"secondary": [
+				"ANCIENT POWER",
+				"AERIAL ACE",
+				"SILVER WIND"
+			]
+		},
+		"name": "Yanma",
+		"types": [
+			"BUG",
+			"FLYING"
+		],
+		"weight": "38.00",
+		"#": 193,
+		"alternateNames": {
+			"de": "YANMA",
+			"en": "YANMA",
+			"fr": "YANMA"
+		}
+	},
+	"WOOPER": {
+		"baseAttack": "75",
+		"baseDefense": "75",
+		"baseStamina": "110",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "0.41",
+		"maxCp": "596",
+		"moves": {
+			"primary": [
+				"WATER GUN",
+				"MUD SHOT"
+			],
+			"secondary": [
+				"MUD BOMB",
+				"DIG",
+				"BODY SLAM"
+			]
+		},
+		"name": "Wooper",
+		"types": [
+			"GROUND",
+			"WATER"
+		],
+		"weight": "8.50",
+		"#": 194,
+		"alternateNames": {
+			"de": "WOOPER",
+			"en": "WOOPER",
+			"fr": "WOOPER"
+		}
+	},
+	"QUAGSIRE": {
+		"baseAttack": "152",
+		"baseDefense": "152",
+		"baseStamina": "190",
+		"captureRate": "",
+		"height": "1.40",
+		"maxCp": "1929",
+		"moves": {
+			"primary": [
+				"WATER GUN",
+				"MUD SHOT"
+			],
+			"secondary": [
+				"SLUDGE BOMB",
+				"EARTHQUAKE",
+				"STONE EDGE"
+			]
+		},
+		"name": "Quagsire",
+		"types": [
+			"GROUND",
+			"WATER"
+		],
+		"weight": "75.00",
+		"#": 195,
+		"alternateNames": {
+			"de": "QUAGSIRE",
+			"en": "QUAGSIRE",
+			"fr": "QUAGSIRE"
+		}
+	},
+	"ESPEON": {
+		"baseAttack": "261",
+		"baseDefense": "194",
+		"baseStamina": "130",
+		"captureRate": "",
+		"height": "0.89",
+		"maxCp": "3000",
+		"moves": {
+			"primary": [
+				"CONFUSION",
+				"ZEN HEADBUTT"
+			],
+			"secondary": [
+				"PSYBEAM",
+				"PSYCHIC",
+				"FUTURESIGHT"
+			]
+		},
+		"name": "Espeon",
+		"types": [
+			"PSYCHIC"
+		],
+		"weight": "26.50",
+		"#": 196,
+		"alternateNames": {
+			"de": "ESPEON",
+			"en": "ESPEON",
+			"fr": "ESPEON"
+		}
+	},
+	"UMBREON": {
+		"baseAttack": "126",
+		"baseDefense": "250",
+		"baseStamina": "190",
+		"captureRate": "",
+		"height": "0.99",
+		"maxCp": "2052",
+		"moves": {
+			"primary": [
+				"FEINT ATTACK",
+				"SNARL"
+			],
+			"secondary": [
+				"DARK PULSE",
+				"FOUL PLAY"
+			]
+		},
+		"name": "Umbreon",
+		"types": [
+			"DARK"
+		],
+		"weight": "27.00",
+		"#": 197,
+		"alternateNames": {
+			"de": "UMBREON",
+			"en": "UMBREON",
+			"fr": "UMBREON"
+		}
+	},
+	"MURKROW": {
+		"baseAttack": "175",
+		"baseDefense": "87",
+		"baseStamina": "120",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "0.51",
+		"maxCp": "1392",
+		"moves": {
+			"primary": [
+				"PECK",
+				"FEINT ATTACK"
+			],
+			"secondary": [
+				"DRILL PECK",
+				"FOUL PLAY",
+				"DARK PULSE"
+			]
+		},
+		"name": "Murkrow",
+		"types": [
+			"DARK",
+			"FLYING"
+		],
+		"weight": "2.10",
+		"#": 198,
+		"alternateNames": {
+			"de": "MURKROW",
+			"en": "MURKROW",
+			"fr": "MURKROW"
+		}
+	},
+	"SLOWKING": {
+		"baseAttack": "177",
+		"baseDefense": "194",
+		"baseStamina": "190",
+		"captureRate": "",
+		"height": "2.01",
+		"maxCp": "2482",
+		"moves": {
+			"primary": [
+				"WATER GUN",
+				"CONFUSION"
+			],
+			"secondary": [
+				"BLIZZARD",
+				"PSYCHIC",
+				"FIRE BLAST"
+			]
+		},
+		"name": "Slowking",
+		"types": [
+			"PSYCHIC",
+			"WATER"
+		],
+		"weight": "79.50",
+		"#": 199,
+		"alternateNames": {
+			"de": "SLOWKING",
+			"en": "SLOWKING",
+			"fr": "SLOWKING"
+		}
+	},
+	"MISDREAVUS": {
+		"baseAttack": "167",
+		"baseDefense": "167",
+		"baseStamina": "120",
+		"captureRate": "",
+		"eggDistanceGroup": "10",
+		"height": "0.71",
+		"maxCp": "1781",
+		"moves": {
+			"primary": [
+				"ASTONISH",
+				"HEX"
+			],
+			"secondary": [
+				"DARK PULSE",
+				"OMINOUS WIND"
+			]
+		},
+		"name": "Misdreavus",
+		"types": [
+			"GHOST"
+		],
+		"weight": "1.00",
+		"#": 200,
+		"alternateNames": {
+			"de": "MISDREAVUS",
+			"en": "MISDREAVUS",
+			"fr": "MISDREAVUS"
+		}
+	},
+	"UNOWN": {
+		"baseAttack": "136",
+		"baseDefense": "91",
+		"baseStamina": "96",
+		"captureRate": "",
+		"height": "0.51",
+		"maxCp": "1022",
+		"moves": {
+			"primary": [
+				"HIDDEN POWER"
+			],
+			"secondary": [
+				"STRUGGLE"
+			]
+		},
+		"name": "Unown",
+		"types": [
+			"PSYCHIC"
+		],
+		"weight": "5.00",
+		"#": 201,
+		"alternateNames": {
+			"de": "UNOWN",
+			"en": "UNOWN",
+			"fr": "UNOWN"
+		}
+	},
+	"WOBBUFFET": {
+		"baseAttack": "60",
+		"baseDefense": "106",
+		"baseStamina": "380",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "1.30",
+		"maxCp": "1024",
+		"moves": {
+			"primary": [
+				"COUNTER",
+				"SPLASH"
+			],
+			"secondary": [
+				"MIRROR COAT"
+			]
+		},
+		"name": "Wobbuffet",
+		"types": [
+			"PSYCHIC"
+		],
+		"weight": "28.50",
+		"#": 202,
+		"alternateNames": {
+			"de": "WOBBUFFET",
+			"en": "WOBBUFFET",
+			"fr": "WOBBUFFET"
+		}
+	},
+	"GIRAFARIG": {
+		"baseAttack": "182",
+		"baseDefense": "133",
+		"baseStamina": "140",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "1.50",
+		"maxCp": "1863",
+		"moves": {
+			"primary": [
+				"TACKLE",
+				"CONFUSION"
+			],
+			"secondary": [
+				"PSYCHIC",
+				"THUNDERBOLT",
+				"MIRROR COAT"
+			]
+		},
+		"name": "Girafarig",
+		"types": [
+			"NORMAL",
+			"PSYCHIC"
+		],
+		"weight": "41.50",
+		"#": 203,
+		"alternateNames": {
+			"de": "GIRAFARIG",
+			"en": "GIRAFARIG",
+			"fr": "GIRAFARIG"
+		}
+	},
+	"PINECO": {
+		"baseAttack": "108",
+		"baseDefense": "146",
+		"baseStamina": "100",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "0.61",
+		"maxCp": "1045",
+		"moves": {
+			"primary": [
+				"TACKLE",
+				"BUG BITE"
+			],
+			"secondary": [
+				"GYRO BALL",
+				"ROCK TOMB",
+				"SAND TOMB"
+			]
+		},
+		"name": "Pineco",
+		"types": [
+			"BUG"
+		],
+		"weight": "7.20",
+		"#": 204,
+		"alternateNames": {
+			"de": "PINECO",
+			"en": "PINECO",
+			"fr": "PINECO"
+		}
+	},
+	"FORRETRESS": {
+		"baseAttack": "161",
+		"baseDefense": "242",
+		"baseStamina": "150",
+		"captureRate": "",
+		"height": "1.19",
+		"maxCp": "2263",
+		"moves": {
+			"primary": [
+				"BUG BITE",
+				"STRUGGLE BUG"
+			],
+			"secondary": [
+				"HEAVY SLAM",
+				"EARTHQUAKE",
+				"ROCK TOMB"
+			]
+		},
+		"name": "Forretress",
+		"types": [
+			"BUG",
+			"STEEL"
+		],
+		"weight": "125.80",
+		"#": 205,
+		"alternateNames": {
+			"de": "FORRETRESS",
+			"en": "FORRETRESS",
+			"fr": "FORRETRESS"
+		}
+	},
+	"DUNSPARCE": {
+		"baseAttack": "131",
+		"baseDefense": "131",
+		"baseStamina": "200",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "1.50",
+		"maxCp": "1615",
+		"moves": {
+			"primary": [
+				"BITE",
+				"ASTONISH"
+			],
+			"secondary": [
+				"DIG",
+				"ROCK SLIDE",
+				"DRILL RUN"
+			]
+		},
+		"name": "Dunsparce",
+		"types": [
+			"NORMAL"
+		],
+		"weight": "14.00",
+		"#": 206,
+		"alternateNames": {
+			"de": "DUNSPARCE",
+			"en": "DUNSPARCE",
+			"fr": "DUNSPARCE"
+		}
+	},
+	"GLIGAR": {
+		"baseAttack": "143",
+		"baseDefense": "204",
+		"baseStamina": "130",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "1.09",
+		"maxCp": "1758",
+		"moves": {
+			"primary": [
+				"FURY CUTTER",
+				"WING ATTACK"
+			],
+			"secondary": [
+				"DIG",
+				"AERIAL ACE",
+				"NIGHT SLASH"
+			]
+		},
+		"name": "Gligar",
+		"types": [
+			"FLYING",
+			"GROUND"
+		],
+		"weight": "64.80",
+		"#": 207,
+		"alternateNames": {
+			"de": "GLIGAR",
+			"en": "GLIGAR",
+			"fr": "GLIGAR"
+		}
+	},
+	"STEELIX": {
+		"baseAttack": "148",
+		"baseDefense": "333",
+		"baseStamina": "150",
+		"captureRate": "",
+		"height": "9.19",
+		"maxCp": "2439",
+		"moves": {
+			"primary": [
+				"IRON TAIL",
+				"DRAGON TAIL"
+			],
+			"secondary": [
+				"EARTHQUAKE",
+				"HEAVY SLAM",
+				"CRUNCH"
+			]
+		},
+		"name": "Steelix",
+		"types": [
+			"GROUND",
+			"STEEL"
+		],
+		"weight": "400.00",
+		"#": 208,
+		"alternateNames": {
+			"de": "STEELIX",
+			"en": "STEELIX",
+			"fr": "STEELIX"
+		}
+	},
+	"SNUBBULL": {
+		"baseAttack": "137",
+		"baseDefense": "89",
+		"baseStamina": "120",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "0.61",
+		"maxCp": "1124",
+		"moves": {
+			"primary": [
+				"BITE",
+				"TACKLE"
+			],
+			"secondary": [
+				"BRICK BREAK",
+				"CRUNCH",
+				"DAZZLING GLEAM"
+			]
+		},
+		"name": "Snubbull",
+		"types": [
+			"FAIRY"
+		],
+		"weight": "7.80",
+		"#": 209,
+		"alternateNames": {
+			"de": "SNUBBULL",
+			"en": "SNUBBULL",
+			"fr": "SNUBBULL"
+		}
+	},
+	"GRANBULL": {
+		"baseAttack": "212",
+		"baseDefense": "137",
+		"baseStamina": "180",
+		"captureRate": "",
+		"height": "1.40",
+		"maxCp": "2440",
+		"moves": {
+			"primary": [
+				"BITE",
+				"SNARL"
+			],
+			"secondary": [
+				"CRUNCH",
+				"PLAY ROUGH",
+				"CLOSE COMBAT"
+			]
+		},
+		"name": "Granbull",
+		"types": [
+			"FAIRY"
+		],
+		"weight": "48.70",
+		"#": 210,
+		"alternateNames": {
+			"de": "GRANBULL",
+			"en": "GRANBULL",
+			"fr": "GRANBULL"
+		}
+	},
+	"QWILFISH": {
+		"baseAttack": "184",
+		"baseDefense": "148",
+		"baseStamina": "130",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "0.51",
+		"maxCp": "1910",
+		"moves": {
+			"primary": [
+				"POISON STING",
+				"WATER GUN"
+			],
+			"secondary": [
+				"AQUA TAIL",
+				"ICE BEAM",
+				"SLUDGE WAVE"
+			]
+		},
+		"name": "Qwilfish",
+		"types": [
+			"POISON",
+			"WATER"
+		],
+		"weight": "3.90",
+		"#": 211,
+		"alternateNames": {
+			"de": "QWILFISH",
+			"en": "QWILFISH",
+			"fr": "QWILFISH"
+		}
+	},
+	"SCIZOR": {
+		"baseAttack": "236",
+		"baseDefense": "191",
+		"baseStamina": "140",
+		"captureRate": "",
+		"height": "1.80",
+		"maxCp": "2801",
+		"moves": {
+			"primary": [
+				"BULLET PUNCH",
+				"FURY CUTTER"
+			],
+			"secondary": [
+				"X-SCISSOR",
+				"IRON HEAD",
+				"NIGHT SLASH"
+			]
+		},
+		"name": "Scizor",
+		"types": [
+			"BUG",
+			"STEEL"
+		],
+		"weight": "118.00",
+		"#": 212,
+		"alternateNames": {
+			"de": "SCIZOR",
+			"en": "SCIZOR",
+			"fr": "SCIZOR"
+		}
+	},
+	"SHUCKLE": {
+		"baseAttack": "17",
+		"baseDefense": "396",
+		"baseStamina": "40",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "0.61",
+		"maxCp": "300",
+		"moves": {
+			"primary": [
+				"STRUGGLE BUG",
+				"ROCK THROW"
+			],
+			"secondary": [
+				"ROCK BLAST",
+				"STONE EDGE",
+				"GYRO BALL"
+			]
+		},
+		"name": "Shuckle",
+		"types": [
+			"BUG",
+			"ROCK"
+		],
+		"weight": "20.50",
+		"#": 213,
+		"alternateNames": {
+			"de": "SHUCKLE",
+			"en": "SHUCKLE",
+			"fr": "SHUCKLE"
+		}
+	},
+	"HERACROSS": {
+		"baseAttack": "234",
+		"baseDefense": "189",
+		"baseStamina": "160",
+		"captureRate": "",
+		"eggDistanceGroup": "10",
+		"height": "1.50",
+		"maxCp": "2938",
+		"moves": {
+			"primary": [
+				"COUNTER",
+				"STRUGGLE BUG"
+			],
+			"secondary": [
+				"MEGAHORN",
+				"CLOSE COMBAT",
+				"EARTHQUAKE"
+			]
+		},
+		"name": "Heracross",
+		"types": [
+			"BUG",
+			"FIGHTING"
+		],
+		"weight": "54.00",
+		"#": 214,
+		"alternateNames": {
+			"de": "HERACROSS",
+			"en": "HERACROSS",
+			"fr": "HERACROSS"
+		}
+	},
+	"SNEASEL": {
+		"baseAttack": "189",
+		"baseDefense": "157",
+		"baseStamina": "110",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "0.89",
+		"maxCp": "1868",
+		"moves": {
+			"primary": [
+				"ICE SHARD",
+				"FEINT ATTACK"
+			],
+			"secondary": [
+				"AVALANCHE",
+				"ICE PUNCH",
+				"FOUL PLAY"
+			]
+		},
+		"name": "Sneasel",
+		"types": [
+			"DARK",
+			"ICE"
+		],
+		"weight": "28.00",
+		"#": 215,
+		"alternateNames": {
+			"de": "SNEASEL",
+			"en": "SNEASEL",
+			"fr": "SNEASEL"
+		}
+	},
+	"TEDDIURSA": {
+		"baseAttack": "142",
+		"baseDefense": "93",
+		"baseStamina": "120",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "0.61",
+		"maxCp": "1184",
+		"moves": {
+			"primary": [
+				"SCRATCH",
+				"LICK"
+			],
+			"secondary": [
+				"CROSS CHOP",
+				"CRUNCH",
+				"PLAY ROUGH"
+			]
+		},
+		"name": "Teddiursa",
+		"types": [
+			"NORMAL"
+		],
+		"weight": "8.80",
+		"#": 216,
+		"alternateNames": {
+			"de": "TEDDIURSA",
+			"en": "TEDDIURSA",
+			"fr": "TEDDIURSA"
+		}
+	},
+	"URSARING": {
+		"baseAttack": "236",
+		"baseDefense": "144",
+		"baseStamina": "180",
+		"captureRate": "",
+		"height": "1.80",
+		"maxCp": "2760",
+		"moves": {
+			"primary": [
+				"METAL CLAW",
+				"COUNTER"
+			],
+			"secondary": [
+				"CLOSE COMBAT",
+				"HYPER BEAM",
+				"PLAY ROUGH"
+			]
+		},
+		"name": "Ursaring",
+		"types": [
+			"NORMAL"
+		],
+		"weight": "125.80",
+		"#": 217,
+		"alternateNames": {
+			"de": "URSARING",
+			"en": "URSARING",
+			"fr": "URSARING"
+		}
+	},
+	"SLUGMA": {
+		"baseAttack": "118",
+		"baseDefense": "71",
+		"baseStamina": "80",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "0.71",
+		"maxCp": "750",
+		"moves": {
+			"primary": [
+				"EMBER",
+				"ROCK THROW"
+			],
+			"secondary": [
+				"FLAME BURST",
+				"FLAME CHARGE",
+				"ROCK SLIDE"
+			]
+		},
+		"name": "Slugma",
+		"types": [
+			"FIRE"
+		],
+		"weight": "35.00",
+		"#": 218,
+		"alternateNames": {
+			"de": "SLUGMA",
+			"en": "SLUGMA",
+			"fr": "SLUGMA"
+		}
+	},
+	"MAGCARGO": {
+		"baseAttack": "139",
+		"baseDefense": "209",
+		"baseStamina": "100",
+		"captureRate": "",
+		"height": "0.79",
+		"maxCp": "1543",
+		"moves": {
+			"primary": [
+				"EMBER",
+				"ROCK THROW"
+			],
+			"secondary": [
+				"HEAT WAVE",
+				"OVERHEAT",
+				"STONE EDGE"
+			]
+		},
+		"name": "Magcargo",
+		"types": [
+			"FIRE",
+			"ROCK"
+		],
+		"weight": "55.00",
+		"#": 219,
+		"alternateNames": {
+			"de": "MAGCARGO",
+			"en": "MAGCARGO",
+			"fr": "MAGCARGO"
+		}
+	},
+	"SWINUB": {
+		"baseAttack": "90",
+		"baseDefense": "74",
+		"baseStamina": "100",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "0.41",
+		"maxCp": "663",
+		"moves": {
+			"primary": [
+				"TACKLE",
+				"POWDER SNOW"
+			],
+			"secondary": [
+				"ICY WIND",
+				"BODY SLAM",
+				"ROCK SLIDE"
+			]
+		},
+		"name": "Swinub",
+		"types": [
+			"GROUND",
+			"ICE"
+		],
+		"weight": "6.50",
+		"#": 220,
+		"alternateNames": {
+			"de": "SWINUB",
+			"en": "SWINUB",
+			"fr": "SWINUB"
+		}
+	},
+	"PILOSWINE": {
+		"baseAttack": "181",
+		"baseDefense": "147",
+		"baseStamina": "200",
+		"captureRate": "",
+		"height": "1.09",
+		"maxCp": "2284",
+		"moves": {
+			"primary": [
+				"ICE SHARD",
+				"POWDER SNOW"
+			],
+			"secondary": [
+				"AVALANCHE",
+				"BULLDOZE",
+				"STONE EDGE"
+			]
+		},
+		"name": "Piloswine",
+		"types": [
+			"GROUND",
+			"ICE"
+		],
+		"weight": "55.80",
+		"#": 221,
+		"alternateNames": {
+			"de": "PILOSWINE",
+			"en": "PILOSWINE",
+			"fr": "PILOSWINE"
+		}
+	},
+	"CORSOLA": {
+		"baseAttack": "118",
+		"baseDefense": "156",
+		"baseStamina": "110",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "0.61",
+		"maxCp": "1214",
+		"moves": {
+			"primary": [
+				"TACKLE",
+				"BUBBLE"
+			],
+			"secondary": [
+				"ROCK BLAST",
+				"POWER GEM",
+				"BUBBLE BEAM"
+			]
+		},
+		"name": "Corsola",
+		"types": [
+			"ROCK",
+			"WATER"
+		],
+		"weight": "5.00",
+		"#": 222,
+		"alternateNames": {
+			"de": "CORSOLA",
+			"en": "CORSOLA",
+			"fr": "CORSOLA"
+		}
+	},
+	"REMORAID": {
+		"baseAttack": "127",
+		"baseDefense": "69",
+		"baseStamina": "70",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "0.61",
+		"maxCp": "749",
+		"moves": {
+			"primary": [
+				"WATER GUN",
+				"MUD SHOT"
+			],
+			"secondary": [
+				"AURORA BEAM",
+				"WATER PULSE",
+				"ROCK BLAST"
+			]
+		},
+		"name": "Remoraid",
+		"types": [
+			"WATER"
+		],
+		"weight": "12.00",
+		"#": 223,
+		"alternateNames": {
+			"de": "REMORAID",
+			"en": "REMORAID",
+			"fr": "REMORAID"
+		}
+	},
+	"OCTILLERY": {
+		"baseAttack": "197",
+		"baseDefense": "141",
+		"baseStamina": "150",
+		"captureRate": "",
+		"height": "0.89",
+		"maxCp": "2124",
+		"moves": {
+			"primary": [
+				"WATER GUN",
+				"MUD SHOT"
+			],
+			"secondary": [
+				"GUNK SHOT",
+				"WATER PULSE",
+				"AURORA BEAM"
+			]
+		},
+		"name": "Octillery",
+		"types": [
+			"WATER"
+		],
+		"weight": "28.50",
+		"#": 224,
+		"alternateNames": {
+			"de": "OCTILLERY",
+			"en": "OCTILLERY",
+			"fr": "OCTILLERY"
+		}
+	},
+	"DELIBIRD": {
+		"baseAttack": "128",
+		"baseDefense": "90",
+		"baseStamina": "90",
+		"captureRate": "",
+		"height": "0.89",
+		"maxCp": "937",
+		"moves": {
+			"primary": [
+				"ICE SHARD",
+				"QUICK ATTACK"
+			],
+			"secondary": [
+				"ICE PUNCH",
+				"ICY WIND",
+				"AERIAL ACE"
+			]
+		},
+		"name": "Delibird",
+		"types": [
+			"FLYING",
+			"ICE"
+		],
+		"weight": "16.00",
+		"#": 225,
+		"alternateNames": {
+			"de": "DELIBIRD",
+			"en": "DELIBIRD",
+			"fr": "DELIBIRD"
+		}
+	},
+	"MANTINE": {
+		"baseAttack": "148",
+		"baseDefense": "260",
+		"baseStamina": "130",
+		"captureRate": "",
+		"eggDistanceGroup": "10",
+		"height": "2.11",
+		"maxCp": "2032",
+		"moves": {
+			"primary": [
+				"BUBBLE",
+				"WING ATTACK"
+			],
+			"secondary": [
+				"WATER PULSE",
+				"ICE BEAM",
+				"AERIAL ACE"
+			]
+		},
+		"name": "Mantine",
+		"types": [
+			"FLYING",
+			"WATER"
+		],
+		"weight": "220.00",
+		"#": 226,
+		"alternateNames": {
+			"de": "MANTINE",
+			"en": "MANTINE",
+			"fr": "MANTINE"
+		}
+	},
+	"SKARMORY": {
+		"baseAttack": "148",
+		"baseDefense": "260",
+		"baseStamina": "130",
+		"captureRate": "",
+		"eggDistanceGroup": "10",
+		"height": "1.70",
+		"maxCp": "2032",
+		"moves": {
+			"primary": [
+				"STEEL WING",
+				"AIR SLASH"
+			],
+			"secondary": [
+				"BRAVE BIRD",
+				"SKY ATTACK",
+				"FLASH CANNON"
+			]
+		},
+		"name": "Skarmory",
+		"types": [
+			"FLYING",
+			"STEEL"
+		],
+		"weight": "50.50",
+		"#": 227,
+		"alternateNames": {
+			"de": "SKARMORY",
+			"en": "SKARMORY",
+			"fr": "SKARMORY"
+		}
+	},
+	"HOUNDOUR": {
+		"baseAttack": "152",
+		"baseDefense": "93",
+		"baseStamina": "90",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "0.61",
+		"maxCp": "1110",
+		"moves": {
+			"primary": [
+				"FEINT ATTACK",
+				"EMBER"
+			],
+			"secondary": [
+				"CRUNCH",
+				"FLAMETHROWER",
+				"DARK PULSE"
+			]
+		},
+		"name": "Houndour",
+		"types": [
+			"DARK",
+			"FIRE"
+		],
+		"weight": "10.80",
+		"#": 228,
+		"alternateNames": {
+			"de": "HOUNDOUR",
+			"en": "HOUNDOUR",
+			"fr": "HOUNDOUR"
+		}
+	},
+	"HOUNDOOM": {
+		"baseAttack": "224",
+		"baseDefense": "159",
+		"baseStamina": "150",
+		"captureRate": "",
+		"height": "1.40",
+		"maxCp": "2529",
+		"moves": {
+			"primary": [
+				"SNARL",
+				"FIRE FANG"
+			],
+			"secondary": [
+				"CRUNCH",
+				"FIRE BLAST",
+				"FOUL PLAY"
+			]
+		},
+		"name": "Houndoom",
+		"types": [
+			"DARK",
+			"FIRE"
+		],
+		"weight": "35.00",
+		"#": 229,
+		"alternateNames": {
+			"de": "HOUNDOOM",
+			"en": "HOUNDOOM",
+			"fr": "HOUNDOOM"
+		}
+	},
+	"KINGDRA": {
+		"baseAttack": "194",
+		"baseDefense": "194",
+		"baseStamina": "150",
+		"captureRate": "",
+		"height": "1.80",
+		"maxCp": "2424",
+		"moves": {
+			"primary": [
+				"WATER GUN",
+				"DRAGON BREATH"
+			],
+			"secondary": [
+				"HYDRO PUMP",
+				"BLIZZARD",
+				"OUTRAGE"
+			]
+		},
+		"name": "Kingdra",
+		"types": [
+			"DRAGON",
+			"WATER"
+		],
+		"weight": "152.00",
+		"#": 230,
+		"alternateNames": {
+			"de": "KINGDRA",
+			"en": "KINGDRA",
+			"fr": "KINGDRA"
+		}
+	},
+	"PHANPY": {
+		"baseAttack": "107",
+		"baseDefense": "107",
+		"baseStamina": "180",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "0.51",
+		"maxCp": "1175",
+		"moves": {
+			"primary": [
+				"TACKLE",
+				"ROCK SMASH"
+			],
+			"secondary": [
+				"BULLDOZE",
+				"ROCK SLIDE",
+				"BODY SLAM"
+			]
+		},
+		"name": "Phanpy",
+		"types": [
+			"GROUND"
+		],
+		"weight": "33.50",
+		"#": 231,
+		"alternateNames": {
+			"de": "PHANPY",
+			"en": "PHANPY",
+			"fr": "PHANPY"
+		}
+	},
+	"DONPHAN": {
+		"baseAttack": "214",
+		"baseDefense": "214",
+		"baseStamina": "180",
+		"captureRate": "",
+		"height": "1.09",
+		"maxCp": "3022",
+		"moves": {
+			"primary": [
+				"TACKLE",
+				"COUNTER"
+			],
+			"secondary": [
+				"EARTHQUAKE",
+				"HEAVY SLAM",
+				"PLAY ROUGH"
+			]
+		},
+		"name": "Donphan",
+		"types": [
+			"GROUND"
+		],
+		"weight": "120.00",
+		"#": 232,
+		"alternateNames": {
+			"de": "DONPHAN",
+			"en": "DONPHAN",
+			"fr": "DONPHAN"
+		}
+	},
+	"PORYGON2": {
+		"baseAttack": "198",
+		"baseDefense": "183",
+		"baseStamina": "170",
+		"captureRate": "",
+		"height": "0.61",
+		"maxCp": "2546",
+		"moves": {
+			"primary": [
+				"HIDDEN POWER",
+				"CHARGE BEAM"
+			],
+			"secondary": [
+				"SOLAR BEAM",
+				"HYPER BEAM",
+				"ZAP CANNON"
+			]
+		},
+		"name": "Porygon2",
+		"types": [
+			"NORMAL"
+		],
+		"weight": "32.50",
+		"#": 233,
+		"alternateNames": {
+			"de": "PORYGON2",
+			"en": "PORYGON2",
+			"fr": "PORYGON2"
+		}
+	},
+	"STANTLER": {
+		"baseAttack": "192",
+		"baseDefense": "132",
+		"baseStamina": "146",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "1.40",
+		"maxCp": "1988",
+		"moves": {
+			"primary": [
+				"TACKLE",
+				"ZEN HEADBUTT"
+			],
+			"secondary": [
+				"STOMP",
+				"WILD CHARGE",
+				"MEGAHORN"
+			]
+		},
+		"name": "Stantler",
+		"types": [
+			"NORMAL"
+		],
+		"weight": "71.20",
+		"#": 234,
+		"alternateNames": {
+			"de": "STANTLER",
+			"en": "STANTLER",
+			"fr": "STANTLER"
+		}
+	},
+	"SMEARGLE": {
+		"baseAttack": "40",
+		"baseDefense": "88",
+		"baseStamina": "110",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "1.19",
+		"maxCp": "389",
+		"moves": {
+			"primary": [
+				"TACKLE"
+			],
+			"secondary": [
+				"STRUGGLE"
+			]
+		},
+		"name": "Smeargle",
+		"types": [
+			"NORMAL"
+		],
+		"weight": "58.00",
+		"#": 235,
+		"alternateNames": {
+			"de": "SMEARGLE",
+			"en": "SMEARGLE",
+			"fr": "SMEARGLE"
+		}
+	},
+	"TYROGUE": {
+		"baseAttack": "64",
+		"baseDefense": "64",
+		"baseStamina": "70",
+		"buddyDistance": "5",
+		"candyToEvolve": "25",
+		"captureRate": "",
+		"class": "NORMAL",
+		"eggDistanceGroup": "10",
+		"fleeRate": "5",
+		"height": "0.71",
+		"maxCp": "404",
+		"moves": {
+			"primary": [
+				"ROCK SMASH",
+				"TACKLE"
+			],
+			"secondary": [
+				"BRICK BREAK",
+				"ROCK SLIDE",
+				"LOW SWEEP"
+			]
+		},
+		"name": "Tyrogue",
+		"types": [
+			"FIGHTING"
+		],
+		"weight": "21.00",
+		"#": 236,
+		"alternateNames": {
+			"de": "TYROGUE",
+			"en": "TYROGUE",
+			"fr": "TYROGUE"
+		}
+	},
+	"HITMONTOP": {
+		"baseAttack": "173",
+		"baseDefense": "214",
+		"baseStamina": "100",
+		"captureRate": "",
+		"height": "1.40",
+		"maxCp": "1905",
+		"moves": {
+			"primary": [
+				"ROCK SMASH",
+				"COUNTER"
+			],
+			"secondary": [
+				"CLOSE COMBAT",
+				"GYRO BALL",
+				"STONE EDGE"
+			]
+		},
+		"name": "Hitmontop",
+		"types": [
+			"FIGHTING"
+		],
+		"weight": "48.00",
+		"#": 237,
+		"alternateNames": {
+			"de": "HITMONTOP",
+			"en": "HITMONTOP",
+			"fr": "HITMONTOP"
+		}
+	},
+	"SMOOCHUM": {
+		"baseAttack": "153",
+		"baseDefense": "116",
+		"baseStamina": "90",
+		"buddyDistance": "5",
+		"candyToEvolve": "25",
+		"captureRate": "",
+		"class": "NORMAL",
+		"eggDistanceGroup": "10",
+		"fleeRate": "5",
+		"height": "0.41",
+		"maxCp": "1230",
+		"moves": {
+			"primary": [
+				"POWDER SNOW",
+				"POUND",
+				"FROST BREATH"
+			],
+			"secondary": [
+				"ICE BEAM",
+				"ICE PUNCH",
+				"PSYSHOCK"
+			]
+		},
+		"name": "Smoochum",
+		"types": [
+			"ICE",
+			"PSYCHIC"
+		],
+		"weight": "6.00",
+		"#": 238,
+		"alternateNames": {
+			"de": "SMOOCHUM",
+			"en": "SMOOCHUM",
+			"fr": "SMOOCHUM"
+		}
+	},
+	"ELEKID": {
+		"baseAttack": "135",
+		"baseDefense": "110",
+		"baseStamina": "90",
+		"buddyDistance": "5",
+		"candyToEvolve": "25",
+		"captureRate": "",
+		"class": "NORMAL",
+		"eggDistanceGroup": "10",
+		"fleeRate": "5",
+		"height": "0.61",
+		"maxCp": "1073",
+		"moves": {
+			"primary": [
+				"THUNDER SHOCK",
+				"LOW KICK"
+			],
+			"secondary": [
+				"THUNDER PUNCH",
+				"BRICK BREAK",
+				"DISCHARGE",
+				"THUNDERBOLT"
+			]
+		},
+		"name": "Elekid",
+		"types": [
+			"ELECTRIC"
+		],
+		"weight": "23.50",
+		"#": 239,
+		"alternateNames": {
+			"de": "ELEKID",
+			"en": "ELEKID",
+			"fr": "ELEKID"
+		}
+	},
+	"MAGBY": {
+		"baseAttack": "151",
+		"baseDefense": "108",
+		"baseStamina": "90",
+		"buddyDistance": "5",
+		"candyToEvolve": "25",
+		"captureRate": "",
+		"class": "NORMAL",
+		"eggDistanceGroup": "10",
+		"fleeRate": "5",
+		"height": "0.71",
+		"maxCp": "1178",
+		"moves": {
+			"primary": [
+				"EMBER",
+				"KARATE CHOP"
+			],
+			"secondary": [
+				"BRICK BREAK",
+				"FIRE PUNCH",
+				"FLAME BURST",
+				"FLAMETHROWER"
+			]
+		},
+		"name": "Magby",
+		"types": [
+			"FIRE"
+		],
+		"weight": "21.40",
+		"#": 240,
+		"alternateNames": {
+			"de": "MAGBY",
+			"en": "MAGBY",
+			"fr": "MAGBY"
+		}
+	},
+	"MILTANK": {
+		"baseAttack": "157",
+		"baseDefense": "211",
+		"baseStamina": "190",
+		"captureRate": "",
+		"eggDistanceGroup": "5",
+		"height": "1.19",
+		"maxCp": "2312",
+		"moves": {
+			"primary": [
+				"TACKLE",
+				"ZEN HEADBUTT"
+			],
+			"secondary": [
+				"STOMP",
+				"BODY SLAM",
+				"GYRO BALL"
+			]
+		},
+		"name": "Miltank",
+		"types": [
+			"NORMAL"
+		],
+		"weight": "75.50",
+		"#": 241,
+		"alternateNames": {
+			"de": "MILTANK",
+			"en": "MILTANK",
+			"fr": "MILTANK"
+		}
+	},
+	"BLISSEY": {
+		"baseAttack": "129",
+		"baseDefense": "229",
+		"baseStamina": "510",
+		"captureRate": "",
+		"height": "1.50",
+		"maxCp": "3219",
+		"moves": {
+			"primary": [
+				"POUND",
+				"ZEN HEADBUTT"
+			],
+			"secondary": [
+				"DAZZLING GLEAM",
+				"HYPER BEAM",
+				"PSYCHIC"
+			]
+		},
+		"name": "Blissey",
+		"types": [
+			"NORMAL"
+		],
+		"weight": "46.80",
+		"#": 242,
+		"alternateNames": {
+			"de": "BLISSEY",
+			"en": "BLISSEY",
+			"fr": "BLISSEY"
+		}
+	},
+	"RAIKOU": {
+		"baseAttack": "241",
+		"baseDefense": "210",
+		"baseStamina": "180",
+		"captureRate": "",
+		"height": "1.91",
+		"maxCp": "3349",
+		"moves": {
+			"primary": [
+				"THUNDER SHOCK",
+				"VOLT SWITCH"
+			],
+			"secondary": [
+				"THUNDER",
+				"THUNDERBOLT",
+				"WILD CHARGE"
+			]
+		},
+		"name": "Raikou",
+		"types": [
+			"ELECTRIC"
+		],
+		"weight": "178.00",
+		"#": 243,
+		"alternateNames": {
+			"de": "RAIKOU",
+			"en": "RAIKOU",
+			"fr": "RAIKOU"
+		}
+	},
+	"ENTEI": {
+		"baseAttack": "235",
+		"baseDefense": "180",
+		"baseStamina": "230",
+		"captureRate": "",
+		"height": "2.11",
+		"maxCp": "3412",
+		"moves": {
+			"primary": [
+				"FIRE SPIN",
+				"FIRE FANG"
+			],
+			"secondary": [
+				"FLAMETHROWER",
+				"FIRE BLAST",
+				"OVERHEAT"
+			]
+		},
+		"name": "Entei",
+		"types": [
+			"FIRE"
+		],
+		"weight": "198.00",
+		"#": 244,
+		"alternateNames": {
+			"de": "ENTEI",
+			"en": "ENTEI",
+			"fr": "ENTEI"
+		}
+	},
+	"SUICUNE": {
+		"baseAttack": "180",
+		"baseDefense": "235",
+		"baseStamina": "200",
+		"captureRate": "",
+		"height": "2.01",
+		"maxCp": "2823",
+		"moves": {
+			"primary": [
+				"EXTRASENSORY",
+				"SNARL"
+			],
+			"secondary": [
+				"HYDRO PUMP",
+				"BUBBLE BEAM",
+				"WATER PULSE"
+			]
+		},
+		"name": "Suicune",
+		"types": [
+			"WATER"
+		],
+		"weight": "187.00",
+		"#": 245,
+		"alternateNames": {
+			"de": "SUICUNE",
+			"en": "SUICUNE",
+			"fr": "SUICUNE"
+		}
+	},
+	"LARVITAR": {
+		"baseAttack": "115",
+		"baseDefense": "93",
+		"baseStamina": "100",
+		"captureRate": "",
+		"eggDistanceGroup": "10",
+		"height": "0.61",
+		"maxCp": "904",
+		"moves": {
+			"primary": [
+				"BITE",
+				"ROCK SMASH"
+			],
+			"secondary": [
+				"STOMP",
+				"CRUNCH",
+				"ANCIENT POWER"
+			]
+		},
+		"name": "Larvitar",
+		"types": [
+			"GROUND",
+			"ROCK"
+		],
+		"weight": "72.00",
+		"#": 246,
+		"alternateNames": {
+			"de": "LARVITAR",
+			"en": "LARVITAR",
+			"fr": "LARVITAR"
+		}
+	},
+	"PUPITAR": {
+		"baseAttack": "155",
+		"baseDefense": "133",
+		"baseStamina": "140",
+		"captureRate": "",
+		"height": "1.19",
+		"maxCp": "1608",
+		"moves": {
+			"primary": [
+				"BITE",
+				"ROCK SMASH"
+			],
+			"secondary": [
+				"DIG",
+				"CRUNCH",
+				"ANCIENT POWER"
+			]
+		},
+		"name": "Pupitar",
+		"types": [
+			"GROUND",
+			"ROCK"
+		],
+		"weight": "152.00",
+		"#": 247,
+		"alternateNames": {
+			"de": "PUPITAR",
+			"en": "PUPITAR",
+			"fr": "PUPITAR"
+		}
+	},
+	"TYRANITAR": {
+		"baseAttack": "251",
+		"baseDefense": "212",
+		"baseStamina": "200",
+		"captureRate": "",
+		"height": "2.01",
+		"maxCp": "3670",
+		"moves": {
+			"primary": [
+				"BITE",
+				"IRON TAIL"
+			],
+			"secondary": [
+				"FIRE BLAST",
+				"CRUNCH",
+				"STONE EDGE"
+			]
+		},
+		"name": "Tyranitar",
+		"types": [
+			"DARK",
+			"ROCK"
+		],
+		"weight": "202.00",
+		"#": 248,
+		"alternateNames": {
+			"de": "TYRANITAR",
+			"en": "TYRANITAR",
+			"fr": "TYRANITAR"
+		}
+	},
+	"LUGIA": {
+		"baseAttack": "193",
+		"baseDefense": "323",
+		"baseStamina": "212",
+		"captureRate": "",
+		"height": "5.21",
+		"maxCp": "3598",
+		"moves": {
+			"primary": [
+				"EXTRASENSORY",
+				"DRAGON TAIL"
+			],
+			"secondary": [
+				"SKY ATTACK",
+				"HYDRO PUMP",
+				"FUTURESIGHT"
+			]
+		},
+		"name": "Lugia",
+		"types": [
+			"FLYING",
+			"PSYCHIC"
+		],
+		"weight": "216.00",
+		"#": 249,
+		"alternateNames": {
+			"de": "LUGIA",
+			"en": "LUGIA",
+			"fr": "LUGIA"
+		}
+	},
+	"HO-OH": {
+		"baseAttack": "263",
+		"baseDefense": "301",
+		"baseStamina": "212",
+		"captureRate": "",
+		"height": "3.81",
+		"maxCp": "4650",
+		"moves": {
+			"primary": [
+				"EXTRASENSORY",
+				"STEEL WING"
+			],
+			"secondary": [
+				"BRAVE BIRD",
+				"FIRE BLAST",
+				"SOLAR BEAM"
+			]
+		},
+		"name": "Ho-Oh",
+		"types": [
+			"FIRE",
+			"FLYING"
+		],
+		"weight": "199.00",
+		"#": 250,
+		"alternateNames": {
+			"de": "HO-OH",
+			"en": "HO-OH",
+			"fr": "HO-OH"
+		}
+	},
+	"CELEBI": {
+		"baseAttack": "210",
+		"baseDefense": "210",
+		"baseStamina": "200",
+		"captureRate": "",
+		"height": "0.61",
+		"maxCp": "3090",
+		"moves": {
+			"primary": [
+				"CONFUSION",
+				"CHARGE BEAM"
+			],
+			"secondary": [
+				"HYPER BEAM",
+				"PSYCHIC",
+				"DAZZLING GLEAM"
+			]
+		},
+		"name": "Celebi",
+		"types": [
+			"GRASS",
+			"PSYCHIC"
+		],
+		"weight": "5.00",
+		"#": 251,
+		"alternateNames": {
+			"de": "CELEBI",
+			"en": "CELEBI",
+			"fr": "CELEBI"
+		}
 	}
 }
