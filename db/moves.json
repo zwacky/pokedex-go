@@ -115,7 +115,7 @@
       "en": "ASTONISH",
       "fr": "ASTONISH",
       "it": "ASTONISH",
-      "es": "ASTONISH"
+      "es": "Impresionar"
     },
     "name": "Astonish",
     "type": "CHARGE_MOVE",
@@ -130,7 +130,7 @@
       "en": "AURORA BEAM",
       "fr": "AURORA BEAM",
       "it": "AURORA BEAM",
-      "es": "AURORA BEAM"
+      "es": "Rayo Aurora"
     },
     "name": "Aurora Beam",
     "type": "CHARGE_MOVE",
@@ -146,7 +146,7 @@
       "en": "AVALANCHE",
       "fr": "AVALANCHE",
       "it": "AVALANCHE",
-      "es": "AVALANCHE"
+      "es": "Alud"
     },
     "name": "Avalanche",
     "type": "CHARGE_MOVE",
@@ -225,7 +225,7 @@
       "en": "BRAVE BIRD",
       "fr": "BRAVE BIRD",
       "it": "BRAVE BIRD",
-      "es": "BRAVE BIRD"
+      "es": "Ave Brava"
     },
     "name": "Brave Bird",
     "type": "CHARGE_MOVE",
@@ -366,7 +366,7 @@
       "en": "BULLET SEED",
       "fr": "BULLET SEED",
       "it": "BULLET SEED",
-      "es": "BULLET SEED"
+      "es": "Bala Semilla"
     },
     "name": "Bullet Seed",
     "type": "CHARGE_MOVE",
@@ -396,7 +396,7 @@
       "en": "CLOSE COMBAT",
       "fr": "CLOSE COMBAT",
       "it": "CLOSE COMBAT",
-      "es": "CLOSE COMBAT"
+      "es": "Combate Cercano"
     },
     "name": "Close Combat",
     "type": "CHARGE_MOVE",
@@ -427,7 +427,7 @@
       "en": "COUNTER",
       "fr": "COUNTER",
       "it": "COUNTER",
-      "es": "COUNTER"
+      "es": "Contraataque"
     },
     "name": "Counter",
     "type": "CHARGE_MOVE",
@@ -474,7 +474,7 @@
       "en": "CRUNCH",
       "fr": "CRUNCH",
       "it": "CRUNCH",
-      "es": "CRUNCH"
+      "es": "Triturar"
     },
     "name": "Crunch",
     "type": "CHARGE_MOVE",
@@ -632,7 +632,7 @@
       "en": "DRAGON TAIL",
       "fr": "DRAGON TAIL",
       "it": "DRAGON TAIL",
-      "es": "DRAGON TAIL"
+      "es": "Cola Dragón"
     },
     "name": "Dragon Tail",
     "type": "CHARGE_MOVE",
@@ -695,7 +695,7 @@
       "en": "DYNAMIC PUNCH",
       "fr": "DYNAMIC PUNCH",
       "it": "DYNAMIC PUNCH",
-      "es": "DYNAMIC PUNCH"
+      "es": "Puño Dinámico"
     },
     "name": "Dynamic Punch",
     "type": "CHARGE_MOVE",
@@ -742,7 +742,7 @@
       "en": "ENERGY BALL",
       "fr": "ENERGY BALL",
       "it": "ENERGY BALL",
-      "es": "ENERGY BALL"
+      "es": "Energibola"
     },
     "name": "Energy Ball",
     "type": "CHARGE_MOVE",
@@ -758,7 +758,7 @@
       "en": "EXTRASENSORY",
       "fr": "EXTRASENSORY",
       "it": "EXTRASENSORY",
-      "es": "EXTRASENSORY"
+      "es": "Paranormal"
     },
     "name": "Extrasensory",
     "type": "CHARGE_MOVE",
@@ -835,7 +835,7 @@
       "en": "FIRE SPIN",
       "fr": "FIRE SPIN",
       "it": "FIRE SPIN",
-      "es": "FIRE SPIN"
+      "es": "Giro Fuego"
     },
     "name": "Fire Spin",
     "type": "CHARGE_MOVE",
@@ -946,7 +946,7 @@
       "en": "FOUL PLAY",
       "fr": "FOUL PLAY",
       "it": "FOUL PLAY",
-      "es": "FOUL PLAY"
+      "es": "Juego Sucio"
     },
     "name": "Foul Play",
     "type": "CHARGE_MOVE",
@@ -992,7 +992,7 @@
       "en": "FUTURESIGHT",
       "fr": "FUTURESIGHT",
       "it": "FUTURESIGHT",
-      "es": "FUTURESIGHT"
+      "es": "Premonición"
     },
     "name": "Futuresight",
     "type": "CHARGE_MOVE",
@@ -1008,7 +1008,7 @@
       "en": "GIGA DRAIN",
       "fr": "GIGA DRAIN",
       "it": "GIGA DRAIN",
-      "es": "GIGA DRAIN"
+      "es": "Giga Drenado"
     },
     "name": "Giga Drain",
     "type": "CHARGE_MOVE",
@@ -1024,7 +1024,7 @@
       "en": "GRASS KNOT",
       "fr": "GRASS KNOT",
       "it": "GRASS KNOT",
-      "es": "GRASS KNOT"
+      "es": "Hierba Lazo"
     },
     "name": "Grass Knot",
     "type": "CHARGE_MOVE",
@@ -1056,7 +1056,7 @@
       "en": "GYRO BALL",
       "fr": "GYRO BALL",
       "it": "GYRO BALL",
-      "es": "GYRO BALL"
+      "es": "Giro Bola"
     },
     "name": "Gyro Ball",
     "type": "CHARGE_MOVE",
@@ -1072,7 +1072,7 @@
       "en": "HEART STAMP",
       "fr": "HEART STAMP",
       "it": "HEART STAMP",
-      "es": "HEART STAMP"
+      "es": "Arrumaco"
     },
     "name": "Heart Stamp",
     "type": "CHARGE_MOVE",
@@ -1104,7 +1104,7 @@
       "en": "HEAVY SLAM",
       "fr": "HEAVY SLAM",
       "it": "HEAVY SLAM",
-      "es": "HEAVY SLAM"
+      "es": "Golpe Pesado"
     },
     "name": "Heavy Slam",
     "type": "CHARGE_MOVE",
@@ -1120,7 +1120,7 @@
       "en": "HEX",
       "fr": "HEX",
       "it": "HEX",
-      "es": "HEX"
+      "es": "Infortunio"
     },
     "name": "Hex",
     "type": "CHARGE_MOVE",
@@ -1135,7 +1135,7 @@
       "en": "HIDDEN POWER",
       "fr": "HIDDEN POWER",
       "it": "HIDDEN POWER",
-      "es": "HIDDEN POWER"
+      "es": "Poder Oculto"
     },
     "name": "Hidden Power",
     "type": "CHARGE_MOVE",
@@ -1293,7 +1293,7 @@
       "en": "INFESTATION",
       "fr": "INFESTATION",
       "it": "INFESTATION",
-      "es": "INFESTATION"
+      "es": "Acoso"
     },
     "name": "Infestation",
     "type": "CHARGE_MOVE",
@@ -1432,7 +1432,7 @@
       "en": "MEGA DRAIN",
       "fr": "MEGA DRAIN",
       "it": "MEGA DRAIN",
-      "es": "MEGA DRAIN"
+      "es": "Megaagotar"
     },
     "name": "Mega Drain",
     "type": "CHARGE_MOVE",
@@ -1479,7 +1479,7 @@
       "en": "MIRROR COAT",
       "fr": "MIRROR COAT",
       "it": "MIRROR COAT",
-      "es": "MIRROR COAT"
+      "es": "Manto Espejo"
     },
     "name": "Mirror Coat",
     "type": "CHARGE_MOVE",
@@ -1557,7 +1557,7 @@
       "en": "NIGHT SHADE",
       "fr": "NIGHT SHADE",
       "it": "NIGHT SHADE",
-      "es": "NIGHT SHADE"
+      "es": "Tinieblas"
     },
     "name": "Night Shade",
     "type": "CHARGE_MOVE",
@@ -1605,7 +1605,7 @@
       "en": "OUTRAGE",
       "fr": "OUTRAGE",
       "it": "OUTRAGE",
-      "es": "OUTRAGE"
+      "es": "Enfado"
     },
     "name": "Outrage",
     "type": "CHARGE_MOVE",
@@ -1621,7 +1621,7 @@
       "en": "OVERHEAT",
       "fr": "OVERHEAT",
       "it": "OVERHEAT",
-      "es": "OVERHEAT"
+      "es": "Sofoco"
     },
     "name": "Overheat",
     "type": "CHARGE_MOVE",
@@ -1637,7 +1637,7 @@
       "en": "PARABOLIC CHARGE",
       "fr": "PARABOLIC CHARGE",
       "it": "PARABOLIC CHARGE",
-      "es": "PARABOLIC CHARGE"
+      "es": "Carga Parábola"
     },
     "name": "Parabolic Charge",
     "type": "CHARGE_MOVE",
@@ -1761,7 +1761,7 @@
       "en": "POWDER SNOW",
       "fr": "POWDER SNOW",
       "it": "POWDER SNOW",
-      "es": "POWDER SNOW"
+      "es": "Nieve polvo"
     },
     "name": "Powder Snow",
     "type": "CHARGE_MOVE",
@@ -1871,7 +1871,7 @@
       "en": "PSYSTRIKE",
       "fr": "PSYSTRIKE",
       "it": "PSYSTRIKE",
-      "es": "PSYSTRIKE"
+      "es": "Onda Mental"
     },
     "name": "Psystrike",
     "type": "CHARGE_MOVE",
@@ -1917,7 +1917,7 @@
       "en": "REST",
       "fr": "REST",
       "it": "REST",
-      "es": "REST"
+      "es": "Descanso"
     },
     "name": "Rest",
     "type": "CHARGE_MOVE",
@@ -1933,7 +1933,7 @@
       "en": "ROCK BLAST",
       "fr": "ROCK BLAST",
       "it": "ROCK BLAST",
-      "es": "ROCK BLAST"
+      "es": "Pedrada"
     },
     "name": "Rock Blast",
     "type": "CHARGE_MOVE",
@@ -2011,7 +2011,7 @@
       "en": "SAND TOMB",
       "fr": "SAND TOMB",
       "it": "SAND TOMB",
-      "es": "SAND TOMB"
+      "es": "Bucle Arena"
     },
     "name": "Sand Tomb",
     "type": "CHARGE_MOVE",
@@ -2105,7 +2105,7 @@
       "en": "SHADOW PUNCH",
       "fr": "SHADOW PUNCH",
       "it": "SHADOW PUNCH",
-      "es": "SHADOW PUNCH"
+      "es": "Puño Sombra"
     },
     "name": "Shadow Punch",
     "type": "CHARGE_MOVE",
@@ -2121,7 +2121,7 @@
       "en": "SHADOW SNEAK",
       "fr": "SHADOW SNEAK",
       "it": "SHADOW SNEAK",
-      "es": "SHADOW SNEAK"
+      "es": "Sombra Vil"
     },
     "name": "Shadow Sneak",
     "type": "CHARGE_MOVE",
@@ -2153,7 +2153,7 @@
       "en": "SILVER WIND",
       "fr": "SILVER WIND",
       "it": "SILVER WIND",
-      "es": "SILVER WIND"
+      "es": "Viento Plata"
     },
     "name": "Silver Wind",
     "type": "CHARGE_MOVE",
@@ -2169,7 +2169,7 @@
       "en": "SKY ATTACK",
       "fr": "SKY ATTACK",
       "it": "SKY ATTACK",
-      "es": "SKY ATTACK"
+      "es": "Ataque Aéreo"
     },
     "name": "Sky Attack",
     "type": "CHARGE_MOVE",
@@ -2357,7 +2357,7 @@
       "en": "STRUGGLE BUG",
       "fr": "STRUGGLE BUG",
       "it": "STRUGGLE BUG",
-      "es": "STRUGGLE BUG"
+      "es": "Forcejeo Insecto"
     },
     "name": "Struggle Bug",
     "type": "CHARGE_MOVE",
@@ -2559,7 +2559,7 @@
       "en": "VOLT SWITCH",
       "fr": "VOLT SWITCH",
       "it": "VOLT SWITCH",
-      "es": "VOLT SWITCH"
+      "es": "Voltiocambio"
     },
     "name": "Volt Switch",
     "type": "CHARGE_MOVE",
@@ -2605,7 +2605,7 @@
       "en": "WILD CHARGE",
       "fr": "WILD CHARGE",
       "it": "WILD CHARGE",
-      "es": "WILD CHARGE"
+      "es": "Carga Salvaje"
     },
     "name": "Wild Charge",
     "type": "CHARGE_MOVE",
@@ -2668,7 +2668,7 @@
       "en": "ZAP CANNON",
       "fr": "ZAP CANNON",
       "it": "ZAP CANNON",
-      "es": "ZAP CANNON"
+      "es": "Electrocañón"
     },
     "name": "Zap Cannon",
     "type": "CHARGE_MOVE",
